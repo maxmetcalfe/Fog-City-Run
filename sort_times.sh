@@ -2,8 +2,8 @@
 # Max Metcalfe
 
 # Specify input/ouput files
-INPUT=/Users/maxmetcalfe/Documents/fog_city_run/Results/all.csv
-OUT=/Users/maxmetcalfe/Documents/fog_city_run/Results/compiled.txt
+INPUT=/Users/max/Documents/Home/Results/all.csv
+OUT=/Users/max/Desktop/compiled.txt
 
 # Get unique racer names
 UNIQUE_NAMES=`cut -d"," -f3,4 $INPUT | sort | uniq`
@@ -20,7 +20,7 @@ do
 	echo "-----" >> $OUT
 	
 	# Get results for racer, sort, and format
-	RESULTS=`grep $i $INPUT | sort -t":" -k2 | sed 's/ /\n/g' | cut -d"," -f-6,9 | tr ',' '\t    '`
+	RESULTS=`grep $i $INPUT | cut -d"," -f-6,9 | sort -k6 | sed 's/ /\n/g' | tr ',' '\t    '`
 
 	# Write results to output
 	echo "$RESULTS" >> $OUT
