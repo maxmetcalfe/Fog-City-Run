@@ -20,7 +20,6 @@ do
 	echo "-----" >> $OUT
 	
 	# Get results for racer, sort, and format
-	# RESULTS=`grep $i $INPUT | cut -d"," -f-6,9 | sort -k6 | sed 's/ /\n/g' | tr ',' '\t    '`
 	RESULTS=`grep $i $INPUT | cut -d"," -f-6,9 | sort -t , -k6`
 
 	# Write results to output
