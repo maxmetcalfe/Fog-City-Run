@@ -2,7 +2,7 @@ import string
 import os
 
 results_file = open("/Users/max/Downloads/racesplitter_race.csv", "r")
-upload_file = open("/Users/max/Desktop/upload_results.csv", "w")
+upload_file = open("../data/results.csv", "w")
 
 race_date = raw_input("Race Date: ")
 
@@ -29,6 +29,10 @@ for i in results_file:
 results_file.close()
 upload_file.close()
 
+os.system("cat ../data/results.csv ../data/all.csv > /Users/max/Desktop/upload.csv")
+os.system("cat /Users/max/Desktop/upload.csv | grep -v Name > ../data/new.csv")
+os.system("rm ../data/results.scv")
+os.system("mv ../data/new.csv ../data/all.csv")
+os.system("rm /Users/max/Downloads/racesplitter_race.csv")
 
-os.system("cat /Users/max/Desktop/upload_results.csv ../data/all.csv > ../tmp.csv")
-os.system("mv ../tmp.csv /Users/max/Desktop/")
+print "Done."
