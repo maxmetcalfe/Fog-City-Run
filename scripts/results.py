@@ -33,6 +33,11 @@ os.system("cat ../data/results.csv ../data/all.csv > /Users/max/Desktop/upload.c
 os.system("cat /Users/max/Desktop/upload.csv | grep -v Name > ../data/new.csv")
 os.system("rm ../data/results.scv")
 os.system("mv ../data/new.csv ../data/all.csv")
+os.system("git add ../data/all.csv")
+os.system("git commit -m 'Added results from ' + race_date")
+os.system("git fetch origin")
+os.system("git rebase origin/new_compiler")
+os.system("git push origin new_compiler")
 os.system("rm /Users/max/Downloads/racesplitter_race.csv")
 
 print "Done."
