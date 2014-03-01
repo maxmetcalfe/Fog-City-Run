@@ -31,7 +31,7 @@ upload_file.close()
 
 os.system("cat ../data/results.csv ../data/all.csv > /Users/max/Desktop/upload.csv")
 os.system("cat /Users/max/Desktop/upload.csv | grep -v Name > ../data/new.csv")
-os.system("rm ../data/results.scv")
+os.system("rm ../data/results.csv")
 os.system("mv ../data/new.csv ../data/all.csv")
 os.system("git add ../data/all.csv")
 os.system("git commit -m 'Added results from ' + race_date")
