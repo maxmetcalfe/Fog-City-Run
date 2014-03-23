@@ -1,11 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 	<head>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<title> Fog City Run </title>
+			<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 			<style type="text/css" title="currentStyle">
 			@import "media/css/demo_page.css";
 			@import "media/css/demo_table.css";
-		</style>
+			</style>
 		<script type="text/javascript" language="javascript" src="media/js/jquery.js"></script>
 		<script type="text/javascript" language="javascript" src="media/js/jquery.dataTables.js"></script>
 		<script type="text/javascript" charset="utf-8">
@@ -514,39 +515,41 @@
 				} );	
 			} );
 		</script>
-<div id="nav">
+<!--<div id="nav">
 	<ul>
 		<li><a href="#about">About</a></li>
 		<li><a href="#maps">Course Map</a></li>
 		<li><a href="#register">Register</a></li>
 	</ul>
-</div>
+</div> -->
 </head>
-<div id="page1" style="height:800px; background-color: #85C2FF;>
+<body>
+<div id="page1" style="height:600px; background-color: #85C2FF; >
 <a id="about"></a>
 <center><H1> Fog City Run </H1></center>
+<center><H2> A weekly 5km running race in San Francisco, CA.</H2></center>
+<center><H2> Our next race is <b> Wednesday, March 26th, 2014.</b></H2></center>
+<center><H2> Meet at <a href="http://www.thebluelightsf.com">The Blue Light</a> at 6:15pm sharp.</H2></center>
 </div>
-<div id="page2" style="height:700px; background-color: #FFFFFF;>
+<div id="page2" style="height:1000px; background-color: #FFFFFF;>
 <a id="maps"></a>
 <center><H2>Here is the course...</H2></center>
 </div>
-<div id="page3" style="height:700px; background-color: #263C5E;>
+<div id="page3" style="height:1000px; background-color: #263C5E;>
 <a id="register"></a>
 <center><H1>...Here is how you register...</H1></center>
 </div>
-<div id="page4" style="height:700px; background-color: #FFFFFF;>
+<div id="page4" style="height:1000px; background-color: #FFFFFF;>
 <a id="results"></a>
 <center><H2>Here are the results</H2></center>
 <body id="dt_example">
-	<div id="container">
-	<div class="full_width big">
-		<center>Results</center>
-	</div>
-	<div id="dynamic"></div>
-	<script type="text/javascript" language="javascript" src="examples_support/syntax/js/shCore.js"></script>
+<div id="container">
+<div class="full_width big">
+	<center>Results</center>
 </div>
-<body></div>
-<style>
+<div id="dynamic"></div>
+<script type="text/javascript" language="javascript" src="examples_support/syntax/js/shCore.js"></script>
+</div>
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
@@ -563,6 +566,7 @@ $(document).ready(function(){
                 $("#messageSent").show("slow");
                 setTimeout('$("#messageSent").hide();$("#contactForm").slideUp("slow")', 2000);
            }
+
 $(document).ready(function() {
   function filterPath(string) {
     return string
@@ -579,7 +583,7 @@ $(document).ready(function() {
        if ($target) {
          var targetOffset = $target.offset().top;
          $(this).click(function() {
-           $('html, body').animate({scrollTop: targetOffset}, 10);
+           $('html, body').animate({scrollTop: targetOffset}, 1000);
            var d = document.createElement("div");
         d.style.height = "101%";
         d.style.overflow = "hidden";
@@ -587,7 +591,7 @@ $(document).ready(function() {
         window.scrollTo(0,scrollToM);
         setTimeout(function() {
         d.parentNode.removeChild(d);
-            }, 5);
+            }, 10);
            return false;
          });
       }
@@ -597,4 +601,6 @@ $(document).ready(function() {
 /*! Smooth Scroll - v1.4.5 - 2012-07-22
 * Copyright (c) 2012 Karl Swedberg; Licensed MIT, GPL */
 </script>
+</body>
+</div>
 </html>
