@@ -36,8 +36,8 @@ os.system("mv ../data/new.csv ../data/all.csv")
 os.system("git add ../data/all.csv")
 os.system("git commit -m 'Added results from  " + race_date + "'")
 os.system("git fetch origin")
-os.system("git rebase origin/new_compiler")
-os.system("git push origin new_compiler")
+os.system("git rebase origin/develop`")
+os.system("git push origin develop")
 os.system("rm /Users/max/Downloads/racesplitter_race.csv")
 
 print "Done."
