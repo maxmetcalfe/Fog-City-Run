@@ -2,11 +2,11 @@ import string
 import os
 
 results_file = open("/Users/max/Downloads/racesplitter_race.csv", "r")
-upload_file = open("../data/results.csv", "w")
+upload_file = open("../data/new_results.js", "w")
 
 race_date = raw_input("Race Date: ")
 
-upload_file.write("Place, Bib, Last Name, First Name, Group, Time, Date\n")
+upload_file.write("var aDataSet = [\n")
 
 f = 0
 
@@ -22,18 +22,18 @@ for i in results_file:
 		group = line[4]
 		time = line[5]
 		date = race_date
-		upload_file.write(place + "," + bib + "," + last + "," + first + "," + group + "," + time + "," + date + "\n")
+		upload_file.write("['" + place + "','" + bib + "','" + last + "','" + first + "','" + group + "','" + time + "','" + date + "'],\n")
 
 	f = f + 1
 
 results_file.close()
 upload_file.close()
 
-os.system("cat ../data/results.csv ../data/all.csv > /Users/max/Desktop/upload.csv")
-os.system("cat /Users/max/Desktop/upload.csv | grep -v Name > ../data/new.csv")
-os.system("rm ../data/results.csv")
-os.system("mv ../data/new.csv ../data/all.csv")
-os.system("git add ../data/all.csv")
+os.system("grep -v var ../data/data.js > ../data/tmp.js")
+os.system("cat ../data/new_results.js ../data/tmp.js > ../data/data.js")
+os.system("rm ../data/tmp.js")
+os.system("rm ../data/new_results.js")
+os.system("git add ../data/data.js")
 os.system("git commit -m 'Added results from  " + race_date + "'")
 os.system("git fetch origin")
 os.system("git rebase origin/develop")
