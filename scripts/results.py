@@ -2,14 +2,12 @@ import string
 import os
 
 results_file = open("/Users/max/Downloads/racesplitter_race.csv", "r")
-upload_file = open("../data/new_results.js", "w")
+os.system("grep -v '];' ../data/data.js > tmp.txt")
+upload_file = open("tmp2.txt", "w")
 
 race_date = raw_input("Race Date: ")
 
-upload_file.write("var aDataSet = [\n")
-
 f = 0
-
 for i in results_file:
 
 	if f != 0:
@@ -26,18 +24,16 @@ for i in results_file:
 
 	f = f + 1
 
+upload_file.write("];")
 results_file.close()
 upload_file.close()
-
-os.system("grep -v var ../data/data.js > ../data/tmp.js")
-os.system("cat ../data/new_results.js ../data/tmp.js > ../data/data.js")
-os.system("rm ../data/tmp.js")
-os.system("rm ../data/new_results.js")
+os.system("cat tmp.txt tmp2.txt > ../data/data.js")
+os.system("rm tmp.txt && rm tmp2.txt")
 os.system("git add ../data/data.js")
 os.system("git commit -m 'Added results from  " + race_date + "'")
 os.system("git fetch origin")
-os.system("git rebase origin/develop")
-os.system("git push origin develop")
+os.system("git rebase origin/new_system")
+os.system("git push origin new_system")
 os.system("rm /Users/max/Downloads/racesplitter_race.csv")
 
 print "Done."

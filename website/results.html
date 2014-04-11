@@ -1,0 +1,47 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<title> Fog City Run </title>
+			<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+			<style type="text/css" title="currentStyle">
+				@import "media/css/page.css";
+				@import "media/css/table.css";
+			</style>
+		<script type="text/javascript" language="javascript" src="media/js/jquery.js"></script>
+		<script type="text/javascript" language="javascript" src="media/js/jquery.dataTables.js"></script>
+		<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript" src="https://rawgithub.com/maxmetcalfe/Fog-City-Run/new_system/data/data.js"></SCRIPT>
+		<script type="text/javascript" charset="utf-8">				
+		/* Data set - can contain whatever information you want */
+			$(document).ready(function() {
+				$('#dynamic').html( '<table cellpadding="0" cellspacing="0" border="0" class="display" id="example"></table>' );
+				$('#example').dataTable( {
+					"aaData": aDataSet,
+					"iDisplayLength": 20,
+					"aoColumns": [
+						{ "sTitle": "Place" , "sType": "numeric"},
+						{ "sTitle": "Bib" , "sType": "numeric" },
+						{ "sTitle": "Last Name" },
+						{ "sTitle": "First Name" },
+						{ "sTitle": "Group" },
+						{ "sTitle": "Time" },
+						{ "sTitle": "Date" }
+					]
+				} );	
+			} );
+		</script>
+	</head>
+	<body>
+	<div id="page4" style="height:400px; background-color: #FFFFFF;>
+	<a id="results"></a>
+	<center><H2>Results</H2></center>
+	<body id="dt_example">
+	<div id="container">
+	<div id="dynamic"></div>
+	<style type="text/css">
+				@import "shCore.css";
+	</style>
+	<script type="text/javascript" language="javascript" src="examples_support/syntax/js/shCore.js"></script>
+	</body>
+	</div>
+	</div>
+</html>
