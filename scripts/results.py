@@ -29,6 +29,7 @@ results_file.close()
 upload_file.close()
 os.system("cat tmp.txt tmp2.txt > ../data/data.js")
 os.system("rm tmp.txt && rm tmp2.txt")
+os.system("sed -i '' -e's/\]$/\],/' data.js"
 os.system("git add ../data/data.js")
 os.system("git commit -m 'Added results from  " + race_date + "'")
 os.system("git fetch origin")
