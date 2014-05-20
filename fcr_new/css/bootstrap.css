@@ -358,7 +358,9 @@ h5,
 h6,
 .h1,
 .h2,
-.h3,
+.h3 {
+	color: #FFFFFF;
+},
 .h4,
 .h5,
 .h6 {
@@ -443,8 +445,8 @@ h6 .small,
 }
 h1,
 .h1 {
-  font-size: 85px;
-  color:#FFFFFF
+  font-size: 70px;
+  color:#191919
 }
 h2,
 .h2 {
@@ -3645,6 +3647,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   min-height: 50px;
   margin-bottom: 20px;
   border: 1px solid transparent;
+  
 }
 @media (min-width: 768px) {
   .navbar {
