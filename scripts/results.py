@@ -33,8 +33,8 @@ os.system("sed -i '' -e's/\]$/\],/' ../data/data.js")
 os.system("git add ../data/data.js")
 os.system("git commit -m 'Added results from  " + race_date + "'")
 os.system("git fetch origin")
-os.system("git rebase origin/new_system")
-os.system("git push origin new_system")
+os.system("git rebase origin/develop")
+os.system("git push origin develop")
 os.system("rm /Users/max/Downloads/racesplitter_race.csv")
 
 print "Done."
