@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Fog City Run - Racer Count</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Bootstrap core CSS -->
+<link href="website/css/bootstrap.css" rel="stylesheet">
+<!-- Get Font Awesome -->
+<link rel="stylesheet" href="website/font-awesome-4.0.3/css/font-awesome.css">
+<script src=”website/js/bootstrap.js”></script>
+<meta charset="utf-8">
+<style>
+body {
+	font: 10px sans-serif;
+}
+
+h2 {
+color: #000000;
+}
+
+h4 {
+color: #000000;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.bar {
+  fill: #3399FF;
+}
+
+.bar:hover {
+  fill: red ;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 0px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+</style>
+</head>
+<body>
+<div class="container">
+	<div class="row">
+	<div class="col-md-8 col-md-offset-2">
+    <div class="text-center">
+    <h2>How many people come each week?</h2>
+    <h4>(Hover over each bar to display count and race date)</h4>
+	</div>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-8 col-md-offset-1" id="plot1">
+    <div class="text-center"></div>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+    <div class="text-center">
+    <h4>Time <i class="fa fa-arrow-right"></i></h4>
+    </div>
+    </div>
+    </div>
+	<script src="http://d3js.org/d3.v3.min.js"></script>
+	<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+	<script>
+
+	var margin = {top: 40, right: 20, bottom: 30, left: 40},
+		width = 960 - margin.left - margin.right,
+		height = 500 - margin.top - margin.bottom;
+
+	var formatPercent = d3.format("");
+
+	var x = d3.scale.ordinal()
+		.rangeRoundBands([0, width], .1);
+
+	var y = d3.scale.linear()
+		.range([height, 10]);
+
+	var xAxis = d3.svg.axis()
+	var yAxis = d3.svg.axis()
+
+	var tip = d3.tip()
+	  .attr('class', 'd3-tip')
+	  .offset([-15, 0])
+	  .html(function(d) {
+		return "<strong><h3>Racer Count:</strong> <span style='color:white'>" + d.racers + "</span><br>Date:</strong> <span style='color:white	'>" + d.race + "</h3>";
+	  })
+
+	var svg = d3.select("#plot1").append("svg")
+		.attr("width", width + margin.left + margin.right)
+		.attr("height", height + margin.top + margin.bottom)
+		.append("g")
+		.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+	svg.call(tip);
+
+	d3.tsv("data/data.tsv", type, function(error, data) {
+	  x.domain(data.map(function(d) { return d.race; }));
+	  y.domain([0, d3.max(data, function(d) { return d.racers; })]);
+
+	  svg.selectAll(".bar")
+		  .data(data)
+		.enter().append("rect")
+		  .attr("class", "bar")
+		  .attr("x", function(d) { return x(d.race); })
+		  .attr("width", x.rangeBand())
+		  .attr("y", function(d) { return y(d.racers); })
+		  .attr("height", function(d) { return height - y(d.racers); })
+		  .on('mouseover', tip.show)
+		  .on('mouseout', tip.hide)
+
+	});
+
+	function type(d) {
+	  d.racers = +d.racers;
+	  return d;
+	}
+	</script>
+	</div>
+	</body>
