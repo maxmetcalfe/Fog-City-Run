@@ -46,4 +46,14 @@ with open("../data/data.tsv", "a") as racer_count_file:
 
 os.system("ftp -in -u ftp://maxmetcalfe@maxmetcalfe.com/fcr/data/ ../data/data.tsv")
 
+# Test: Send tweet of winner. Should use Twitter API call.
+b = subprocess.Popen(["head","-n1","tmp2.txt"], stdout=subprocess.PIPE)
+winner = string.split(b.communicate()[0], ",")
+first_name = winner[3][1:-1]
+last_name = winner[2][1:-1]
+time = winner[5][1:-1]
+msg = first_name + " " + last_name + " won the Fog City Run this week with a time of " + time + "."
+command = 'twitter -efogcityrun@email.com set %s' % msg
+subprocess.call(command, shell=True)
+print "Tweet posted."
 print "Done."
