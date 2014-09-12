@@ -32,10 +32,6 @@ os.system("cat tmp.txt tmp2.txt > ../data/data.js")
 os.system("rm tmp.txt tmp2.txt")
 os.system("sed -i '' -e's/\]$/\],/' ../data/data.js")
 os.system("git add ../data/data.js")
-os.system("git commit -m 'Added results from  " + race_date + "'")
-os.system("git fetch origin")
-os.system("git rebase origin/master")
-os.system("git push origin master")
 os.system("rm /Users/max/Downloads/racesplitter_race.csv")
 race_data = race_date.replace("/", "\/")
 p = subprocess.Popen(["grep",race_date,"../data/data.js","-c"], stdout=subprocess.PIPE)
@@ -44,8 +40,13 @@ count = p.communicate()[0][:-1]
 with open("../data/data.tsv", "a") as racer_count_file:
 	    racer_count_file.write(race_date + "\t" + count)
 
+os.system("git add ../data/data.tsv")
 os.system("ftp -in -u ftp://maxmetcalfe@maxmetcalfe.com/fcr/data/ ../data/data.tsv")
-
+os.system("git commit -m 'Added results from  " + race_date + "'")
+os.system("git fetch origin")
+os.system("git rebase origin/master")
+os.system("git push origin master")
+os.system("rm /Users/max/Downloads/racesplitter_race.csv")
 # Test: Send tweet of winner. Should use Twitter API call.
 b = subprocess.Popen(["head","-n1","tmp2.txt"], stdout=subprocess.PIPE)
 winner = string.split(b.communicate()[0], ",")
