@@ -29,7 +29,7 @@ upload_file.write("];")
 results_file.close()
 upload_file.close()
 os.system("cat tmp.txt tmp2.txt > ../data/data.js")
-os.system("rm tmp.txt tmp2.txt")
+#os.system("rm tmp.txt tmp2.txt")
 os.system("sed -i '' -e's/\]$/\],/' ../data/data.js")
 os.system("git add ../data/data.js")
 os.system("rm /Users/max/Downloads/racesplitter_race.csv")
@@ -38,7 +38,7 @@ p = subprocess.Popen(["grep",race_date,"../data/data.js","-c"], stdout=subproces
 count = p.communicate()[0][:-1]
 
 with open("../data/data.tsv", "a") as racer_count_file:
-	    racer_count_file.write(race_date + "\t" + count)
+	    racer_count_file.write(race_date + "\t" + count + "\t")
 
 os.system("git add ../data/data.tsv")
 os.system("ftp -in -u ftp://maxmetcalfe@maxmetcalfe.com/fcr/data/ ../data/data.tsv")
