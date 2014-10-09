@@ -42,6 +42,7 @@ with open("../data/data.tsv", "a") as racer_count_file:
 
 os.system("git add ../data/data.tsv")
 os.system("ftp -in -u ftp://maxmetcalfe@maxmetcalfe.com/fcr/data/ ../data/data.tsv")
+os.system("ftp -in -u ftp://maxmetcalfe@maxmetcalfe.com/fcr/data/ ../data/data.js")
 os.system("git commit -m 'Added results from  " + race_date + "'")
 os.system("git fetch origin")
 os.system("git rebase origin/master")
