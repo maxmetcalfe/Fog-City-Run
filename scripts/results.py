@@ -30,7 +30,6 @@ results_file.close()
 upload_file.close()
 os.system("cat tmp.txt tmp2.txt > ../data/data.js")
 os.system("rm tmp.txt")
-os.system("rm tmp2.txt")
 os.system("sed -i '' -e's/\]$/\],/' ../data/data.js")
 os.system("git add ../data/data.js")
 os.system("rm /Users/max/Downloads/racesplitter_race.csv")
@@ -55,6 +54,7 @@ last_name = winner[2][1:-1]
 time = winner[5][1:-1]
 msg = first_name + " " + last_name + " won the Fog City Run this week with a time of " + time + "."
 command = 'twitter -efogcityrun@email.com set %s' % msg
+os.system("rm tmp2.txt")
 subprocess.call(command, shell=True)
 print "Tweet posted."
 print "Done."
