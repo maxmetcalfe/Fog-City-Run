@@ -38,7 +38,7 @@ p = subprocess.Popen(["grep",race_date,"../data/data.js","-c"], stdout=subproces
 count = p.communicate()[0][:-1]
 
 with open("../data/data.tsv", "a") as racer_count_file:
-	    racer_count_file.write(race_date + "\t" + count + "\t")
+	    racer_count_file.write(race_date + "\t" + count)
 
 os.system("git add ../data/data.tsv")
 os.system("ftp -in -u ftp://maxmetcalfe@maxmetcalfe.com/fcr/data/ ../data/data.tsv")
