@@ -59,3 +59,6 @@ os.system("rm tmp2.txt")
 subprocess.call(command, shell=True)
 print "Tweet posted."
 print "Done."
+
+# Create top racers list (for future use in website table)
+os.system("grep "" ../data/data.js | awk -F"," ' { print $4 $3}' | sed "s/''/ /g" | sed "s/'//g" | sortit | grep "[0-9][0-9]" | sed 's/^ *//g' > top_racers.txt")
