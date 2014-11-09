@@ -1,23 +1,23 @@
-  87 Max Metcalfe
-  76 Julia Metcalfe
-  46 Dale Rose
-  35 Kaitlyn Garcia
-  32 Jeff Jordan
-  29 Rafael Maranon
-  28 Nick Schrock
-  24 Matthieu Scholler
-  23 Henri Proutt
-  23 Andrew Kletzing
-  20 James Christopherson
-  19 PJ Benner
-  18 Josh Morris
-  17 John Zubkousky
-  12 Mick Jordan
-  12 Kristin Martin
-  12 Alec Drew
-  11 Steve Snyder
-  11 Jack Collins
-  11 Heather Green
-  11 Derek Geno
-  11 Brian Gagliardi
-  10 Joe Porter
+87,Max Metcalfe
+76,Julia Metcalfe
+46,Dale Rose
+35,Kaitlyn Garcia
+32,Jeff Jordan
+29,Rafael Maranon
+28,Nick Schrock
+24,Matthieu Scholler
+23,Henri Proutt
+23,Andrew Kletzing
+20,James Christopherson
+19,PJ Benner
+18,Josh Morris
+17,John Zubkousky
+12,Mick Jordan
+12,Kristin Martin
+12,Alec Drew
+11,Steve Snyder
+11,Jack Collins
+11,Heather Green
+11,Derek Geno
+11,Brian Gagliardi
+10,Joe Porter
