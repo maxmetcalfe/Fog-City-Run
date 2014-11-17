@@ -69,12 +69,12 @@ def write_file_from_strings(strings, out_filename):
 def convert_to_js():
 	conn = sqlite3.connect("/Users/max/Documents/Home/Fog-City-Run/data/results.db")
 	cursor = conn.cursor()
-	cursor.execute("SELECT rank, bib, last_name, first_name, time, group_name, date FROM results")
+	cursor.execute("SELECT rank, bib, last_name, first_name, group_name, time, date FROM results")
 	raw_results_dump = cursor.fetchall()
 	out_strings = []
 	out_strings.append("var aDataSet = [\n")
 	for r in raw_results_dump:
-		out_strings.append("['" + str(r[0]) + "','" + str(r[1]) + "','" + r[2] + "','" + r[3] + "','" + r[5] + "','" + r[4] + "','" + r[6] + "'],\n")
+		out_strings.append("['" + str(r[0]) + "','" + str(r[1]) + "','" + r[2] + "','" + r[3] + "','" + r[4] + "','" + r[5] + "','" + r[6] + "'],\n")
 	out_strings[-1] = out_strings[-1][:-2]
 	out_strings.append("\n];")
 	write_file_from_strings(out_strings, "/Users/max/Documents/Home/Fog-City-Run/data/data.js")
