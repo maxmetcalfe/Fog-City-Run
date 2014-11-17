@@ -4,6 +4,7 @@
 import string
 import os
 import subprocess
+import sqlite3
 
 def store_file_as_list(file_name):
 	out_list = []
@@ -46,17 +47,37 @@ def load_racers(results, date):
 	return racers
 
 def add_new_results_to_data(racers):
-	data_file = store_file_as_list("../data/data.js")
-	data_file = data_file[:-1]
+	conn = sqlite3.connect("/Users/max/Documents/Home/Fog-City-Run/data/results_debug.db")
+	cursor = conn.cursor()
 	for r in racers:
-		out_string = "['" + r.rank + "','" + r.bib + "','" + r.last_name + "','" + r.first_name + "','" + r.group + "','" + r.time + "','" + r.date + "'],"
-		data_file.append(out_string)
-	data_file[-1] = data_file[-1][:-1]
-	data_file.append("];")
-	file_to_write = open("../data/data.js", "w")
-	for d in data_file:
-		file_to_write.write(d + "\n")
-	file_to_write.close()
+		output = r.rank + "," + r.bib + ",'" + r.last_name + "','" + r.first_name + "','" + r.time + "','" + r.group + "','" + r.date + "'"
+		cursor.execute("INSERT INTO results (rank,bib,last_name,first_name,time,group_name,date) VALUES (" + output + ")")
+	conn.commit()
+
+def get_winner(date):
+	conn = sqlite3.connect("/Users/max/Documents/Home/Fog-City-Run/data/results_debug.db")
+	cursor = conn.cursor()
+	cursor.execute("SELECT first_name, last_name FROM results WHERE rank = 1 AND date = " + "'" + date + "'")
+	return cursor.fetchall()
+
+def write_file_from_strings(strings, out_filename):
+	out_file = open(out_filename, "w")
+	for s in strings:
+		out_file.write(s)
+	out_file.close()
+
+def convert_to_js():
+	conn = sqlite3.connect("/Users/max/Documents/Home/Fog-City-Run/data/results_debug.db")
+	cursor = conn.cursor()
+	cursor.execute("SELECT rank, bib, last_name, first_name, group_name, time, date FROM results")
+	raw_results_dump = cursor.fetchall()
+	out_strings = []
+	out_strings.append("var aDataSet = [\n")
+	for r in raw_results_dump:
+		out_strings.append("['" + str(r[0]) + "','" + str(r[1]) + "','" + r[2] + "','" + r[3] + "','" + r[4] + "','" + r[5] + "','" + r[6] + "'],\n")
+	out_strings[-1] = out_strings[-1][:-2]
+	out_strings.append("\n];")
+	write_file_from_strings(out_strings, "/Users/max/Documents/Home/Fog-City-Run/data/data_debug.js")
 
 def main():
 
@@ -64,6 +85,7 @@ def main():
 	race_date = raw_input("Race Date: ")
 	racers = load_racers(raw_results, race_date)
 	add_new_results_to_data(racers)
+	convert_to_js()
 	################## Adding racer count to count file #######
 	race_data = race_date.replace("/", "\/")
 	p = subprocess.Popen(["grep",race_date,"../data/data.js","-c"], stdout=subprocess.PIPE)
@@ -73,8 +95,8 @@ def main():
 	################## Posting Winner Tweet ###################
 	winner = racers[0]
 	msg = winner.first_name + " " + winner.last_name + " won the Fog City Run this week with a time of " + winner.time + "."
-	#command = 'twitter -efogcityrun@email.com set %s' % msg
-	#subprocess.call(command, shell=True)
+	command = 'twitter -efogcityrun@email.com set %s' % msg
+	subprocess.call(command, shell=True)
 	print "Tweet posted."
 	###########################################################
 	# Git and house cleaning
