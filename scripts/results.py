@@ -47,7 +47,7 @@ def load_racers(results, date):
 	return racers
 
 def add_new_results_to_data(racers):
-	conn = sqlite3.connect("/Users/max/Documents/Home/Fog-City-Run/data/results_debug.db")
+	conn = sqlite3.connect("/Users/max/Documents/Home/Fog-City-Run/data/results.db")
 	cursor = conn.cursor()
 	for r in racers:
 		output = r.rank + "," + r.bib + ",'" + r.last_name + "','" + r.first_name + "','" + r.time + "','" + r.group + "','" + r.date + "'"
@@ -55,7 +55,7 @@ def add_new_results_to_data(racers):
 	conn.commit()
 
 def get_winner(date):
-	conn = sqlite3.connect("/Users/max/Documents/Home/Fog-City-Run/data/results_debug.db")
+	conn = sqlite3.connect("/Users/max/Documents/Home/Fog-City-Run/data/results.db")
 	cursor = conn.cursor()
 	cursor.execute("SELECT first_name, last_name FROM results WHERE rank = 1 AND date = " + "'" + date + "'")
 	return cursor.fetchall()
@@ -67,9 +67,9 @@ def write_file_from_strings(strings, out_filename):
 	out_file.close()
 
 def convert_to_js():
-	conn = sqlite3.connect("/Users/max/Documents/Home/Fog-City-Run/data/results_debug.db")
+	conn = sqlite3.connect("/Users/max/Documents/Home/Fog-City-Run/data/results.db")
 	cursor = conn.cursor()
-	cursor.execute("SELECT rank, bib, last_name, first_name, group_name, time, date FROM results")
+	cursor.execute("SELECT rank, bib, last_name, first_name, time, group_name, date FROM results")
 	raw_results_dump = cursor.fetchall()
 	out_strings = []
 	out_strings.append("var aDataSet = [\n")
@@ -77,7 +77,7 @@ def convert_to_js():
 		out_strings.append("['" + str(r[0]) + "','" + str(r[1]) + "','" + r[2] + "','" + r[3] + "','" + r[4] + "','" + r[5] + "','" + r[6] + "'],\n")
 	out_strings[-1] = out_strings[-1][:-2]
 	out_strings.append("\n];")
-	write_file_from_strings(out_strings, "/Users/max/Documents/Home/Fog-City-Run/data/data_debug.js")
+	write_file_from_strings(out_strings, "/Users/max/Documents/Home/Fog-City-Run/data/data.js")
 
 def main():
 
