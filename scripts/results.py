@@ -74,7 +74,7 @@ def convert_to_js():
 	out_strings = []
 	out_strings.append("var aDataSet = [\n")
 	for r in raw_results_dump:
-		out_strings.append("['" + str(r[0]) + "','" + str(r[1]) + "','" + r[2] + "','" + r[3] + "','" + r[4] + "','" + r[5] + "','" + r[6] + "'],\n")
+		out_strings.append("['" + str(r[0]) + "','" + str(r[1]) + "','" + r[2] + "','" + r[3] + "','" + r[5] + "','" + r[4] + "','" + r[6] + "'],\n")
 	out_strings[-1] = out_strings[-1][:-2]
 	out_strings.append("\n];")
 	write_file_from_strings(out_strings, "/Users/max/Documents/Home/Fog-City-Run/data/data.js")
@@ -101,6 +101,9 @@ def main():
 	###########################################################
 	# Git and house cleaning
 	os.system("git add ../data/data.tsv")
+	os.system("git add ../data/data.js")
+	os.system("git add ../data/results.db")
+	os.system("git add top_racers.txt")
 	os.system("git commit -m 'Added results from  " + race_date + "'")
 	os.system("git fetch origin")
 	os.system("git rebase origin/master")
