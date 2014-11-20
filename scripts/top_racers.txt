@@ -1,21 +1,21 @@
-  88 Max Metcalfe
-  76 Julia Metcalfe
-  48 Dale Rose
+  89 Max Metcalfe
+  77 Julia Metcalfe
+  49 Dale Rose
   36 Kaitlyn Garcia
   32 Jeff Jordan
   29 Rafael Maranon
   28 Nick Schrock
-  25 Matthieu Scholler
-  24 Andrew Kletzing
-  23 Henri Proutt
+  26 Matthieu Scholler
+  25 Andrew Kletzing
+  24 Henri Proutt
   21 James Christopherson
   19 PJ Benner
   18 Josh Morris
-  17 John Zubkousky
+  18 John Zubkousky
   13 Alec Drew
+  12 Steve Snyder
   12 Mick Jordan
   12 Kristin Martin
-  11 Steve Snyder
   11 Jack Collins
   11 Heather Green
   11 Derek Geno
