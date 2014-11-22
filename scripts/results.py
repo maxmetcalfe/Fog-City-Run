@@ -106,9 +106,6 @@ def main():
 		racer_count_file.write("\n" + race_date + "\t" + count)
 	################## Posting Winner Tweet ###################
 	winner = racers[0]
-	winner.print_all
-	print get_top_racers()
-	os.system("git checkout ../data/results.db")
 	msg = winner.first_name + " " + winner.last_name + " won the Fog City Run this week with a time of " + winner.time + "."
 	command = 'twitter -efogcityrun@email.com set %s' % msg
 	subprocess.call(command, shell=True)
