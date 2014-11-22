@@ -98,6 +98,7 @@ def main():
 	racers = load_racers(raw_results, race_date)
 	add_new_results_to_data(racers)
 	convert_to_js()
+	get_top_racers()
 	################# Adding racer count to count file #######
 	race_data = race_date.replace("/", "\/")
 	p = subprocess.Popen(["grep",race_date,"../data/data.js","-c"], stdout=subprocess.PIPE)
