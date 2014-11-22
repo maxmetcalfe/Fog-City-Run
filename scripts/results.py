@@ -46,19 +46,32 @@ def load_racers(results, date):
 		racers.append(new_racer)
 	return racers
 
-def add_new_results_to_data(racers):
+def connect_to_results_db():
 	conn = sqlite3.connect("/Users/max/Documents/Home/Fog-City-Run/data/results.db")
 	cursor = conn.cursor()
+	return cursor,conn
+
+def add_new_results_to_data(racers):
+	cursor,conn = connect_to_results_db()
 	for r in racers:
 		output = r.rank + "," + r.bib + ",'" + r.last_name + "','" + r.first_name + "','" + r.time + "','" + r.group + "','" + r.date + "'"
 		cursor.execute("INSERT INTO results (rank,bib,last_name,first_name,time,group_name,date) VALUES (" + output + ")")
 	conn.commit()
 
 def get_winner(date):
-	conn = sqlite3.connect("/Users/max/Documents/Home/Fog-City-Run/data/results.db")
-	cursor = conn.cursor()
+	cursor,conn = connect_to_results_db()
 	cursor.execute("SELECT first_name, last_name FROM results WHERE rank = 1 AND date = " + "'" + date + "'")
 	return cursor.fetchall()
+
+def get_top_racers():
+	cursor,conn = connect_to_results_db()
+	cursor.execute("SELECT first_name, last_name, count(*) c FROM results group by first_name, last_name HAVING c >= 10 ORDER BY c DESC")
+	data = cursor.fetchall()
+	print data
+	out_file = open("top_racers.txt", "w")
+	for d in data:
+		out_file.write(str(d[2]) + " " + d[0] + " " + str(d[1]) + "\n")
+	out_file.close()
 
 def write_file_from_strings(strings, out_filename):
 	out_file = open(out_filename, "w")
@@ -67,8 +80,7 @@ def write_file_from_strings(strings, out_filename):
 	out_file.close()
 
 def convert_to_js():
-	conn = sqlite3.connect("/Users/max/Documents/Home/Fog-City-Run/data/results.db")
-	cursor = conn.cursor()
+	cursor = connect_to_results_db()
 	cursor.execute("SELECT rank, bib, last_name, first_name, group_name, time, date FROM results")
 	raw_results_dump = cursor.fetchall()
 	out_strings = []
@@ -86,14 +98,17 @@ def main():
 	racers = load_racers(raw_results, race_date)
 	add_new_results_to_data(racers)
 	convert_to_js()
-	################## Adding racer count to count file #######
+	################# Adding racer count to count file #######
 	race_data = race_date.replace("/", "\/")
 	p = subprocess.Popen(["grep",race_date,"../data/data.js","-c"], stdout=subprocess.PIPE)
 	count = p.communicate()[0][:-1]
 	with open("../data/data.tsv", "a") as racer_count_file:
-	    	racer_count_file.write("\n" + race_date + "\t" + count)
+		racer_count_file.write("\n" + race_date + "\t" + count)
 	################## Posting Winner Tweet ###################
 	winner = racers[0]
+	winner.print_all
+	print get_top_racers()
+	os.system("git checkout ../data/results.db")
 	msg = winner.first_name + " " + winner.last_name + " won the Fog City Run this week with a time of " + winner.time + "."
 	command = 'twitter -efogcityrun@email.com set %s' % msg
 	subprocess.call(command, shell=True)
@@ -111,7 +126,5 @@ def main():
 	os.system("git add ../data/data.js")
 	os.system("ftp -in -u ftp://maxmetcalfe@maxmetcalfe.com/fcr/data/ ../data/data.tsv")
 	os.system("ftp -in -u ftp://maxmetcalfe@maxmetcalfe.com/fcr/data/ ../data/data.js")
-	## Create top racers list (for future use in website table)
-	os.system('''grep "" ../data/data.js | awk -F"," ' { print $4 $3}' | sed -e "s/''/ /g" -e "s/'//g" | sort | uniq -c | sort -nr | grep "[0-9][0-9]" > top_racers.txt''')
 
 main()
