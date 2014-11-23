@@ -67,7 +67,6 @@ def get_top_racers():
 	cursor,conn = connect_to_results_db()
 	cursor.execute("SELECT first_name, last_name, count(*) c FROM results group by first_name, last_name HAVING c >= 10 ORDER BY c DESC")
 	data = cursor.fetchall()
-	print data
 	out_file = open("top_racers.txt", "w")
 	for d in data:
 		out_file.write(str(d[2]) + " " + d[0] + " " + str(d[1]) + "\n")
@@ -80,7 +79,7 @@ def write_file_from_strings(strings, out_filename):
 	out_file.close()
 
 def convert_to_js():
-	cursor = connect_to_results_db()
+	cursor, conn = connect_to_results_db()
 	cursor.execute("SELECT rank, bib, last_name, first_name, group_name, time, date FROM results")
 	raw_results_dump = cursor.fetchall()
 	out_strings = []
@@ -99,20 +98,14 @@ def main():
 	add_new_results_to_data(racers)
 	convert_to_js()
 	get_top_racers()
-	################# Adding racer count to count file #######
-	race_data = race_date.replace("/", "\/")
-	p = subprocess.Popen(["grep",race_date,"../data/data.js","-c"], stdout=subprocess.PIPE)
-	count = p.communicate()[0][:-1]
-	with open("../data/data.tsv", "a") as racer_count_file:
-		racer_count_file.write("\n" + race_date + "\t" + count)
-	################## Posting Winner Tweet ###################
+	################# Posting Winner Tweet ###################
 	winner = racers[0]
 	msg = winner.first_name + " " + winner.last_name + " won the Fog City Run this week with a time of " + winner.time + "."
 	command = 'twitter -efogcityrun@email.com set %s' % msg
 	subprocess.call(command, shell=True)
 	print "Tweet posted."
-	###########################################################
-	# Git and house cleaning
+	##########################################################
+	#Git and house cleaning
 	os.system("git add ../data/data.tsv")
 	os.system("git add ../data/data.js")
 	os.system("git add ../data/results.db")
