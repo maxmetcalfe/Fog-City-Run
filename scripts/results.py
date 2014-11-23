@@ -67,7 +67,7 @@ def get_top_racers():
 	cursor,conn = connect_to_results_db()
 	cursor.execute("SELECT first_name, last_name, count(*) c FROM results group by first_name, last_name HAVING c >= 10 ORDER BY c DESC")
 	data = cursor.fetchall()
-	out_file = open("top_racers.txt", "w")
+	out_file = open("../data/top_racers.txt", "w")
 	for d in data:
 		out_file.write(str(d[2]) + " " + d[0] + " " + str(d[1]) + "\n")
 	out_file.close()
