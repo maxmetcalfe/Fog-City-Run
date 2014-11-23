@@ -1,23 +1,23 @@
-  89 Max Metcalfe
-  77 Julia Metcalfe
-  49 Dale Rose
-  36 Kaitlyn Garcia
-  32 Jeff Jordan
-  29 Rafael Maranon
-  28 Nick Schrock
-  26 Matthieu Scholler
-  25 Andrew Kletzing
-  24 Henri Proutt
-  21 James Christopherson
-  19 PJ Benner
-  18 Josh Morris
-  18 John Zubkousky
-  13 Alec Drew
-  12 Steve Snyder
-  12 Mick Jordan
-  12 Kristin Martin
-  11 Jack Collins
-  11 Heather Green
-  11 Derek Geno
-  11 Brian Gagliardi
-  10 Joe Porter
+89 Max Metcalfe
+77 Julia Metcalfe
+49 Dale Rose
+36 Kaitlyn Garcia
+32 Jeff Jordan
+29 Rafael Maranon
+28 Nick Schrock
+26 Matthieu Scholler
+25 Andrew Kletzing
+24 Henri Proutt
+21 James Christopherson
+19 PJ Benner
+18 John Zubkousky
+18 Josh Morris
+13 Alec Drew
+12 Kristin Martin
+12 Mick Jordan
+12 Steve Snyder
+11 Brian Gagliardi
+11 Derek Geno
+11 Heather Green
+11 Jack Collins
+10 Joe Porter
