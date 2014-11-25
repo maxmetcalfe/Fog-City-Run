@@ -72,6 +72,15 @@ def get_top_racers():
 		out_file.write(str(d[2]) + " " + d[0] + " " + str(d[1]) + "\n")
 	out_file.close()
 
+def get_racer_history(f_name, l_name):
+	cursor,conn = connect_to_results_db()
+	query = 'SELECT * FROM results where first_name = "' + f_name + '" AND last_name = "' + l_name + '" ORDER BY time ASC'
+	cursor.execute(query)
+	data = cursor.fetchall()
+	print "Racer History for " + f_name + " " + l_name
+	for d in data:
+		print d[5] + "\t" + d[6]
+
 def write_file_from_strings(strings, out_filename):
 	out_file = open(out_filename, "w")
 	for s in strings:
@@ -98,6 +107,7 @@ def main():
 	add_new_results_to_data(racers)
 	convert_to_js()
 	get_top_racers()
+	#get_racer_history("Max", "Metcalfe")
 	################# Posting Winner Tweet ###################
 	winner = racers[0]
 	msg = winner.first_name + " " + winner.last_name + " won the Fog City Run this week with a time of " + winner.time + "."
