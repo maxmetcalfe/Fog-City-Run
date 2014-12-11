@@ -65,11 +65,20 @@ def get_winner(date):
 
 def get_top_racers():
 	cursor,conn = connect_to_results_db()
-	cursor.execute("SELECT first_name, last_name, count(*) c FROM results group by first_name, last_name HAVING c >= 10 ORDER BY c DESC")
+	cursor.execute("SELECT first_name, last_name, count(*) c FROM results GROUP BY first_name, last_name HAVING c >= 10 ORDER BY c DESC")
 	data = cursor.fetchall()
 	out_file = open("../data/top_racers.txt", "w")
 	for d in data:
 		out_file.write(str(d[2]) + " " + d[0] + " " + str(d[1]) + "\n")
+	out_file.close()
+
+def get_racer_count():
+	cursor,conn = connect_to_results_db()
+	cursor.execute("SELECT date, count(*) c FROM results GROUP BY date ORDER BY date(date)")
+	data = cursor.fetchall()
+	out_file = open("../data/data.tsv", "w")
+	for d in data:
+		out_file.write(str(d[0]) + "\t" + str(d[1]) + "\n")
 	out_file.close()
 
 def get_racer_history(f_name, l_name):
@@ -144,6 +153,7 @@ def main():
 	add_new_results_to_data(racers)
 	convert_to_js()
 	get_top_racers()
+	get_racer_count()
 	#get_racer_history("Max", "Metcalfe")
 	################# Posting Winner Tweet ###################
 	winner = racers[0]
