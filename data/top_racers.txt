@@ -1,12 +1,12 @@
 90 Max Metcalfe
-78 Julia Metcalfe
-49 Dale Rose
+79 Julia Metcalfe
+50 Dale Rose
 36 Kaitlyn Garcia
 32 Jeff Jordan
 29 Rafael Maranon
 28 Nick Schrock
+26 Andrew Kletzing
 26 Matthieu Scholler
-25 Andrew Kletzing
 24 Henri Proutt
 21 James Christopherson
 19 PJ Benner
