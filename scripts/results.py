@@ -156,6 +156,7 @@ def main():
 	os.system("git add ../data/data.tsv")
 	os.system("git add ../data/data.js")
 	os.system("git add ../data/results.db")
+	os.system("git add ../data/top_racers.txt")
 	os.system("git add top_racers.txt")
 	os.system("git commit -m 'Added results from  " + race_date + "'")
 	os.system("git fetch origin")
