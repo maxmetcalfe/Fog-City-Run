@@ -77,6 +77,7 @@ def get_racer_count():
 	cursor.execute("SELECT date, count(*) c FROM results GROUP BY date ORDER BY date(date)")
 	data = cursor.fetchall()
 	out_file = open("../data/data.tsv", "w")
+	out_file.write("race\tracers\n")
 	for d in data:
 		out_file.write(str(d[0]) + "\t" + str(d[1]) + "\n")
 	out_file.close()
