@@ -1,5 +1,5 @@
-90 Max Metcalfe
-79 Julia Metcalfe
+91 Max Metcalfe
+80 Julia Metcalfe
 50 Dale Rose
 36 Kaitlyn Garcia
 32 Jeff Jordan
@@ -12,12 +12,12 @@
 19 PJ Benner
 18 John Zubkousky
 18 Josh Morris
+14 Steve Snyder
 13 Alec Drew
-13 Steve Snyder
 12 Kristin Martin
 12 Mick Jordan
 11 Brian Gagliardi
 11 Derek Geno
 11 Heather Green
 11 Jack Collins
-10 Joe Porter
+11 Joe Porter
