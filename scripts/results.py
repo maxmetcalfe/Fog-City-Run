@@ -91,14 +91,14 @@ def get_racer_history(f_name, l_name):
 	for d in data:
 		print d[5] + "\t" + d[6]
 
-def convert_time_to_secs(time):
+def con_to_secs(time):
 	time_split = string.split(time, ":")
 	hours = time_split[0]
 	minutes = time_split[1]
 	seconds = time_split[2]
 	return int(hours) * 3600 + int(minutes) * 60 + float(seconds)
 
-def convert_time_from_secs(time):
+def con_from_secs(time):
 	hours = time / 3600
 	minutes = (time % 3600) / 60
 	seconds = (time % 3600) % 60
@@ -118,15 +118,29 @@ def find_bucket(time):
 
 def get_all_times():
 	cursor,conn = connect_to_results_db()
-	query = 'SELECT time, date FROM results where first_name = "Max"'
+	query = 'SELECT time, date FROM results'
 	cursor.execute(query)
 	data = cursor.fetchall()
 	out_file = open("all_times.csv", "w")
 	for d in data:
 		if "DNF" not in d:
-			time = round(convert_time_to_secs(d[0]), 0)
+			time = round(con_to_secs(d[0]), 0)
 			out_file.write(str(time) + "," + d[1] + "\n")
 	out_file.close()
+
+# Get current personal record from db
+def get_personal_record(f_name, l_name):
+	cursor,conn = connect_to_results_db()
+	query = 'SELECT time FROM results WHERE first_name = "' + f_name + '" AND last_name = "' + l_name + '" ORDER BY time ASC LIMIT 1'
+	cursor.execute(query)
+	data = cursor.fetchall()
+	return data[0][0]
+
+# Compare recent time to current personal record and print new records
+def check_for_new_records(results):
+	for r in results:
+		if con_to_secs(r.time) <= con_to_secs(get_personal_record(r.first_name, r.last_name)):
+			print "New Personal Record for " + r.first_name + " " + r.last_name + ": " + r.time
 
 def write_file_from_strings(strings, out_filename):
 	out_file = open(out_filename, "w")
@@ -146,24 +160,8 @@ def convert_to_js():
 	out_strings.append("\n];")
 	write_file_from_strings(out_strings, "/Users/max/Documents/Home/Fog-City-Run/data/data.js")
 
-def main():
-
-	raw_results = store_file_as_list("/Users/max/Downloads/racesplitter_race.csv")[1:]
-	race_date = raw_input("Race Date: ")
-	racers = load_racers(raw_results, race_date)
-	add_new_results_to_data(racers)
-	convert_to_js()
-	get_top_racers()
-	get_racer_count()
-	#get_racer_history("Max", "Metcalfe")
-	################# Posting Winner Tweet ###################
-	winner = racers[0]
-	msg = winner.first_name + " " + winner.last_name + " won the Fog City Run this week with a time of " + winner.time + "."
-	command = 'twitter -efogcityrun@email.com set %s' % msg
-	subprocess.call(command, shell=True)
-	print "Tweet posted."
-	##########################################################
-	#Git and house cleaning
+# All Git related tasks
+def git():
 	os.system("git add ../data/data.tsv")
 	os.system("git add ../data/data.js")
 	os.system("git add ../data/results.db")
@@ -176,4 +174,23 @@ def main():
 	os.system("ftp -in -u ftp://maxmetcalfe@maxmetcalfe.com/fcr/data/ ../data/data.tsv")
 	os.system("ftp -in -u ftp://maxmetcalfe@maxmetcalfe.com/fcr/data/ ../data/data.js")
 
+# Tweet winner
+def tweet_winner():
+	winner = racers[0]
+	msg = winner.first_name + " " + winner.last_name + " won the Fog City Run this week with a time of " + winner.time + "."
+	command = 'twitter -efogcityrun@email.com set %s' % msg
+	subprocess.call(command, shell=True)
+	print "Tweet posted."
+
+def main():
+	raw_results = store_file_as_list("/Users/max/Downloads/racesplitter_race.csv")[1:]
+	race_date = raw_input("Race Date: ")
+	racers = load_racers(raw_results, race_date)
+	add_new_results_to_data(racers)
+	convert_to_js()
+	get_top_racers()
+	get_racer_count()
+	check_for_new_records(racers)
+	tweet_winner()
+	git()
 main()
