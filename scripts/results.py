@@ -161,7 +161,7 @@ def convert_to_js():
 	write_file_from_strings(out_strings, "/Users/max/Documents/Home/Fog-City-Run/data/data.js")
 
 # All Git related tasks
-def git():
+def git(race_date):
 	os.system("git add ../data/data.tsv")
 	os.system("git add ../data/data.js")
 	os.system("git add ../data/results.db")
@@ -175,7 +175,7 @@ def git():
 	os.system("ftp -in -u ftp://maxmetcalfe@maxmetcalfe.com/fcr/data/ ../data/data.js")
 
 # Tweet winner
-def tweet_winner():
+def tweet_winner(racers):
 	winner = racers[0]
 	msg = winner.first_name + " " + winner.last_name + " won the Fog City Run this week with a time of " + winner.time + "."
 	command = 'twitter -efogcityrun@email.com set %s' % msg
@@ -190,7 +190,8 @@ def main():
 	convert_to_js()
 	get_top_racers()
 	get_racer_count()
+	#get_racer_history("Max", "Metcalfe")
 	check_for_new_records(racers)
-	tweet_winner()
-	git()
+	tweet_winner(racers)
+	git(race_date)
 main()
