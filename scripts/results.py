@@ -54,6 +54,9 @@ def connect_to_results_db():
 def add_new_results_to_data(racers):
 	cursor,conn = connect_to_results_db()
 	for r in racers:
+		if "'" in r.first_name or "'" in r.last_name:
+			r.first_name = r.first_name.replace("'", "''")
+			r.last_name = r.last_name.replace("'", "''")
 		output = r.rank + "," + r.bib + ",'" + r.last_name + "','" + r.first_name + "','" + r.time + "','" + r.group + "','" + r.date + "'"
 		cursor.execute("INSERT INTO results (rank,bib,last_name,first_name,time,group_name,date) VALUES (" + output + ")")
 	conn.commit()
