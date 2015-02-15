@@ -158,7 +158,12 @@ def convert_to_js():
 	out_strings = []
 	out_strings.append("var aDataSet = [\n")
 	for r in raw_results_dump:
-		out_strings.append("['" + str(r[0]) + "','" + str(r[1]) + "','" + r[2] + "','" + r[3] + "','" + r[4] + "','" + r[5] + "','" + r[6] + "'],\n")
+		last_name = r[2]
+		first_name = r[3]
+		if "'" in str(r[2]) or "'" in str(r[3]):
+			last_name = str(r[2]).replace("'", "\\'")
+			first_name = str(r[3]).replace("'", "\\'")
+		out_strings.append("['" + str(r[0]) + "','" + str(r[1]) + "','" + last_name + "','" + first_name + "','" + r[4] + "','" + r[5] + "','" + r[6] + "'],\n")
 	out_strings[-1] = out_strings[-1][:-2]
 	out_strings.append("\n];")
 	write_file_from_strings(out_strings, "/Users/max/Documents/Home/Fog-City-Run/data/data.js")
