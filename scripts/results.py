@@ -192,9 +192,27 @@ def tweet_winner(racers):
 	subprocess.call(command, shell=True)
 	print "Tweet posted."
 
-def main():
-	raw_results = store_file_as_list("/Users/max/Downloads/racesplitter_race.csv")[1:]
+def get_input():
 	race_date = raw_input("Race Date: ")
+	split_string = string.split(race_date, "-")
+	if len(split_string[0]) == 4:
+		day = split_string[2]
+		month = split_string[1]
+		year = split_string[0]
+	else:
+		day = split_string[1]
+		month = split_string[0]
+		year = split_string[-1]
+
+	if int(day) < 1 or int(day) >= 28 or int(month) < 1 or int(month) >= 12 or int(year) < 2015:
+		print "Invalid Date"
+	else:
+		return "-".join([year, month, day])
+
+def main():
+
+	raw_results = store_file_as_list("/Users/max/Downloads/racesplitter_race.csv")[1:]
+	race_date = get_input()
 	racers = load_racers(raw_results, race_date)
 	add_new_results_to_data(racers)
 	convert_to_js()
