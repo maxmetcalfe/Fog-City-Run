@@ -5,13 +5,28 @@ import string
 import os
 import subprocess
 import sqlite3
+import argparse
+import sys
+
+parser = argparse.ArgumentParser()
+parser.add_argument( "-d", "--date", help="race date" )
+args = parser.parse_args()
 
 def store_file_as_list(file_name):
 	out_list = []
 	input_file = open(file_name, "r")
+	print "Loading results..."
+	print "Printing preview..."
 	for line in input_file:
 		out_list.append(line[:-1])
-	return out_list
+	for p in out_list[:5]:
+		print p
+	response = raw_input("Continue y/n?: ")
+	if response == "y" or response == "yes":
+		return out_list
+	else:
+		print "Exiting..."
+		sys.exit(1)
 
 class Racer:
 	def _init_(self, last_name, first_name, time, bib, rank, group, date):
@@ -189,30 +204,36 @@ def tweet_winner(racers):
 	winner = racers[0]
 	msg = winner.first_name + " " + winner.last_name + " won the Fog City Run this week with a time of " + winner.time + "."
 	command = 'twitter -efogcityrun@email.com set %s' % msg
-	subprocess.call(command, shell=True)
-	print "Tweet posted."
+	try:
+		subprocess.call(command, shell=True)
+		print "Tweet Posted"
+	except:
+		print "Tweet Failed"
 
 def get_input():
-	race_date = raw_input("Race Date: ")
-	split_string = string.split(race_date, "-")
-	if len(split_string[0]) == 4:
-		day = split_string[2]
-		month = split_string[1]
-		year = split_string[0]
-	else:
-		day = split_string[1]
-		month = split_string[0]
-		year = split_string[-1]
-
-	if int(day) < 1 or int(day) >= 28 or int(month) < 1 or int(month) >= 12 or int(year) < 2015:
+	if len(args.date) != 10:
 		print "Invalid Date"
+		sys.exit(1)
 	else:
-		return "-".join([year, month, day])
+            split_string = string.split(args.date, "-")
+            if len(split_string[0]) == 4:
+                day = split_string[2]
+                month = split_string[1]
+                year = split_string[0]
+        else:
+                day = split_string[1]
+                month = split_string[0]
+                year = split_string[-1]
+
+        if int(day) < 1 or int(day) >= 28 or int(month) < 1 or int(month) >= 12 or int(year) < 2015:
+            print "Invalid Date"
+        else:
+            return "-".join([year, month, day])
 
 def main():
 
-	raw_results = store_file_as_list("/Users/max/Downloads/racesplitter_race.csv")[1:]
 	race_date = get_input()
+	raw_results = store_file_as_list("/Users/max/Downloads/racesplitter_race.csv")[1:]
 	racers = load_racers(raw_results, race_date)
 	add_new_results_to_data(racers)
 	convert_to_js()
