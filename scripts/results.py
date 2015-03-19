@@ -220,7 +220,7 @@ def get_input():
                 day = split_string[2]
                 month = split_string[1]
                 year = split_string[0]
-        else:
+            else:
                 day = split_string[1]
                 month = split_string[0]
                 year = split_string[-1]
