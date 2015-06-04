@@ -1,8 +1,8 @@
-109 Max Metcalfe
+110 Max Metcalfe
 96 Julia Metcalfe
-63 Dale Rose
+64 Dale Rose
 43 Kaitlyn Garcia
-40 Andrew Kletzing
+41 Andrew Kletzing
 32 Jeff Jordan
 31 Matthieu Scholler
 30 Rafael Maranon
