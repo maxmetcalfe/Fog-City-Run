@@ -83,11 +83,11 @@ def get_winner(date):
 	cursor.execute("SELECT first_name, last_name FROM results WHERE rank = 1 AND date = " + "'" + date + "'")
 	return cursor.fetchall()
 
-def get_top_racers():
+def get_racers_list():
 	cursor,conn = connect_to_results_db()
-	cursor.execute("SELECT first_name, last_name, count(*) c FROM results GROUP BY first_name, last_name HAVING c >= 10 ORDER BY c DESC")
+	cursor.execute("SELECT first_name, last_name, count(*) c FROM results GROUP BY first_name, last_name ORDER BY c DESC")
 	data = cursor.fetchall()
-	out_file = open("../data/top_racers.txt", "w")
+	out_file = open("../data/racers.txt", "w")
 	for d in data:
 		out_file.write(str(d[2]) + " " + d[0] + " " + str(d[1]) + "\n")
 	out_file.close()
@@ -196,6 +196,8 @@ def git(race_date):
 	os.system("git rebase origin/master")
 	os.system("git push origin master")
 	os.system("git add ../data/data.js")
+	os.system("git add ../data/racers.txt")
+	os.system("ftp -in -u ftp://maxmetcalfe@maxmetcalfe.com/fcr/data/ ../data/racers.txt")
 	os.system("ftp -in -u ftp://maxmetcalfe@maxmetcalfe.com/fcr/data/ ../data/data.tsv")
 	os.system("ftp -in -u ftp://maxmetcalfe@maxmetcalfe.com/fcr/data/ ../data/data.js")
 
@@ -231,16 +233,16 @@ def get_input():
             return "-".join([year, month, day])
 
 def main():
-
 	race_date = get_input()
 	raw_results = store_file_as_list("/Users/max/Downloads/racesplitter_race.csv")[1:]
 	racers = load_racers(raw_results, race_date)
 	add_new_results_to_data(racers)
 	convert_to_js()
-	get_top_racers()
+	get_racers_list()
 	get_racer_count()
 	#get_racer_history("Max", "Metcalfe")
 	check_for_new_records(racers)
 	tweet_winner(racers)
 	git(race_date)
+
 main()
