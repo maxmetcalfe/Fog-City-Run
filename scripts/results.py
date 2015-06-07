@@ -92,6 +92,15 @@ def get_racers_list():
 		out_file.write(str(d[2]) + " " + d[0] + " " + str(d[1]) + "\n")
 	out_file.close()
 
+def get_racer_rescords():
+	cursor,conn = connect_to_results_db()
+	cursor.execute("SELECT first_name, last_name, min(time) t FROM results GROUP BY first_name, last_name order by t;")
+	data = cursor.fetchall()
+	out_file = open("../data/records.txt", "w")
+	for d in data:
+		out_file.write(str(d[2]) + " " + d[0] + " " + str(d[1]) + "\n")
+	out_file.close()
+
 def get_racer_count():
 	cursor,conn = connect_to_results_db()
 	cursor.execute("SELECT date, count(*) c FROM results GROUP BY date ORDER BY date(date)")
@@ -187,17 +196,13 @@ def convert_to_js():
 
 # All Git related tasks
 def git(race_date):
-	os.system("git add ../data/data.tsv")
-	os.system("git add ../data/data.js")
-	os.system("git add ../data/results.db")
-	os.system("git add ../data/top_racers.txt")
+	os.system("git add -all ../data/")
 	os.system("git commit -m 'Added results from  " + race_date + "'")
 	os.system("git fetch origin")
 	os.system("git rebase origin/master")
 	os.system("git push origin master")
-	os.system("git add ../data/data.js")
-	os.system("git add ../data/racers.txt")
 	os.system("ftp -in -u ftp://maxmetcalfe@maxmetcalfe.com/fcr/data/ ../data/racers.txt")
+	os.system("ftp -in -u ftp://maxmetcalfe@maxmetcalfe.com/fcr/data/ ../data/records.txt")
 	os.system("ftp -in -u ftp://maxmetcalfe@maxmetcalfe.com/fcr/data/ ../data/data.tsv")
 	os.system("ftp -in -u ftp://maxmetcalfe@maxmetcalfe.com/fcr/data/ ../data/data.js")
 
@@ -239,6 +244,7 @@ def main():
 	add_new_results_to_data(racers)
 	convert_to_js()
 	get_racers_list()
+	get_racer_rescords()
 	get_racer_count()
 	#get_racer_history("Max", "Metcalfe")
 	check_for_new_records(racers)
