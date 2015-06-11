@@ -28,6 +28,7 @@
 00:24:39.9 Jeff Jordan
 00:24:40.0 Troy Mathew
 00:24:41.0 Andrew Kletzing
+00:24:45.1 Randy Conner
 00:24:46.9 Julia Metcalfe
 00:24:47.3 Brian Gagliardi
 00:24:49.0 James Hutchinson
@@ -121,6 +122,7 @@
 00:30:28.0 Matthew Stepka
 00:30:29.4 Johnny Wren
 00:30:29.4 Kevin Mutyaba
+00:30:32.5 Felipe Lahti
 00:30:35.6 Lisa Hunt
 00:30:36.3 Kate Reed
 00:30:36.6 Austin Shelpuk
@@ -135,6 +137,7 @@
 00:31:39.4 Naveen Rojanala
 00:31:55.0 Allison Martinez
 00:31:56.2 Chelsea Rowe
+00:31:56.3 Michelle O'Keefe
 00:31:56.5 Chief ""
 00:31:56.6 Lupe Martinez
 00:31:57.0 Krystine Gauthier
@@ -152,6 +155,7 @@
 00:33:00.1 Tom Westbrook
 00:33:06.6 Phillip Gadd
 00:33:07.0 Abby 
+00:33:11.3 Luis Bianchin
 00:33:19.1 Michael Dorsi
 00:33:19.3 Mike Dorsi
 00:33:21.1 John Solberg
