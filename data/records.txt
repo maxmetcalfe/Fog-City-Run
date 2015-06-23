@@ -24,11 +24,11 @@
 00:23:52.4 Alexis Chettiar
 00:24:02.0 Colin Kipping-Ruane
 00:24:10.2 Ollie Sloane
+00:24:23.6 Randy Conner
 00:24:38.0 Joe  Porter
 00:24:39.9 Jeff Jordan
 00:24:40.0 Troy Mathew
 00:24:41.0 Andrew Kletzing
-00:24:45.1 Randy Conner
 00:24:46.9 Julia Metcalfe
 00:24:47.3 Brian Gagliardi
 00:24:49.0 James Hutchinson
@@ -144,6 +144,7 @@
 00:32:09.2 Aditya Godbole
 00:32:11.4 Beth Popolizio
 00:32:12.9 Dale Rose
+00:32:13.3 Lauren Volkmann
 00:32:31.7 Henry Toothman
 00:32:36.4 Kristin Martin
 00:32:40.3 Patrick Czapla
@@ -160,6 +161,7 @@
 00:33:19.3 Mike Dorsi
 00:33:21.1 John Solberg
 00:33:36.6 Boden Hammett
+00:33:48.2 Calvin Cheng
 00:33:52.0 Brandon Stander
 00:33:52.7 Romtin Saidi
 00:33:59.3 Gabriela Alcoforado
@@ -262,6 +264,7 @@
 00:53:35.2 Johann Steinbrecher
 00:55:23.9 Bart Hughes
 00:55:8.9 Sandy Hughes
+00:56:32.4 Shaoyi Cheng
 00:59:20.6 Bob Metcalfe
 01:01:28.7 Giorgia Buselli
 01:01:33.4 Ilaria Meliconi
