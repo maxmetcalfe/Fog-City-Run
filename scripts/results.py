@@ -218,7 +218,10 @@ def tweet_winner(racers):
 		print "Tweet Failed"
 
 def get_input():
-	if len(args.date) != 10:
+	if args.date == None:
+		print "Please provide a date."
+		sys.exit(1)
+	elif len(args.date) != 10:
 		print "Invalid Date"
 		sys.exit(1)
 	else:
