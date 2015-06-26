@@ -14,6 +14,22 @@ args = parser.parse_args()
 
 def store_file_as_list(file_name):
 	out_list = []
+	# Finding the results file after download
+	downloads_dir = '/Users/max/Downloads'
+	os.listdir(downloads_dir)
+	matching_files = []
+	for item in os.listdir('/Users/max/Downloads'):
+		if "splitter" in item:
+			matching_files.append(item)
+	if len(matching_files) == 0:
+		print "No results files found."
+		sys.exit(1)
+	elif len(matching_files) > 1:
+		print "Multiple results files found."
+		for f in matching_files:
+			print downloads_dir + "/" + f
+		sys.exit(1)
+
 	input_file = open(file_name, "r")
 	print "Loading results..."
 	print "Printing preview..."
