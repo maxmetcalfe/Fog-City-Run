@@ -6,5 +6,4 @@ We are a small weekly running race in San Francisco, CA.
 
 TO DO:
 
-	- Top racers
 	- Individual racer plots
