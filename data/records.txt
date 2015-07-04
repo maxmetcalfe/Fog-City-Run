@@ -24,7 +24,7 @@
 00:23:52.4 Alexis Chettiar
 00:24:02.0 Colin Kipping-Ruane
 00:24:10.2 Ollie Sloane
-00:24:23.6 Randy Conner
+00:24:14.1 Randy Conner
 00:24:38.0 Joe  Porter
 00:24:39.9 Jeff Jordan
 00:24:40.0 Troy Mathew
@@ -191,6 +191,7 @@
 00:35:33.7 Paul Resignato
 00:35:42.2 Dan Thomann
 00:35:45.0 Billyray Ashcraft
+00:35:47.9 Geoff Youngs
 00:35:54.9 Heather Green
 00:35:6.8 Marc Fuller
 00:35:8.8 Chris Whiting
