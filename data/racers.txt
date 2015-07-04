@@ -1,8 +1,8 @@
 115 Max Metcalfe
-98 Julia Metcalfe
-67 Dale Rose
+99 Julia Metcalfe
+68 Dale Rose
 45 Kaitlyn Garcia
-43 Andrew Kletzing
+44 Andrew Kletzing
 32 Jeff Jordan
 32 Matthieu Scholler
 30 Rafael Maranon
@@ -40,6 +40,7 @@
 4 Mathieu Scholler
 4 Matthew Stepka
 4 Ollie Sloane
+4 Randy Conner
 4 Troy Mathew
 3 Austin Shelpuk
 3 Bob Metcalfe
@@ -53,7 +54,6 @@
 3 Matt Palmer
 3 Mike Dorsi
 3 Patrick Czapla
-3 Randy Conner
 2 Ada Maranon
 2 Adam Bower
 2 Alexis Chettiar
@@ -175,6 +175,7 @@
 1 Jayo Macasaquit
 1 Jennifer Kehn
 1 Jenzie Hallifax
+1 Jeremy Burke
 1 Jeremy Schneider
 1 Jesse Turcotte
 1 Jessie King

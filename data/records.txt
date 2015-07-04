@@ -22,13 +22,14 @@
 00:23:50.0 Ian Buckley
 00:23:50.5 Matt Palmer
 00:23:52.4 Alexis Chettiar
+00:24:00.0 Randy Conner
 00:24:02.0 Colin Kipping-Ruane
 00:24:10.2 Ollie Sloane
-00:24:14.1 Randy Conner
+00:24:28.0 Jeremy Burke
+00:24:30.0 Andrew Kletzing
 00:24:38.0 Joe  Porter
 00:24:39.9 Jeff Jordan
 00:24:40.0 Troy Mathew
-00:24:41.0 Andrew Kletzing
 00:24:46.9 Julia Metcalfe
 00:24:47.3 Brian Gagliardi
 00:24:49.0 James Hutchinson
