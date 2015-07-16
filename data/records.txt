@@ -15,6 +15,8 @@
 00:23:10.3 Joaquin Candela
 00:23:18.0 Mathieu Scholler
 00:23:21.6 Kevin Meagher
+00:23:26.5 Jordan Fidler
+00:23:27.5 Randy Conner
 00:23:36.4 Cedric Hulin
 00:23:36.5 Derek Geno
 00:23:38.4 Crispin Flowerday
@@ -23,7 +25,6 @@
 00:23:50.5 Matt Palmer
 00:23:51.3 Jeremy Burke
 00:23:52.4 Alexis Chettiar
-00:23:56.2 Randy Conner
 00:24:02.0 Colin Kipping-Ruane
 00:24:10.2 Ollie Sloane
 00:24:15.2 Andrew Kletzing
@@ -74,6 +75,7 @@
 00:27:52.5 Hayley Soderlund
 00:28:03.0 Rafael Maranon
 00:28:04.4 Ben Ford
+00:28:05.0 Felipe Lahti
 00:28:13.5 Allen Singley
 00:28:21.2 Brittany Peterson
 00:28:24.0 Seth  Rogers
@@ -123,7 +125,6 @@
 00:30:28.0 Matthew Stepka
 00:30:29.4 Johnny Wren
 00:30:29.4 Kevin Mutyaba
-00:30:32.5 Felipe Lahti
 00:30:35.6 Lisa Hunt
 00:30:36.3 Kate Reed
 00:30:36.6 Austin Shelpuk
@@ -135,6 +136,7 @@
 00:31:14.2 Jennifer Kehn
 00:31:21.4 Alicia Rodriguez
 00:31:27.3 Robert O Donnell
+00:31:29.5 Hillary Harnett
 00:31:39.4 Naveen Rojanala
 00:31:55.0 Allison Martinez
 00:31:56.2 Chelsea Rowe
@@ -162,6 +164,7 @@
 00:33:19.3 Mike Dorsi
 00:33:21.1 John Solberg
 00:33:36.6 Boden Hammett
+00:33:44.7 Jordan Sherwin
 00:33:48.2 Calvin Cheng
 00:33:52.0 Brandon Stander
 00:33:52.7 Romtin Saidi
@@ -226,7 +229,6 @@
 00:39:42.2 Tin  Fan
 00:40:19.7 Everett Rosette
 00:40:23.7 Gaby Eliason
-00:40:25.0 Hillary Harnett
 00:40:51.6 Blake Mizerany
 00:40:55.0 Mike Legrand
 00:40:58.5 Katie O'Hair
@@ -239,6 +241,7 @@
 00:42:38.7 Anya Everett
 00:42:50.6 Drew Wenzel
 00:42:52.8 Jayo Macasaquit
+00:42:59.0 Anna Kaiser
 00:42:59.1 Dimple Rana
 00:42:59.8 Anna Walters
 00:43:00.3 Candice Avanes
