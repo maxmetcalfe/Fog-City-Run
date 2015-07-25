@@ -10,13 +10,13 @@
 00:22:38.5 Nick Enthoven
 00:22:56.6 Maninder Sohal
 00:22:59.9 Winston Blick
+00:23:02.9 Randy Conner
 00:23:04.7 Matthieu Scholler
 00:23:09.5 Teun Sweere
 00:23:10.3 Joaquin Candela
 00:23:18.0 Mathieu Scholler
 00:23:21.6 Kevin Meagher
 00:23:26.5 Jordan Fidler
-00:23:27.5 Randy Conner
 00:23:36.4 Cedric Hulin
 00:23:36.5 Derek Geno
 00:23:38.4 Crispin Flowerday
@@ -178,6 +178,7 @@
 00:34:24.8 Winnie Anderson
 00:34:27.1 Maylen Rafuls Rosa
 00:34:31.8 Karthik V
+00:34:36.0 Philip Gadd
 00:34:40.0 Olivia Lee
 00:34:44.6 Jason Fescamilla
 00:35:03.1 Katie Dally
