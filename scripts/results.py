@@ -217,10 +217,10 @@ def git(race_date):
 	os.system("git fetch origin")
 	os.system("git rebase origin/master")
 	os.system("git push origin master")
-	os.system("ftp -in -u ftp://maxmetcalfe@maxmetcalfe.com/fcr/data/ ../data/racers.txt")
-	os.system("ftp -in -u ftp://maxmetcalfe@maxmetcalfe.com/fcr/data/ ../data/records.txt")
-	os.system("ftp -in -u ftp://maxmetcalfe@maxmetcalfe.com/fcr/data/ ../data/data.tsv")
-	os.system("ftp -in -u ftp://maxmetcalfe@maxmetcalfe.com/fcr/data/ ../data/data.js")
+	os.system("ftp -in -u ftp://newmaxmetcalfe@ftp.maxmetcalfe.com/public_html/www/fcr/data/ ../data/racers.txt")
+	os.system("ftp -in -u ftp://newmaxmetcalfe@ftp.maxmetcalfe.com/public_html/www/fcr/data/ ../data/records.txt")
+	os.system("ftp -in -u ftp://newmaxmetcalfe@ftp.maxmetcalfe.com/public_html/www/fcr/data/ ../data/data.tsv")
+	os.system("ftp -in -u ftp://newmaxmetcalfe@ftp.maxmetcalfe.com/public_html/www/fcr/data/ ../data/data.js")
 
 # Tweet winner
 def tweet_winner(racers):
