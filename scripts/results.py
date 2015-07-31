@@ -54,13 +54,13 @@ class Racer:
 		self.group = group
 		self.date = date
 	def print_all(self):
-		print self.last_name
-		print self.first_name
-		print self.time
-		print self.bib
-		print self.rank
-		print self.group
-		print self.date
+		print "Last Name: " + self.last_name
+		print "First Name: " + self.first_name
+		print "Time: " + self.time
+		print "Bib: " + self.bib
+		print "Rank: " + self.rank
+		print "Group: " + self.group
+		print "Date: " + self.date
 
 def load_racers(results, date):
 	racers = []
@@ -251,8 +251,9 @@ def get_input():
                 month = split_string[0]
                 year = split_string[-1]
 
-        if int(day) < 1 or int(day) >= 28 or int(month) < 1 or int(month) >= 12 or int(year) < 2015:
+        if int(day) < 1 or int(day) >= 31 or int(month) < 1 or int(month) >= 12 or int(year) < 2015:
             print "Invalid Date"
+            sys.exit(1)
         else:
             return "-".join([year, month, day])
 
