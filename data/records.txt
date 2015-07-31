@@ -163,7 +163,6 @@
 00:33:06.6 Phillip Gadd
 00:33:07.0 Abby 
 00:33:11.3 Luis Bianchin
-00:33:19.3 Mike Dorsi
 00:33:21.1 John Solberg
 00:33:36.6 Boden Hammett
 00:33:44.7 Jordan Sherwin

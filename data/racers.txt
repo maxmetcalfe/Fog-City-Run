@@ -15,7 +15,7 @@
 22 PJ Benner
 18 Alec Drew
 18 Josh Morris
-15 Michael Dorsi
+18 Michael Dorsi
 13 Jack Collins
 12 Heather Green
 12 Kristin Martin
@@ -52,7 +52,6 @@
 3 Katie Dally
 3 Laura Wolfe
 3 Matt Palmer
-3 Mike Dorsi
 3 Patrick Czapla
 2 Ada Maranon
 2 Adam Bower
