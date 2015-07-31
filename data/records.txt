@@ -28,10 +28,10 @@
 00:24:02.0 Colin Kipping-Ruane
 00:24:10.2 Ollie Sloane
 00:24:15.2 Andrew Kletzing
+00:24:27.9 Joe Porter
 00:24:38.0 Joe  Porter
 00:24:39.9 Jeff Jordan
 00:24:40.0 Troy Mathew
-00:24:45.5 Joe Porter
 00:24:46.9 Julia Metcalfe
 00:24:47.3 Brian Gagliardi
 00:24:49.0 James Hutchinson
@@ -115,12 +115,15 @@
 00:29:55.4 Dustin Magill
 00:29:57.8 James Christopherson
 00:29:59.6 Linda Bruner
+00:30:02.2 Michael Dorsi
 00:30:09.5 Tyler Baeder
 00:30:12.3 Jessie King
 00:30:12.5 Ryan Williams
 00:30:16.4 Matt Stone
+00:30:16.9 Anya Durgerian
 00:30:17.5 Jamie Leach
 00:30:17.6 Ellie Clark
+00:30:18.0 Fiona McCusker
 00:30:25.4 Chief 
 00:30:28.0 Matthew Stepka
 00:30:29.4 Johnny Wren
@@ -160,7 +163,6 @@
 00:33:06.6 Phillip Gadd
 00:33:07.0 Abby 
 00:33:11.3 Luis Bianchin
-00:33:19.1 Michael Dorsi
 00:33:19.3 Mike Dorsi
 00:33:21.1 John Solberg
 00:33:36.6 Boden Hammett
