@@ -8,9 +8,10 @@
 00:22:34.0 Colin Lough
 00:22:38.4 David Kashyap
 00:22:38.5 Nick Enthoven
+00:22:45.0 Crispin Flowerday
+00:22:46.0 Randy Conner
 00:22:56.6 Maninder Sohal
 00:22:59.9 Winston Blick
-00:23:02.9 Randy Conner
 00:23:04.7 Matthieu Scholler
 00:23:09.5 Teun Sweere
 00:23:10.3 Joaquin Candela
@@ -19,7 +20,6 @@
 00:23:26.5 Jordan Fidler
 00:23:36.4 Cedric Hulin
 00:23:36.5 Derek Geno
-00:23:38.4 Crispin Flowerday
 00:23:40.2 Steve Snyder
 00:23:50.0 Ian Buckley
 00:23:50.5 Matt Palmer
@@ -34,6 +34,7 @@
 00:24:40.0 Troy Mathew
 00:24:46.9 Julia Metcalfe
 00:24:47.3 Brian Gagliardi
+00:24:47.3 Matt Fong
 00:24:49.0 James Hutchinson
 00:25:08.7 Jose Garcia
 00:25:09.8 Kevin Handeland
@@ -89,6 +90,7 @@
 00:28:39.7 PJ Benner
 00:28:39.9 Paul Schiefer
 00:28:42.0 Kara O'Connor
+00:28:46.1 Fiona McCusker
 00:28:52.9 Cameron Thompson
 00:28:55.2 Courtney Porter
 00:28:55.4 Henrik Hedelund
@@ -110,6 +112,7 @@
 00:29:31.1 Jonathan Cook
 00:29:34.2 Kara O'connor
 00:29:44.8 Nicole LaCroix
+00:29:46.0 George Durgerian
 00:29:50.8 Dan Gross
 00:29:52.8 Matt Bruner
 00:29:55.4 Dustin Magill
@@ -123,7 +126,6 @@
 00:30:16.9 Anya Durgerian
 00:30:17.5 Jamie Leach
 00:30:17.6 Ellie Clark
-00:30:18.0 Fiona McCusker
 00:30:25.4 Chief 
 00:30:28.0 Matthew Stepka
 00:30:29.4 Johnny Wren
