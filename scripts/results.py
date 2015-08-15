@@ -212,7 +212,7 @@ def convert_to_js():
 
 # All Git related tasks
 def git(race_date):
-	os.system("git add -all ../data/")
+	os.system("git add --all ../data/")
 	os.system("git commit -m 'Added results from  " + race_date + "'")
 	os.system("git fetch origin")
 	os.system("git rebase origin/master")
