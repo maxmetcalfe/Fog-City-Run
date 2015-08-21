@@ -1,31 +1,31 @@
-120 Max Metcalfe
-104 Julia Metcalfe
+121 Max Metcalfe
+105 Julia Metcalfe
 72 Dale Rose
-47 Andrew Kletzing
+48 Andrew Kletzing
 45 Kaitlyn Garcia
 32 Jeff Jordan
 32 Matthieu Scholler
 30 Rafael Maranon
 29 Henri Proutt
 29 James Christopherson
+29 Steve Snyder
 28 Nick Schrock
-28 Steve Snyder
-24 Joe Porter
+25 Joe Porter
 22 John Zubkousky
 22 PJ Benner
 18 Alec Drew
 18 Josh Morris
 18 Michael Dorsi
-14 Jack Collins
+15 Jack Collins
 12 Heather Green
 12 Kristin Martin
 12 Mick Jordan
 11 Brian Gagliardi
 11 Derek Geno
 11 Kara O'Connor
+10 Crispin Flowerday
+10 Randy Conner
 10 Seth Rogers
-9 Crispin Flowerday
-9 Randy Conner
 8 Chris Fuentes
 7 Jason Fscamilla
 7 Kate Reed
@@ -46,6 +46,7 @@
 3 Austin Shelpuk
 3 Bob Metcalfe
 3 Boden Hammett
+3 Fiona McCusker
 3 Fred Leach
 3 Jenni Dubman
 3 Joanna Gadd
@@ -60,6 +61,7 @@
 2 Alicia Alvarez
 2 Allie Morton
 2 Amelia Barisone
+2 Anya Durgerian
 2 Ben Ford
 2 Ben Ross
 2 Britta Mason
@@ -70,7 +72,6 @@
 2 Dustin Magill
 2 Eric Edelstein
 2 Felipe Lahti
-2 Fiona McCusker
 2 Gabriela Alcoforado
 2 Hayley Soderlund
 2 Hillary Harnett
@@ -101,10 +102,10 @@
 1 Allison Martinez
 1 Ally Sinclaire
 1 Andrew Chang
+1 Andrew Stanley-Jones
 1 Andy Ensor
 1 Anna Kaiser
 1 Anna Walters
-1 Anya Durgerian
 1 Anya Everett
 1 Ashley Merolla
 1 Austin Ngo
@@ -149,6 +150,8 @@
 1 Dani Holgado
 1 Daniel Crandall
 1 Darcy Russell
+1 David Schwartz
+1 David George Johnson
 1 Derek Hamilton
 1 Dillon  Pratt
 1 Dimple Rana
@@ -167,6 +170,7 @@
 1 George Durgerian
 1 Georgeanna Connors
 1 Giorgia Buselli
+1 Haley Tobin
 1 Henrik Hedelund
 1 Henry Toothman
 1 Ian Buckley
@@ -235,6 +239,7 @@
 1 Maylen Rafuls Rosa
 1 Michael Midling
 1 Michael  Butler
+1 Michele Stone
 1 Michelle O'Keefe
 1 Mike Connors
 1 Mike Legrand
@@ -243,6 +248,7 @@
 1 Nic Gonzales
 1 Nicole LaCroix
 1 Nina Santus
+1 Norby Oberweis
 1 Olivia Lee
 1 Otto Badilla
 1 Paris Goodswan 
@@ -255,6 +261,7 @@
 1 Renee Meier
 1 Robert Minkowsky
 1 Robert O Donnell
+1 Robin Pisor
 1 Romtin Saidi
 1 Roxana Espeleta
 1 Sam Louie
@@ -276,8 +283,10 @@
 1 Toby 
 1 Tom Barnes
 1 Tom Westbrook
+1 Trish Farr
 1 Turner Zamore
 1 Tyler Baeder
+1 Veronica Martichonok
 1 Veronica Sette
 1 Winnie Anderson
 1 Winston Blick

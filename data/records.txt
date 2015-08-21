@@ -32,6 +32,7 @@
 00:24:38.0 Joe  Porter
 00:24:39.9 Jeff Jordan
 00:24:40.0 Troy Mathew
+00:24:43.4 Andrew Stanley-Jones
 00:24:46.9 Julia Metcalfe
 00:24:47.3 Brian Gagliardi
 00:24:47.3 Matt Fong
@@ -74,7 +75,9 @@
 00:27:49.7 Ally Sinclaire
 00:27:50.0 Ciaran Dowler
 00:27:52.5 Hayley Soderlund
+00:27:59.7 David George Johnson
 00:28:03.0 Rafael Maranon
+00:28:03.9 Trish Farr
 00:28:04.4 Ben Ford
 00:28:05.0 Felipe Lahti
 00:28:13.5 Allen Singley
@@ -120,13 +123,17 @@
 00:29:59.6 Linda Bruner
 00:30:02.2 Michael Dorsi
 00:30:09.5 Tyler Baeder
+00:30:11.7 Haley Tobin
 00:30:12.3 Jessie King
 00:30:12.5 Ryan Williams
+00:30:13.8 Veronica Martichonok
 00:30:16.4 Matt Stone
 00:30:16.9 Anya Durgerian
 00:30:17.5 Jamie Leach
 00:30:17.6 Ellie Clark
+00:30:24.6 Norby Oberweis
 00:30:25.4 Chief 
+00:30:25.7 Robin Pisor
 00:30:28.0 Matthew Stepka
 00:30:29.4 Johnny Wren
 00:30:29.4 Kevin Mutyaba
@@ -266,6 +273,8 @@
 00:47:51.0 Coleen Willey
 00:47:52.4 Shamrock Power
 00:47:8.0 Tom Barnes
+00:49:39.3 David Schwartz
+00:49:50.1 Michele Stone
 00:50:12.7 Bryan Kletzing
 00:50:53.4 Darcy Russell
 00:52:50.0 Sheila Pourbayat
