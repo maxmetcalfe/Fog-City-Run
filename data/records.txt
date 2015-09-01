@@ -75,6 +75,7 @@
 00:27:49.7 Ally Sinclaire
 00:27:50.0 Ciaran Dowler
 00:27:52.5 Hayley Soderlund
+00:27:55.6 Fiona McCusker
 00:27:59.7 David George Johnson
 00:28:03.0 Rafael Maranon
 00:28:03.9 Trish Farr
@@ -94,7 +95,6 @@
 00:28:39.7 PJ Benner
 00:28:39.9 Paul Schiefer
 00:28:42.0 Kara O'Connor
-00:28:46.1 Fiona McCusker
 00:28:52.9 Cameron Thompson
 00:28:55.2 Courtney Porter
 00:28:55.4 Henrik Hedelund
