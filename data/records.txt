@@ -32,6 +32,7 @@
 00:24:38.0 Joe  Porter
 00:24:39.9 Jeff Jordan
 00:24:40.0 Troy Mathew
+00:24:41.0 Fred Leach
 00:24:43.4 Andrew Stanley-Jones
 00:24:46.9 Julia Metcalfe
 00:24:47.3 Brian Gagliardi
@@ -44,7 +45,6 @@
 00:25:18.1 Cameron Butler
 00:25:32.9 Adam Karson
 00:25:35.5 Seth Rogers
-00:25:36.0 Fred Leach
 00:25:39.6 Dozer 
 00:25:56.4 Nick Schrock
 00:26:01.1 Derek Hamilton
@@ -90,6 +90,7 @@
 00:28:28.5 Amelia Barisone
 00:28:35.0 Renee Meier
 00:28:35.8 Brian Newman
+00:28:36.6 Fiona Mccusker
 00:28:39.7 PJ Benner
 00:28:39.9 Paul Schiefer
 00:28:42.0 Kara O'Connor
@@ -107,6 +108,7 @@
 00:29:07.1 Adam Bower
 00:29:10.3 Britta Mason
 00:29:10.8 John Liu
+00:29:13.5 Marc Hampson
 00:29:15.4 Jordan Laks
 00:29:16.2 Damian Phelps
 00:29:18.3 Elaine Fukunaga
@@ -215,6 +217,7 @@
 00:36:20.0 Jose Cea
 00:36:20.4 Ada Maranon
 00:36:22.7 Hannah Vizza
+00:36:26.6 Raffa Maranon
 00:36:32.9 Sou Mookien
 00:36:38.1 Chris Hammett
 00:36:57.2 Caitlin Ellison
@@ -248,7 +251,10 @@
 00:42:07.2 Joanna Gadd
 00:42:12.7 Alex Stephan
 00:42:21.9 Brandy Wince
+00:42:22.8 Christoph Tassan
+00:42:30.4 David Schwartz
 00:42:32.6 Criona McLaughlin
+00:42:33.6 Michele Stone
 00:42:38.7 Anya Everett
 00:42:50.6 Drew Wenzel
 00:42:52.8 Jayo Macasaquit
@@ -273,8 +279,6 @@
 00:47:51.0 Coleen Willey
 00:47:52.4 Shamrock Power
 00:47:8.0 Tom Barnes
-00:49:39.3 David Schwartz
-00:49:50.1 Michele Stone
 00:50:12.7 Bryan Kletzing
 00:50:53.4 Darcy Russell
 00:52:50.0 Sheila Pourbayat
