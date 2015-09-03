@@ -239,6 +239,7 @@
 00:38:41.2 Kate  Stearns
 00:39:07.3 Maria Lastovka
 00:39:21.8 Jonathan Doyle
+00:39:33.6 John Herbert
 00:39:33.6 Susanne Hedelund
 00:39:42.2 Tin  Fan
 00:40:19.7 Everett Rosette
@@ -272,7 +273,6 @@
 00:45:10.7 Kyle Mchargue
 00:45:12.6 Rachel Johnson
 00:45:17.3 Lance Mishleau
-00:46:11.5 John Herbert
 00:46:47.3 Austin Pratt
 00:46:49.2 Dillon  Pratt
 00:47:47.0 Andrew Chang
