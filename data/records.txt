@@ -82,6 +82,7 @@
 00:28:04.4 Ben Ford
 00:28:05.0 Felipe Lahti
 00:28:13.5 Allen Singley
+00:28:14.0 Kara O'Connor
 00:28:21.2 Brittany Peterson
 00:28:24.0 Seth  Rogers
 00:28:24.1 Matt Voss
@@ -94,7 +95,6 @@
 00:28:36.6 Fiona Mccusker
 00:28:39.7 PJ Benner
 00:28:39.9 Paul Schiefer
-00:28:42.0 Kara O'Connor
 00:28:52.9 Cameron Thompson
 00:28:55.2 Courtney Porter
 00:28:55.4 Henrik Hedelund
@@ -116,6 +116,7 @@
 00:29:18.8 Laura Wolfe
 00:29:31.1 Jonathan Cook
 00:29:34.2 Kara O'connor
+00:29:38.8 Jamie Leach
 00:29:44.8 Nicole LaCroix
 00:29:46.0 George Durgerian
 00:29:50.8 Dan Gross
@@ -124,6 +125,7 @@
 00:29:57.8 James Christopherson
 00:29:59.6 Linda Bruner
 00:30:02.2 Michael Dorsi
+00:30:06.3 Scott Pollock
 00:30:09.5 Tyler Baeder
 00:30:11.7 Haley Tobin
 00:30:12.3 Jessie King
@@ -131,7 +133,6 @@
 00:30:13.8 Veronica Martichonok
 00:30:16.4 Matt Stone
 00:30:16.9 Anya Durgerian
-00:30:17.5 Jamie Leach
 00:30:17.6 Ellie Clark
 00:30:24.6 Norby Oberweis
 00:30:25.4 Chief 
