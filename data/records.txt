@@ -69,6 +69,7 @@
 00:27:22.8 Mark Davenport
 00:27:28.4 Jr Mintz
 00:27:29.3 Jesse Turcotte
+00:27:33.5 Damian Knight
 00:27:40.0 Dan Roberts
 00:27:40.1 Joe Hanson
 00:27:47.6 Andy Ensor
@@ -81,8 +82,8 @@
 00:28:03.9 Trish Farr
 00:28:04.4 Ben Ford
 00:28:05.0 Felipe Lahti
+00:28:11.6 Kara O'Connor
 00:28:13.5 Allen Singley
-00:28:14.0 Kara O'Connor
 00:28:21.2 Brittany Peterson
 00:28:24.0 Seth  Rogers
 00:28:24.1 Matt Voss
@@ -96,6 +97,7 @@
 00:28:39.7 PJ Benner
 00:28:39.9 Paul Schiefer
 00:28:52.9 Cameron Thompson
+00:28:53.6 Jamie Leach
 00:28:55.2 Courtney Porter
 00:28:55.4 Henrik Hedelund
 00:28:57.2 Martha  Tinker
@@ -116,7 +118,6 @@
 00:29:18.8 Laura Wolfe
 00:29:31.1 Jonathan Cook
 00:29:34.2 Kara O'connor
-00:29:38.8 Jamie Leach
 00:29:44.8 Nicole LaCroix
 00:29:46.0 George Durgerian
 00:29:50.8 Dan Gross
@@ -148,6 +149,7 @@
 00:30:41.8 Carly Bishop
 00:30:43.0 Mick Jordan
 00:30:52.4 Joel Rizzo
+00:31:04.7 Tom Robinson
 00:31:14.2 Jennifer Kehn
 00:31:21.4 Alicia Rodriguez
 00:31:27.3 Robert O Donnell
