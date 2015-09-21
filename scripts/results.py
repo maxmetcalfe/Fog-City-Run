@@ -254,6 +254,11 @@ def get_input():
         else:
             return "-".join([year, month, day])
 
+def clean_up():
+	print "Removing input CSV file..."
+	os.remove("/Users/max/Downloads/racesplitter_race.csv")
+	print "Done."
+
 def main():
 	race_date = get_input()
 	raw_results = store_file_as_list("/Users/max/Downloads/racesplitter_race.csv")[1:]
@@ -267,5 +272,6 @@ def main():
 	check_for_new_records(racers)
 	tweet_winner(racers)
 	git(race_date)
+	clean_up()
 
 main()
