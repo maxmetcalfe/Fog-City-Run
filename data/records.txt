@@ -2,6 +2,7 @@
 00:21:00.0 Chris Fuentes
 00:21:01.0 Dani Holgado
 00:21:30.3 Jack Collins
+00:21:53.7 Jason Reed
 00:22:01.4 Eric Edelstein
 00:22:10.9 Thomas Namara
 00:22:14.8 Turner Zamore
@@ -12,7 +13,6 @@
 00:22:46.0 Randy Conner
 00:22:56.6 Maninder Sohal
 00:22:59.9 Winston Blick
-00:23:03.0 Jason Reed
 00:23:04.7 Matthieu Scholler
 00:23:09.5 Teun Sweere
 00:23:10.3 Joaquin Candela
@@ -60,6 +60,7 @@
 00:26:43.9 Jeremy Schneider
 00:26:45.6 Cameron Honour
 00:26:50.6 John Zubkousky
+00:26:51.4 Kevin Verberkmoes
 00:26:53.5 Dakota 
 00:26:56.1 Marco Pakkanen
 00:27:01.7 Madison Kotack
@@ -133,8 +134,8 @@
 00:30:12.3 Jessie King
 00:30:12.5 Ryan Williams
 00:30:13.8 Veronica Martichonok
+00:30:16.3 Anya Durgerian
 00:30:16.4 Matt Stone
-00:30:16.9 Anya Durgerian
 00:30:17.6 Ellie Clark
 00:30:24.6 Norby Oberweis
 00:30:25.4 Chief 
@@ -193,6 +194,7 @@
 00:34:23.6 Jason Fscamilla
 00:34:24.8 Winnie Anderson
 00:34:27.1 Maylen Rafuls Rosa
+00:34:29.1 Mike Dorsi
 00:34:31.8 Karthik V
 00:34:36.0 Philip Gadd
 00:34:40.0 Olivia Lee
