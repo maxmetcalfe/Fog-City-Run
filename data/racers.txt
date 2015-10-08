@@ -9,8 +9,8 @@
 31 Rafael Maranon
 29 Henri Proutt
 29 James Christopherson
+28 Joe Porter
 28 Nick Schrock
-27 Joe Porter
 24 John Zubkousky
 22 PJ Benner
 20 Michael Dorsi
@@ -23,9 +23,9 @@
 12 Heather Green
 12 Kristin Martin
 12 Mick Jordan
+12 Seth Rogers
 11 Brian Gagliardi
 11 Derek Geno
-10 Seth Rogers
 9 Chris Fuentes
 7 Jason Fscamilla
 7 Kate Reed
@@ -195,7 +195,6 @@
 1 Jim Narron
 1 Joaquin Candela
 1 Joe Hanson
-1 Joe  Porter
 1 Johann Steinbrecher
 1 John Solberg
 1 John Stearns
@@ -276,8 +275,6 @@
 1 Sarah Wren
 1 Scott Pollock
 1 Sean Matlis
-1 Seth Rodgers
-1 Seth  Rogers
 1 Shamrock Power
 1 Shaoyi Cheng
 1 Sheena Caines
