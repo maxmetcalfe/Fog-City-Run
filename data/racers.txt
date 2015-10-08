@@ -13,13 +13,13 @@
 27 Joe Porter
 24 John Zubkousky
 22 PJ Benner
-19 Michael Dorsi
+20 Michael Dorsi
 18 Alec Drew
 18 Jack Collins
 18 Josh Morris
 16 Crispin Flowerday
+15 Kara O'Connor
 15 Randy Conner
-14 Kara O'Connor
 12 Heather Green
 12 Kristin Martin
 12 Mick Jordan
@@ -209,7 +209,6 @@
 1 Jose Garcia
 1 Joseph Connelly
 1 Jr Mintz
-1 Kara O'connor
 1 Karin Pimentel
 1 Kasper Kinds
 1 Kate  Stearns
@@ -248,7 +247,6 @@
 1 Michael  Butler
 1 Michelle O'Keefe
 1 Mike Connors
-1 Mike Dorsi
 1 Mike Legrand
 1 Mike Warner
 1 Natasha Buller
