@@ -1,8 +1,8 @@
 00:20:58.7 Max Metcalfe
 00:21:00.0 Chris Fuentes
 00:21:01.0 Dani Holgado
+00:21:17.5 Jason Reed
 00:21:30.3 Jack Collins
-00:21:53.7 Jason Reed
 00:22:01.4 Eric Edelstein
 00:22:10.9 Thomas Namara
 00:22:14.8 Turner Zamore
@@ -84,7 +84,7 @@
 00:28:03.9 Trish Farr
 00:28:04.4 Ben Ford
 00:28:05.0 Felipe Lahti
-00:28:11.6 Kara O'Connor
+00:28:05.2 Kara O'Connor
 00:28:13.5 Allen Singley
 00:28:21.2 Brittany Peterson
 00:28:24.0 Seth  Rogers

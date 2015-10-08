@@ -1,11 +1,11 @@
-126 Max Metcalfe
-111 Julia Metcalfe
+127 Max Metcalfe
+112 Julia Metcalfe
 77 Dale Rose
 52 Andrew Kletzing
 45 Kaitlyn Garcia
+33 Steve Snyder
 32 Jeff Jordan
 32 Matthieu Scholler
-32 Steve Snyder
 31 Rafael Maranon
 29 Henri Proutt
 29 James Christopherson
@@ -17,9 +17,9 @@
 18 Alec Drew
 18 Jack Collins
 18 Josh Morris
-15 Crispin Flowerday
+16 Crispin Flowerday
 15 Randy Conner
-13 Kara O'Connor
+14 Kara O'Connor
 12 Heather Green
 12 Kristin Martin
 12 Mick Jordan
@@ -50,6 +50,7 @@
 3 Bob Metcalfe
 3 Boden Hammett
 3 Jamie Leach
+3 Jason Reed
 3 Jenni Dubman
 3 Joanna Gadd
 3 Katie Dally
@@ -80,7 +81,6 @@
 2 George Durgerian
 2 Hayley Soderlund
 2 Hillary Harnett
-2 Jason Reed
 2 Jeremy Burke
 2 John Herbert
 2 Karthik V
