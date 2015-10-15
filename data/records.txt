@@ -30,6 +30,7 @@
 00:24:10.2 Ollie Sloane
 00:24:15.2 Andrew Kletzing
 00:24:27.9 Joe Porter
+00:24:29.2 David Moulton
 00:24:39.9 Jeff Jordan
 00:24:40.0 Troy Mathew
 00:24:41.0 Fred Leach
@@ -48,6 +49,7 @@
 00:25:39.6 Dozer 
 00:25:56.4 Nick Schrock
 00:26:01.1 Derek Hamilton
+00:26:01.8 Mike Gulli
 00:26:07.9 Lauren Stevens
 00:26:11.9 Martin Goodall
 00:26:15.1 Brittney Martinez
@@ -92,6 +94,7 @@
 00:28:28.4 Locki 
 00:28:28.5 Amelia Barisone
 00:28:35.0 Renee Meier
+00:28:35.1 Bill Reimer
 00:28:35.8 Brian Newman
 00:28:36.6 Fiona Mccusker
 00:28:39.7 PJ Benner
@@ -165,11 +168,13 @@
 00:32:12.9 Dale Rose
 00:32:13.3 Lauren Volkmann
 00:32:31.7 Henry Toothman
+00:32:33.0 Graham Witcher
 00:32:36.4 Kristin Martin
 00:32:40.3 Patrick Czapla
 00:32:41.9 Kaitlyn Garcia
 00:32:45.4 Daniel Crandall
 00:32:46.8 Allie Morton
+00:32:48.7 Ross Crain
 00:32:51.5 Robert Minkowsky
 00:32:6.9 Michael  Butler
 00:33:00.1 Tom Westbrook
@@ -269,11 +274,13 @@
 00:43:29.7 James Bomotti
 00:43:35.8 Paris Goodswan 
 00:43:35.9 Toby 
+00:44:22.2 Vicente Villasana
 00:45:07.0 Alicia Vandenberg
 00:45:07.9 Stefanie Braatz
 00:45:10.7 Kyle Mchargue
 00:45:12.6 Rachel Johnson
 00:45:17.3 Lance Mishleau
+00:46:20.7 Sue McAllister
 00:46:47.3 Austin Pratt
 00:46:49.2 Dillon  Pratt
 00:47:47.0 Andrew Chang

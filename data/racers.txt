@@ -1,9 +1,9 @@
-127 Max Metcalfe
-112 Julia Metcalfe
+128 Max Metcalfe
+113 Julia Metcalfe
 77 Dale Rose
-52 Andrew Kletzing
+53 Andrew Kletzing
 45 Kaitlyn Garcia
-33 Steve Snyder
+34 Steve Snyder
 32 Jeff Jordan
 32 Matthieu Scholler
 31 Rafael Maranon
@@ -14,12 +14,12 @@
 24 John Zubkousky
 22 PJ Benner
 20 Michael Dorsi
+19 Jack Collins
 18 Alec Drew
-18 Jack Collins
 18 Josh Morris
-16 Crispin Flowerday
-15 Kara O'Connor
-15 Randy Conner
+17 Crispin Flowerday
+16 Kara O'Connor
+16 Randy Conner
 12 Heather Green
 12 Kristin Martin
 12 Mick Jordan
@@ -40,6 +40,7 @@
 4 Alicia Rodriguez
 4 Austin Shelpuk
 4 Dakota 
+4 Jason Reed
 4 Joel Rizzo
 4 John Liu
 4 Jordan Laks
@@ -50,10 +51,10 @@
 3 Bob Metcalfe
 3 Boden Hammett
 3 Jamie Leach
-3 Jason Reed
 3 Jenni Dubman
 3 Joanna Gadd
 3 Katie Dally
+3 Laura Albidress
 3 Laura Wolfe
 3 Matt Palmer
 3 Nick Enthoven
@@ -65,6 +66,7 @@
 2 Alicia Alvarez
 2 Allie Morton
 2 Amelia Barisone
+2 Andrew Stanley-Jones
 2 Ben Ford
 2 Ben Ross
 2 Britta Mason
@@ -87,7 +89,6 @@
 2 Katie O'Hair
 2 Kevin Handeland
 2 Kevin Mutyaba
-2 Laura Albidress
 2 Locki 
 2 Marc Fuller
 2 Mark Davenport
@@ -109,7 +110,6 @@
 1 Allison Martinez
 1 Ally Sinclaire
 1 Andrew Chang
-1 Andrew Stanley-Jones
 1 Andy Ensor
 1 Anna Kaiser
 1 Anna Walters
@@ -120,6 +120,7 @@
 1 Bart Hughes
 1 Ben Holman
 1 Beth Popolizio
+1 Bill Reimer
 1 Billyray Ashcraft
 1 Blake Mizerany
 1 Brandon Stander
@@ -159,6 +160,7 @@
 1 Dani Holgado
 1 Daniel Crandall
 1 Darcy Russell
+1 David Moulton
 1 David George Johnson
 1 Derek Hamilton
 1 Dillon  Pratt
@@ -177,6 +179,7 @@
 1 Geoff Youngs
 1 Georgeanna Connors
 1 Giorgia Buselli
+1 Graham Witcher
 1 Haley Tobin
 1 Henrik Hedelund
 1 Henry Toothman
@@ -246,6 +249,7 @@
 1 Michael  Butler
 1 Michelle O'Keefe
 1 Mike Connors
+1 Mike Gulli
 1 Mike Legrand
 1 Mike Warner
 1 Natasha Buller
@@ -268,6 +272,7 @@
 1 Robert O Donnell
 1 Robin Pisor
 1 Romtin Saidi
+1 Ross Crain
 1 Roxana Espeleta
 1 Sam Louie
 1 Sandy Hughes
@@ -280,6 +285,7 @@
 1 Sheena Caines
 1 Sou Mookien
 1 Stefanie Braatz
+1 Sue McAllister
 1 Summer Hirtzel
 1 Susanne Hedelund
 1 Teun Sweere
@@ -293,5 +299,6 @@
 1 Tyler Baeder
 1 Veronica Martichonok
 1 Veronica Sette
+1 Vicente Villasana
 1 Winnie Anderson
 1 Winston Blick
