@@ -1,7 +1,8 @@
+00:20:41.0 Jason Reed
+00:20:48.0 Rich Berry
 00:20:58.7 Max Metcalfe
 00:21:00.0 Chris Fuentes
 00:21:01.0 Dani Holgado
-00:21:17.5 Jason Reed
 00:21:30.3 Jack Collins
 00:22:01.4 Eric Edelstein
 00:22:10.9 Thomas Namara
@@ -86,6 +87,7 @@
 00:28:04.4 Ben Ford
 00:28:05.0 Felipe Lahti
 00:28:05.2 Kara O'Connor
+00:28:08.5 Danny Rodriguez
 00:28:13.5 Allen Singley
 00:28:21.2 Brittany Peterson
 00:28:24.1 Matt Voss
@@ -217,6 +219,7 @@
 00:35:45.0 Billyray Ashcraft
 00:35:47.9 Geoff Youngs
 00:35:54.9 Heather Green
+00:35:59.2 Hernan Galvez
 00:35:6.8 Marc Fuller
 00:35:8.8 Chris Whiting
 00:36:02.4 Portia Carryer
@@ -235,6 +238,8 @@
 00:37:12.2 Caycee Cullen
 00:37:27.5 Ben Holman
 00:37:34.4 Sam Louie
+00:37:37.4 Victor Rojas
+00:37:44.1 Edward Umana
 00:37:46.1 Marlene Serename
 00:37:6.1 Austin Ngo
 00:38:01.5 Joseph Connelly
