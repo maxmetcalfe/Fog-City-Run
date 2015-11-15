@@ -183,7 +183,7 @@
 00:32:51.5 Robert Minkowsky
 00:32:6.9 Michael  Butler
 00:33:00.1 Tom Westbrook
-00:33:06.6 Phillip Gadd
+00:33:06.6 Philip Gadd
 00:33:07.0 Abby 
 00:33:11.3 Luis Bianchin
 00:33:21.1 John Solberg
@@ -202,7 +202,6 @@
 00:34:24.8 Winnie Anderson
 00:34:27.1 Maylen Rafuls Rosa
 00:34:31.8 Karthik V
-00:34:36.0 Philip Gadd
 00:34:40.0 Olivia Lee
 00:34:44.6 Jason Fescamilla
 00:35:03.1 Katie Dally
