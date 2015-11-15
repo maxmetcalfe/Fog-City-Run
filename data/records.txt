@@ -45,6 +45,7 @@
 00:25:11.5 Jason Walker
 00:25:14.4 Josh Morris
 00:25:18.1 Cameron Butler
+00:25:25.6 Blake Fillion
 00:25:32.9 Adam Karson
 00:25:35.5 Seth Rogers
 00:25:39.6 Dozer 
@@ -76,7 +77,9 @@
 00:27:33.5 Damian Knight
 00:27:40.0 Dan Roberts
 00:27:40.1 Joe Hanson
+00:27:46.7 Wendy Whelan
 00:27:47.6 Andy Ensor
+00:27:47.6 Mike Turner
 00:27:49.7 Ally Sinclaire
 00:27:50.0 Ciaran Dowler
 00:27:52.5 Hayley Soderlund
@@ -90,10 +93,8 @@
 00:28:08.5 Danny Rodriguez
 00:28:13.5 Allen Singley
 00:28:21.2 Brittany Peterson
-00:28:23.9 Wendy Whelan
 00:28:24.1 Matt Voss
 00:28:25.4 Sarah Wren
-00:28:26.3 Mike Turner
 00:28:26.9 Alicia Alvarez
 00:28:28.4 Locki 
 00:28:28.5 Amelia Barisone
@@ -134,6 +135,7 @@
 00:30:02.2 Michael Dorsi
 00:30:06.3 Scott Pollock
 00:30:09.5 Tyler Baeder
+00:30:10.0 Tom Robinson
 00:30:11.7 Haley Tobin
 00:30:12.3 Jessie King
 00:30:12.5 Ryan Williams
@@ -155,7 +157,6 @@
 00:30:41.8 Carly Bishop
 00:30:43.0 Mick Jordan
 00:30:52.4 Joel Rizzo
-00:31:04.7 Tom Robinson
 00:31:14.2 Jennifer Kehn
 00:31:21.4 Alicia Rodriguez
 00:31:27.3 Robert O Donnell
@@ -300,6 +301,7 @@
 00:52:56.3 Brittany Goyette
 00:53:35.2 Johann Steinbrecher
 00:55:23.9 Bart Hughes
+00:55:44.1 Lena Ng
 00:55:8.9 Sandy Hughes
 00:56:32.4 Shaoyi Cheng
 00:59:20.6 Bob Metcalfe
