@@ -248,7 +248,7 @@ def get_input():
                 month = split_string[0]
                 year = split_string[-1]
 
-        if int(day) < 1 or int(day) >= 31 or int(month) < 1 or int(month) >= 12 or int(year) < 2015:
+        if int(day) < 1 or int(day) >= 31 or int(month) < 1 or int(month) > 12 or int(year) < 2015:
             print "Invalid Date"
             sys.exit(1)
         else:
