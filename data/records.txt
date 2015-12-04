@@ -118,6 +118,7 @@
 00:29:07.1 Adam Bower
 00:29:10.3 Britta Mason
 00:29:10.8 John Liu
+00:29:13.0 Tom Robinson
 00:29:13.5 Marc Hampson
 00:29:15.4 Jordan Laks
 00:29:16.2 Damian Phelps
@@ -135,7 +136,6 @@
 00:30:02.2 Michael Dorsi
 00:30:06.3 Scott Pollock
 00:30:09.5 Tyler Baeder
-00:30:10.0 Tom Robinson
 00:30:11.7 Haley Tobin
 00:30:12.3 Jessie King
 00:30:12.5 Ryan Williams
@@ -155,8 +155,8 @@
 00:30:37.5 Daniel Beale
 00:30:37.7 Carl Hunt
 00:30:41.8 Carly Bishop
+00:30:43.0 Joel Rizzo
 00:30:43.0 Mick Jordan
-00:30:52.4 Joel Rizzo
 00:31:14.2 Jennifer Kehn
 00:31:21.4 Alicia Rodriguez
 00:31:27.3 Robert O Donnell
@@ -200,7 +200,6 @@
 00:34:20.9 Erica Lieppman
 00:34:23.6 Jason Fscamilla
 00:34:24.8 Winnie Anderson
-00:34:26.5 Phillip Gadd
 00:34:27.1 Maylen Rafuls Rosa
 00:34:31.8 Karthik V
 00:34:40.0 Olivia Lee
@@ -299,6 +298,7 @@
 00:50:53.4 Darcy Russell
 00:52:50.0 Sheila Pourbayat
 00:52:56.3 Brittany Goyette
+00:52:59.0 Nick King
 00:53:35.2 Johann Steinbrecher
 00:55:23.9 Bart Hughes
 00:55:44.1 Lena Ng

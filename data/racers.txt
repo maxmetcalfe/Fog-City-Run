@@ -26,9 +26,9 @@
 12 Seth Rogers
 11 Brian Gagliardi
 11 Derek Geno
+10 Jason Reed
 9 Chris Fuentes
 9 Fred Leach
-9 Jason Reed
 7 Anya Durgerian
 7 Fiona McCusker
 7 Jason Fscamilla
@@ -38,17 +38,19 @@
 6 Matt Voss
 5 Adam Karson
 5 Hannah Vizza
+5 Joel Rizzo
 4 Alicia Rodriguez
 4 Austin Shelpuk
 4 Dakota 
 4 Joanna Gadd
-4 Joel Rizzo
 4 John Liu
 4 Jordan Laks
 4 Mathieu Scholler
 4 Matthew Stepka
 4 Nick Enthoven
 4 Ollie Sloane
+4 Philip Gadd
+4 Tom Robinson
 4 Troy Mathew
 3 Bob Metcalfe
 3 Boden Hammett
@@ -60,8 +62,6 @@
 3 Laura Wolfe
 3 Matt Palmer
 3 Patrick Czapla
-3 Philip Gadd
-3 Tom Robinson
 2 Ada Maranon
 2 Adam Bower
 2 Alexis Chettiar
@@ -262,6 +262,7 @@
 1 Mike Warner
 1 Natasha Buller
 1 Nic Gonzales
+1 Nick King
 1 Nicole LaCroix
 1 Nina Santus
 1 Norby Oberweis
@@ -270,7 +271,6 @@
 1 Paris Goodswan 
 1 Paul Resignato
 1 Phil Brennan
-1 Phillip Gadd
 1 Portia Carryer
 1 Rachel Johnson
 1 Rachel Marcus
