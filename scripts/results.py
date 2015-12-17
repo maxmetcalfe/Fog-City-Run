@@ -217,7 +217,9 @@ def git(race_date):
 	os.system("git fetch origin")
 	os.system("git rebase origin/master")
 	os.system("git push origin master")
-	os.system("scp ../data/* newmaxmetcalfe@maxmetcalfe.com:/home/newmaxmetcalfe/www/www/fcr/data")
+	os.system("git checkout gh-pages")
+	os.system("git merge master")
+	os.system("git push origin gh-pages")
 
 # Tweet winner
 def tweet_winner(racers):
