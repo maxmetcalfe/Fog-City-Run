@@ -99,7 +99,6 @@
 00:28:26.9 Alicia Alvarez
 00:28:28.4 Locki 
 00:28:28.5 Amelia Barisone
-00:28:34.2 Joe  Porter
 00:28:35.0 Renee Meier
 00:28:35.1 Bill Reimer
 00:28:35.8 Brian Newman
@@ -210,7 +209,6 @@
 00:35:09.4 Karin Pimentel
 00:35:10.7 Jim Narron
 00:35:14.1 Mike Warner
-00:35:14.5 Mike Dorsi
 00:35:16.2 Ashley Merolla
 00:35:17.6 Georgeanna Connors
 00:35:22.1 Erin O'Connor
@@ -258,7 +256,6 @@
 00:39:33.6 John Herbert
 00:39:33.6 Susanne Hedelund
 00:39:42.2 Tin  Fan
-00:39:46.7 Kara O'connor
 00:39:50.3 Jen Sparks
 00:40:19.7 Everett Rosette
 00:40:23.7 Gaby Eliason
