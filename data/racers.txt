@@ -1,7 +1,7 @@
-135 Max Metcalfe
-116 Julia Metcalfe
-83 Dale Rose
-57 Andrew Kletzing
+136 Max Metcalfe
+117 Julia Metcalfe
+84 Dale Rose
+58 Andrew Kletzing
 46 Kaitlyn Garcia
 35 Steve Snyder
 32 Jeff Jordan
@@ -11,17 +11,17 @@
 29 Henri Proutt
 29 Joe Porter
 28 Nick Schrock
-24 Crispin Flowerday
+25 Crispin Flowerday
 24 John Zubkousky
+23 Randy Conner
 22 Jack Collins
 22 Michael Dorsi
 22 PJ Benner
-22 Randy Conner
 18 Alec Drew
 18 Josh Morris
 18 Kara O'Connor
+13 Jason Reed
 12 Heather Green
-12 Jason Reed
 12 Kristin Martin
 12 Mick Jordan
 12 Seth Rogers
@@ -33,11 +33,11 @@
 7 Fiona McCusker
 7 Jason Fscamilla
 7 Kate Reed
+7 Tom Robinson
 6 Courtney Porter
 6 Joel Rizzo
 6 Madison Kotack
 6 Matt Voss
-6 Tom Robinson
 5 Adam Karson
 5 Hannah Vizza
 4 Alicia Rodriguez
@@ -52,6 +52,7 @@
 4 Ollie Sloane
 4 Philip Gadd
 4 Troy Mathew
+3 Andrew Stanley-Jones
 3 Bob Metcalfe
 3 Boden Hammett
 3 George Durgerian
@@ -71,7 +72,6 @@
 2 Alicia Alvarez
 2 Allie Morton
 2 Amelia Barisone
-2 Andrew Stanley-Jones
 2 Ben Ford
 2 Ben Ross
 2 Blake Fillion
@@ -198,6 +198,7 @@
 1 Jason Fescamilla
 1 Jason Walker
 1 Jayo Macasaquit
+1 Jen Sparks
 1 Jennifer Kehn
 1 Jenzie Hallifax
 1 Jeremy Schneider
@@ -206,6 +207,7 @@
 1 Jim Narron
 1 Joaquin Candela
 1 Joe Hanson
+1 Joe  Porter
 1 Johann Steinbrecher
 1 John Solberg
 1 John Stearns
@@ -219,6 +221,7 @@
 1 Jose Garcia
 1 Joseph Connelly
 1 Jr Mintz
+1 Kara O'connor
 1 Karin Pimentel
 1 Kasper Kinds
 1 Kate  Stearns
@@ -257,6 +260,7 @@
 1 Michael  Butler
 1 Michelle O'Keefe
 1 Mike Connors
+1 Mike Dorsi
 1 Mike Gulli
 1 Mike Legrand
 1 Mike Warner
@@ -283,6 +287,7 @@
 1 Romtin Saidi
 1 Ross Crain
 1 Roxana Espeleta
+1 Russ Metteer
 1 Sam Louie
 1 Sandy Hughes
 1 Santiago Pablo
