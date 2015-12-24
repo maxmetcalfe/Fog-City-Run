@@ -48,6 +48,7 @@
 00:25:25.6 Blake Fillion
 00:25:32.9 Adam Karson
 00:25:35.5 Seth Rogers
+00:25:38.6 Douglas Costa
 00:25:39.6 Dozer 
 00:25:56.4 Nick Schrock
 00:26:01.1 Derek Hamilton
@@ -170,8 +171,10 @@
 00:31:57.0 Krystine Gauthier
 00:32:09.2 Aditya Godbole
 00:32:11.4 Beth Popolizio
+00:32:12.6 Christine Moreira
 00:32:12.9 Dale Rose
 00:32:13.3 Lauren Volkmann
+00:32:14.2 Andy Hindley
 00:32:31.7 Henry Toothman
 00:32:33.0 Graham Witcher
 00:32:36.4 Kristin Martin
@@ -201,6 +204,7 @@
 00:34:23.6 Jason Fscamilla
 00:34:24.8 Winnie Anderson
 00:34:27.1 Maylen Rafuls Rosa
+00:34:29.7 Phillip Gadd
 00:34:31.8 Karthik V
 00:34:40.0 Olivia Lee
 00:34:44.6 Jason Fescamilla
@@ -269,6 +273,7 @@
 00:42:12.7 Alex Stephan
 00:42:21.9 Brandy Wince
 00:42:22.8 Christoph Tassan
+00:42:29.1 Becky Hindley
 00:42:30.4 David Schwartz
 00:42:32.6 Criona McLaughlin
 00:42:33.6 Michele Stone
