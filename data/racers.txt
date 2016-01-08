@@ -1,6 +1,6 @@
 138 Max Metcalfe
 118 Julia Metcalfe
-85 Dale Rose
+86 Dale Rose
 58 Andrew Kletzing
 46 Kaitlyn Garcia
 36 Steve Snyder
@@ -10,8 +10,8 @@
 30 James Christopherson
 30 Joe Porter
 29 Henri Proutt
+28 Crispin Flowerday
 28 Nick Schrock
-27 Crispin Flowerday
 25 Michael Dorsi
 24 John Zubkousky
 23 Jack Collins
@@ -20,7 +20,7 @@
 19 Kara O'Connor
 18 Alec Drew
 18 Josh Morris
-15 Jason Reed
+16 Jason Reed
 12 Heather Green
 12 Kristin Martin
 12 Mick Jordan
@@ -103,6 +103,7 @@
 2 Michele Stone
 2 Naveen Rojanala
 2 Paul Schiefer
+2 Russ Metteer
 2 Ryan Williams
 2 Sheila Pourbayat
 2 Tin  Fan
@@ -182,6 +183,7 @@
 1 Elaine Fukunaga
 1 Ellie Clark
 1 Erica Lieppman
+1 Erika Kikuchi
 1 Erin Champion
 1 Erin O'Connor
 1 Evan Bertolli
@@ -289,7 +291,6 @@
 1 Romtin Saidi
 1 Ross Crain
 1 Roxana Espeleta
-1 Russ Metteer
 1 Sam Louie
 1 Sandy Hughes
 1 Santiago Pablo

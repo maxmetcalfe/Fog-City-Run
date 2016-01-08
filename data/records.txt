@@ -88,6 +88,7 @@
 00:27:59.7 David George Johnson
 00:28:03.0 Rafael Maranon
 00:28:03.9 Trish Farr
+00:28:04.1 Russ Metteer
 00:28:04.4 Ben Ford
 00:28:05.0 Felipe Lahti
 00:28:05.2 Kara O'Connor
@@ -123,6 +124,7 @@
 00:29:13.5 Marc Hampson
 00:29:15.4 Jordan Laks
 00:29:16.2 Damian Phelps
+00:29:17.9 Erika Kikuchi
 00:29:18.3 Elaine Fukunaga
 00:29:18.7 Matt Galvin
 00:29:18.8 Laura Wolfe
@@ -209,7 +211,6 @@
 00:34:40.0 Olivia Lee
 00:34:44.6 Jason Fescamilla
 00:35:03.1 Katie Dally
-00:35:03.5 Russ Metteer
 00:35:09.4 Karin Pimentel
 00:35:10.7 Jim Narron
 00:35:14.1 Mike Warner
