@@ -207,7 +207,6 @@
 00:34:23.6 Jason Fscamilla
 00:34:24.8 Winnie Anderson
 00:34:27.1 Maylen Rafuls Rosa
-00:34:29.7 Phillip Gadd
 00:34:31.8 Karthik V
 00:34:40.0 Olivia Lee
 00:34:44.6 Jason Fescamilla
@@ -321,7 +320,6 @@
 00:59:20.6 Bob Metcalfe
 01:01:28.7 Giorgia Buselli
 01:01:33.4 Ilaria Meliconi
-01:15:12.8 Mike Dorsi
 01:17:03.6 Chris Hewes
 01:17:08.1 Lauren Salberg
 01:21:45.0 Cary Cody
