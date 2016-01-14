@@ -12,7 +12,7 @@
 29 Crispin Flowerday
 29 Henri Proutt
 28 Nick Schrock
-25 Michael Dorsi
+26 Michael Dorsi
 24 Jack Collins
 24 John Zubkousky
 23 Randy Conner
@@ -34,6 +34,7 @@
 7 Jason Fscamilla
 7 Joel Rizzo
 7 Kate Reed
+7 Philip Gadd
 7 Tom Robinson
 6 Courtney Porter
 6 Madison Kotack
@@ -41,7 +42,6 @@
 5 Adam Karson
 5 Hannah Vizza
 5 Joanna Gadd
-5 Philip Gadd
 4 Alicia Rodriguez
 4 Andrew Stanley-Jones
 4 Austin Shelpuk
@@ -103,7 +103,6 @@
 2 Michele Stone
 2 Naveen Rojanala
 2 Paul Schiefer
-2 Phillip Gadd
 2 Russ Metteer
 2 Ryan Williams
 2 Sheila Pourbayat
@@ -272,7 +271,6 @@
 1 Michael  Butler
 1 Michelle O'Keefe
 1 Mike Connors
-1 Mike Dorsi
 1 Mike Gulli
 1 Mike Legrand
 1 Mike Warner
