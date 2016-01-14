@@ -1,33 +1,33 @@
-138 Max Metcalfe
-118 Julia Metcalfe
-86 Dale Rose
-58 Andrew Kletzing
+139 Max Metcalfe
+119 Julia Metcalfe
+87 Dale Rose
+59 Andrew Kletzing
 46 Kaitlyn Garcia
-36 Steve Snyder
+37 Steve Snyder
 32 Jeff Jordan
 32 Matthieu Scholler
 31 Rafael Maranon
 30 James Christopherson
 30 Joe Porter
+29 Crispin Flowerday
 29 Henri Proutt
-28 Crispin Flowerday
 28 Nick Schrock
 25 Michael Dorsi
+24 Jack Collins
 24 John Zubkousky
-23 Jack Collins
 23 Randy Conner
 22 PJ Benner
-19 Kara O'Connor
+20 Kara O'Connor
 18 Alec Drew
 18 Josh Morris
-16 Jason Reed
+17 Jason Reed
 12 Heather Green
 12 Kristin Martin
 12 Mick Jordan
 12 Seth Rogers
 11 Brian Gagliardi
 11 Derek Geno
-10 Fred Leach
+11 Fred Leach
 9 Chris Fuentes
 7 Anya Durgerian
 7 Fiona McCusker
@@ -43,6 +43,7 @@
 5 Joanna Gadd
 5 Philip Gadd
 4 Alicia Rodriguez
+4 Andrew Stanley-Jones
 4 Austin Shelpuk
 4 Dakota 
 4 John Liu
@@ -52,7 +53,6 @@
 4 Nick Enthoven
 4 Ollie Sloane
 4 Troy Mathew
-3 Andrew Stanley-Jones
 3 Bob Metcalfe
 3 Boden Hammett
 3 George Durgerian
@@ -103,6 +103,7 @@
 2 Michele Stone
 2 Naveen Rojanala
 2 Paul Schiefer
+2 Phillip Gadd
 2 Russ Metteer
 2 Ryan Williams
 2 Sheila Pourbayat
@@ -114,8 +115,10 @@
 1 Alex Stephan
 1 Alicia Vandenberg
 1 Allen Singley
+1 Allison Hall
 1 Allison Martinez
 1 Ally Sinclaire
+1 Amy Bialek
 1 Andrew Chang
 1 Andy Ensor
 1 Andy Hindley
@@ -134,6 +137,7 @@
 1 Blake Mizerany
 1 Brandon Stander
 1 Brandy Wince
+1 Brian Herndon
 1 Brian Newman
 1 Brittany Goyette
 1 Brittany Peterson
@@ -144,6 +148,7 @@
 1 Cameron Butler
 1 Cameron Honour
 1 Cameron Thompson
+1 Candace Stevenson
 1 Candice Avanes
 1 Carl Hunt
 1 Carly Bishop
@@ -152,6 +157,7 @@
 1 Chelsea Rowe
 1 Chief ""
 1 Chris Hammett
+1 Chris Hewes
 1 Chris Whiting
 1 Christine Moreira
 1 Christoph Tassan
@@ -240,6 +246,7 @@
 1 Lance Mishleau
 1 Larry Corio
 1 Lauren Biscombe
+1 Lauren Salberg
 1 Lauren Stevens
 1 Lauren Volkmann
 1 Lena Ng
@@ -251,6 +258,7 @@
 1 Maninder Sohal
 1 Marc Hampson
 1 Marco Pakkanen
+1 Marcos Calderano
 1 Maria Lastovka
 1 Marijana Bojic
 1 Mario Kostelac
@@ -264,6 +272,7 @@
 1 Michael  Butler
 1 Michelle O'Keefe
 1 Mike Connors
+1 Mike Dorsi
 1 Mike Gulli
 1 Mike Legrand
 1 Mike Warner
@@ -278,7 +287,6 @@
 1 Paris Goodswan 
 1 Paul Resignato
 1 Phil Brennan
-1 Phillip Gadd
 1 Portia Carryer
 1 Rachel Johnson
 1 Rachel Marcus
