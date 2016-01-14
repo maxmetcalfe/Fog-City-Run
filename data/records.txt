@@ -7,6 +7,7 @@
 00:22:01.4 Eric Edelstein
 00:22:10.9 Thomas Namara
 00:22:14.8 Turner Zamore
+00:22:29.0 Marcos Calderano
 00:22:34.0 Colin Lough
 00:22:38.4 David Kashyap
 00:22:38.5 Nick Enthoven
@@ -255,6 +256,7 @@
 00:38:24.2 Roxana Espeleta
 00:38:26.8 Jenzie Hallifax
 00:38:39.4 John Stearns
+00:38:39.6 Amy Bialek
 00:38:41.2 Kate  Stearns
 00:39:07.3 Maria Lastovka
 00:39:21.8 Jonathan Doyle
@@ -309,13 +311,19 @@
 00:52:56.3 Brittany Goyette
 00:52:59.0 Nick King
 00:53:35.2 Johann Steinbrecher
+00:54:32.5 Brian Herndon
 00:55:23.9 Bart Hughes
 00:55:44.1 Lena Ng
 00:55:8.9 Sandy Hughes
+00:56:20.0 Candace Stevenson
 00:56:32.4 Shaoyi Cheng
+00:57:50.6 Allison Hall
 00:59:20.6 Bob Metcalfe
 01:01:28.7 Giorgia Buselli
 01:01:33.4 Ilaria Meliconi
+01:15:12.8 Mike Dorsi
+01:17:03.6 Chris Hewes
+01:17:08.1 Lauren Salberg
 01:21:45.0 Cary Cody
 01:21:46.5 Rachel Marcus
 01:6:35.1 Larry Corio
