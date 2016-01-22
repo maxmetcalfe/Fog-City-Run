@@ -47,6 +47,7 @@
 00:25:14.4 Josh Morris
 00:25:18.1 Cameron Butler
 00:25:25.6 Blake Fillion
+00:25:27.8 PJ Benner
 00:25:32.9 Adam Karson
 00:25:35.5 Seth Rogers
 00:25:38.6 Douglas Costa
@@ -106,7 +107,6 @@
 00:28:35.1 Bill Reimer
 00:28:35.8 Brian Newman
 00:28:36.6 Fiona Mccusker
-00:28:39.7 PJ Benner
 00:28:39.9 Paul Schiefer
 00:28:52.9 Cameron Thompson
 00:28:53.6 Jamie Leach
@@ -195,6 +195,7 @@
 00:33:21.1 John Solberg
 00:33:36.6 Boden Hammett
 00:33:44.7 Jordan Sherwin
+00:33:45.4 Nathan Lynch
 00:33:48.2 Calvin Cheng
 00:33:52.0 Brandon Stander
 00:33:52.7 Romtin Saidi
