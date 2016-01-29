@@ -12,8 +12,8 @@
 30 James Christopherson
 29 Henri Proutt
 28 Nick Schrock
+27 Michael Dorsi
 26 Jack Collins
-26 Michael Dorsi
 24 John Zubkousky
 24 Randy Conner
 23 PJ Benner
@@ -271,7 +271,6 @@
 1 Michael  Butler
 1 Michelle O'Keefe
 1 Mike Connors
-1 Mike Dorsi
 1 Mike Gulli
 1 Mike Legrand
 1 Mike Warner
