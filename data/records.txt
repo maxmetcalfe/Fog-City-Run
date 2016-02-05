@@ -195,6 +195,7 @@
 00:33:07.0 Abby 
 00:33:11.3 Luis Bianchin
 00:33:21.1 John Solberg
+00:33:27.9 Mike Dorsi
 00:33:36.6 Boden Hammett
 00:33:44.7 Jordan Sherwin
 00:33:45.4 Nathan Lynch
@@ -213,6 +214,7 @@
 00:34:31.8 Karthik V
 00:34:40.0 Olivia Lee
 00:34:44.6 Jason Fescamilla
+00:34:44.7 Cabot Smith
 00:35:03.1 Katie Dally
 00:35:09.4 Karin Pimentel
 00:35:10.7 Jim Narron
@@ -254,6 +256,7 @@
 00:37:46.1 Marlene Serename
 00:37:6.1 Austin Ngo
 00:38:01.5 Joseph Connelly
+00:38:06.9 Oldrech Stary
 00:38:23.3 Otto Badilla
 00:38:24.2 Roxana Espeleta
 00:38:26.8 Jenzie Hallifax
