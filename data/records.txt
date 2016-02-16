@@ -4,6 +4,7 @@
 00:21:00.0 Chris Fuentes
 00:21:01.0 Dani Holgado
 00:21:30.3 Jack Collins
+00:21:51.0 Phil Wright
 00:22:01.4 Eric Edelstein
 00:22:10.9 Thomas Namara
 00:22:14.8 Turner Zamore
@@ -173,6 +174,7 @@
 00:31:56.5 Chief ""
 00:31:56.6 Lupe Martinez
 00:31:57.0 Krystine Gauthier
+00:32:05.3 Cabot Smith
 00:32:09.2 Aditya Godbole
 00:32:11.4 Beth Popolizio
 00:32:12.6 Christine Moreira
@@ -212,8 +214,8 @@
 00:34:27.1 Maylen Rafuls Rosa
 00:34:31.8 Karthik V
 00:34:40.0 Olivia Lee
+00:34:41.1 Christian Claessens
 00:34:44.6 Jason Fescamilla
-00:34:44.7 Cabot Smith
 00:35:03.1 Katie Dally
 00:35:09.4 Karin Pimentel
 00:35:10.7 Jim Narron
@@ -309,6 +311,7 @@
 00:47:51.0 Coleen Willey
 00:47:52.4 Shamrock Power
 00:47:8.0 Tom Barnes
+00:48:04.4 Joanna  Gadd
 00:50:12.7 Bryan Kletzing
 00:50:53.4 Darcy Russell
 00:52:50.0 Sheila Pourbayat
