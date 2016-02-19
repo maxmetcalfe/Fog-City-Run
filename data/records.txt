@@ -167,6 +167,7 @@
 00:31:21.4 Alicia Rodriguez
 00:31:27.3 Robert O Donnell
 00:31:29.5 Hillary Harnett
+00:31:30.3 Cabot Smith
 00:31:39.4 Naveen Rojanala
 00:31:55.0 Allison Martinez
 00:31:56.2 Chelsea Rowe
@@ -174,7 +175,6 @@
 00:31:56.5 Chief ""
 00:31:56.6 Lupe Martinez
 00:31:57.0 Krystine Gauthier
-00:32:05.3 Cabot Smith
 00:32:09.2 Aditya Godbole
 00:32:11.4 Beth Popolizio
 00:32:12.6 Christine Moreira
@@ -312,6 +312,7 @@
 00:47:52.4 Shamrock Power
 00:47:8.0 Tom Barnes
 00:48:04.4 Joanna  Gadd
+00:48:10.2 Anderson Emerole
 00:50:12.7 Bryan Kletzing
 00:50:53.4 Darcy Russell
 00:52:50.0 Sheila Pourbayat
