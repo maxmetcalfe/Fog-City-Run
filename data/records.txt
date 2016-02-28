@@ -12,7 +12,7 @@
 00:22:34.0 Colin Lough
 00:22:38.4 David Kashyap
 00:22:38.5 Nick Enthoven
-00:22:44.6 Crispin Flowerday
+00:22:39.7 Crispin Flowerday
 00:22:46.0 Randy Conner
 00:22:56.6 Maninder Sohal
 00:22:59.9 Winston Blick
@@ -184,6 +184,7 @@
 00:32:31.7 Henry Toothman
 00:32:33.0 Graham Witcher
 00:32:33.1 Richard Grant
+00:32:33.6 Karina PJ
 00:32:36.4 Kristin Martin
 00:32:40.3 Patrick Czapla
 00:32:41.9 Kaitlyn Garcia
@@ -196,6 +197,7 @@
 00:33:06.6 Philip Gadd
 00:33:07.0 Abby 
 00:33:11.3 Luis Bianchin
+00:33:15.1 Chris Dardar
 00:33:21.1 John Solberg
 00:33:36.6 Boden Hammett
 00:33:44.7 Jordan Sherwin
