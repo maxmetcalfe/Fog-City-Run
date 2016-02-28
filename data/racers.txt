@@ -59,6 +59,7 @@
 3 Bob Metcalfe
 3 Boden Hammett
 3 Cabot Smith
+3 Chief 
 3 George Durgerian
 3 Jamie Leach
 3 Jenni Dubman
@@ -79,7 +80,6 @@
 2 Ben Ross
 2 Britta Mason
 2 Cedric Hulin
-2 Chief 
 2 Christian Claessens
 2 Daniel Beale
 2 David Kashyap
@@ -157,7 +157,6 @@
 1 Cary Cody
 1 Caycee Cullen
 1 Chelsea Rowe
-1 Chief ""
 1 Chris Dardar
 1 Chris Hammett
 1 Chris Hewes
