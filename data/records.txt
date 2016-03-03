@@ -134,7 +134,9 @@
 00:29:38.4 Nithin RJ
 00:29:44.8 Nicole LaCroix
 00:29:46.0 George Durgerian
+00:29:47.5 Greg Becker
 00:29:50.8 Dan Gross
+00:29:51.5 Peter So
 00:29:52.8 Matt Bruner
 00:29:55.4 Dustin Magill
 00:29:57.8 James Christopherson
