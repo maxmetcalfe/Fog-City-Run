@@ -7,12 +7,12 @@
 00:21:51.0 Phil Wright
 00:22:01.4 Eric Edelstein
 00:22:10.9 Thomas Namara
+00:22:13.8 Crispin Flowerday
 00:22:14.8 Turner Zamore
 00:22:29.0 Marcos Calderano
 00:22:34.0 Colin Lough
 00:22:38.4 David Kashyap
 00:22:38.5 Nick Enthoven
-00:22:39.7 Crispin Flowerday
 00:22:46.0 Randy Conner
 00:22:56.6 Maninder Sohal
 00:22:59.9 Winston Blick
