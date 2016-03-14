@@ -4,11 +4,6 @@ import email, getpass, imaplib, os, sys
 import argparse
 
 parser = argparse.ArgumentParser()
-# To Do - make this secure :)
-parser.add_argument( "-u", "--user", help="gmail username" )
-parser.add_argument( "-p", "--password", help="gmail password" )
-args = parser.parse_args()
-
 detach_dir = '.' # directory where to save attachments (default: current)
 
 # To Do - make this secure :)
