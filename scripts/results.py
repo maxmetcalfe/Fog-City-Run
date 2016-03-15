@@ -7,6 +7,7 @@ import subprocess
 import sqlite3
 import argparse
 import sys
+import datetime
 
 parser = argparse.ArgumentParser()
 parser.add_argument( "-d", "--date", help="race date" )
@@ -15,11 +16,11 @@ args = parser.parse_args()
 def store_file_as_list(file_name):
 	out_list = []
 	# Finding the results file after download
-	downloads_dir = '/Users/max/Downloads'
+	downloads_dir = '.'
 	os.listdir(downloads_dir)
 	matching_files = []
-	for item in os.listdir('/Users/max/Downloads'):
-		if "splitter" in item:
+	for item in os.listdir('.'):
+		if "race-results" in item:
 			matching_files.append(item)
 	if len(matching_files) == 0:
 		print "No results files found."
@@ -37,12 +38,14 @@ def store_file_as_list(file_name):
 		out_list.append(line[:-1])
 	for p in out_list[:5]:
 		print p
-	response = raw_input("Continue y/n?: ")
-	if response == "y" or response == "yes":
-		return out_list
-	else:
-		print "Exiting..."
-		sys.exit(1)
+
+	return out_list
+	# response = raw_input("Continue y/n?: ")
+	# if response == "y" or response == "yes":
+	# 	return out_list
+	# else:
+	# 	print "Exiting..."
+	# 	sys.exit(1)
 
 class Racer:
 	def _init_(self, last_name, first_name, time, bib, rank, group, date):
@@ -65,6 +68,7 @@ class Racer:
 def load_racers(results, date):
 	racers = []
 	for r in results:
+		r = r.replace('''"''', "")
 		line_split = string.split(r, ",")
 		new_racer = Racer()
 		new_racer.rank = line_split[0]
@@ -73,14 +77,14 @@ def load_racers(results, date):
 		new_racer.first_name = line_split[3]
 		new_racer.group = line_split[4]
 		new_racer.time = line_split[6]
-		new_racer.date = date
+		new_racer.date = str(date)
 		racers.append(new_racer)
 	return racers
 
 def connect_to_results_db():
-	conn = sqlite3.connect("/Users/max/Documents/Home/Fog-City-Run/data/results.db")
-	cursor = conn.cursor()
-	return cursor,conn
+    conn = sqlite3.connect("data/results.db")
+    cursor = conn.cursor()
+    return cursor,conn
 
 def add_new_results_to_data(racers):
 	cursor,conn = connect_to_results_db()
@@ -103,7 +107,7 @@ def get_racers_list():
 	cursor,conn = connect_to_results_db()
 	cursor.execute("SELECT first_name, last_name, count(*) c FROM results GROUP BY first_name, last_name ORDER BY c DESC")
 	data = cursor.fetchall()
-	out_file = open("../data/racers.txt", "w")
+	out_file = open("data/racers.txt", "w")
 	for d in data:
 		out_file.write(str(d[2]) + " " + d[0] + " " + str(d[1]) + "\n")
 	out_file.close()
@@ -112,7 +116,7 @@ def get_racer_rescords():
 	cursor,conn = connect_to_results_db()
 	cursor.execute("SELECT first_name, last_name, min(time) t FROM results GROUP BY first_name, last_name order by t;")
 	data = cursor.fetchall()
-	out_file = open("../data/records.txt", "w")
+	out_file = open("data/records.txt", "w")
 	for d in data:
 		out_file.write(str(d[2]) + " " + d[0] + " " + str(d[1]) + "\n")
 	out_file.close()
@@ -121,7 +125,7 @@ def get_racer_count():
 	cursor,conn = connect_to_results_db()
 	cursor.execute("SELECT date, count(*) c FROM results GROUP BY date ORDER BY date(date)")
 	data = cursor.fetchall()
-	out_file = open("../data/data.tsv", "w")
+	out_file = open("data/data.tsv", "w")
 	out_file.write("race\tracers\n")
 	for d in data:
 		out_file.write(str(d[0]) + "\t" + str(d[1]) + "\n")
@@ -184,8 +188,9 @@ def get_personal_record(f_name, l_name):
 # Compare recent time to current personal record and print new records
 def check_for_new_records(results):
 	for r in results:
-		if con_to_secs(r.time) <= con_to_secs(get_personal_record(r.first_name, r.last_name)):
-			print "New Personal Record for " + r.first_name + " " + r.last_name + ": " + r.time
+		time = r.time.replace('''"''', "")
+		if con_to_secs(time) <= con_to_secs(get_personal_record(r.first_name, r.last_name)):
+			print "New Personal Record for " + r.first_name + " " + r.last_name + ": " + time
 
 def write_file_from_strings(strings, out_filename):
 	out_file = open(out_filename, "w")
@@ -208,18 +213,20 @@ def convert_to_js():
 		out_strings.append("['" + str(r[0]) + "','" + str(r[1]) + "','" + last_name + "','" + first_name + "','" + r[4] + "','" + r[5] + "','" + r[6] + "'],\n")
 	out_strings[-1] = out_strings[-1][:-2]
 	out_strings.append("\n];")
-	write_file_from_strings(out_strings, "/Users/max/Documents/Home/Fog-City-Run/data/data.js")
+	write_file_from_strings(out_strings, "data/data.js")
 
 # All Git related tasks
 def git(race_date):
-	os.system("git add --all ../data/")
-	os.system("git commit -m 'Added results from  " + race_date + "'")
-	os.system("git fetch origin")
-	os.system("git rebase origin/master")
-	os.system("git push origin master")
+	os.system("git diff")
+	os.system("git add --all data/")
+	os.remove("race-results.csv")
+	os.system("git commit -m 'Added results from  " + str(race_date)	 + "'")
+	#os.system("git fetch origin")
+	#os.system("git rebase origin/master")
+	#os.system("git push origin master")
 	os.system("git checkout gh-pages")
-	os.system("git merge master")
-	os.system("git push origin gh-pages")
+	os.system("git merge origin/master")
+	#os.system("git push origin gh-pages")
 
 # Tweet winner
 def tweet_winner(racers):
@@ -258,19 +265,26 @@ def get_input():
 
 def clean_up():
 	print "Removing input CSV file..."
-	os.remove("/Users/max/Downloads/racesplitter_race.csv")
+	os.remove("race-results.csv")
 	print "Done."
 
+def find_closest_wednesday():
+    today = datetime.date.today()
+    wednesday = today + datetime.timedelta( (2-today.weekday()) % 7 )
+    return wednesday
+
+closest_wednesday = find_closest_wednesday()
+
 def main():
-	race_date = get_input()
-	raw_results = store_file_as_list("/Users/max/Downloads/racesplitter_race.csv")[1:]
+	race_date = find_closest_wednesday()
+	raw_results = store_file_as_list("race-results.csv")[1:]
 	racers = load_racers(raw_results, race_date)
 	add_new_results_to_data(racers)
 	convert_to_js()
 	get_racers_list()
 	get_racer_rescords()
 	get_racer_count()
-	#get_racer_history("Max", "Metcalfe")
+	get_racer_history("Max", "Metcalfe")
 	check_for_new_records(racers)
 	tweet_winner(racers)
 	git(race_date)
