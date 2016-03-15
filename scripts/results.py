@@ -217,6 +217,7 @@ def convert_to_js():
 
 # All Git related tasks
 def git(race_date):
+	os.system("git checkout master")
 	os.system("git diff")
 	os.system("git add --all data/")
 	os.remove("race-results.csv")
