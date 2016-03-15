@@ -219,12 +219,13 @@ def convert_to_js():
 def git(race_date):
 	os.system("git diff")
 	os.system("git add --all data/")
+	os.remove("race-results.csv")
 	os.system("git commit -m 'Added results from  " + str(race_date)	 + "'")
 	#os.system("git fetch origin")
 	#os.system("git rebase origin/master")
 	#os.system("git push origin master")
 	os.system("git checkout gh-pages")
-	os.system("git merge master")
+	os.system("git merge origin/master")
 	#os.system("git push origin gh-pages")
 
 # Tweet winner
