@@ -19,7 +19,7 @@ def store_file_as_list(file_name):
 	downloads_dir = '/Users/max/Downloads'
 	os.listdir(downloads_dir)
 	matching_files = []
-	for item in os.listdir('/Users/max/Downloads'):
+	for item in os.listdir('.'):
 		if "splitter" in item:
 			matching_files.append(item)
 	if len(matching_files) == 0:
@@ -38,12 +38,12 @@ def store_file_as_list(file_name):
 		out_list.append(line[:-1])
 	for p in out_list[:5]:
 		print p
-	response = raw_input("Continue y/n?: ")
-	if response == "y" or response == "yes":
-		return out_list
-	else:
-		print "Exiting..."
-		sys.exit(1)
+	# response = raw_input("Continue y/n?: ")
+	# if response == "y" or response == "yes":
+	# 	return out_list
+	# else:
+	# 	print "Exiting..."
+	# 	sys.exit(1)
 
 class Racer:
 	def _init_(self, last_name, first_name, time, bib, rank, group, date):
