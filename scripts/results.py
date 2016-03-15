@@ -288,6 +288,6 @@ def main():
 	check_for_new_records(racers)
 	tweet_winner(racers)
 	git(race_date)
-	clean_up()
+	#clean_up()
 
 main()
