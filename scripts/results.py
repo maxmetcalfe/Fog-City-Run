@@ -82,9 +82,9 @@ def load_racers(results, date):
 	return racers
 
 def connect_to_results_db():
-   conn = sqlite3.connect("data/results.db")
-	cursor = conn.cursor()
-	return cursor,conn
+    conn = sqlite3.connect("data/results.db")
+    cursor = conn.cursor()
+    return cursor,conn
 
 def add_new_results_to_data(racers):
 	cursor,conn = connect_to_results_db()
