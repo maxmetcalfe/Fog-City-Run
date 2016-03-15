@@ -38,7 +38,8 @@ def store_file_as_list(file_name):
 		out_list.append(line[:-1])
 	for p in out_list[:5]:
 		print p
-    return out_list
+
+	return out_list
 	# response = raw_input("Continue y/n?: ")
 	# if response == "y" or response == "yes":
 	# 	return out_list
@@ -67,6 +68,7 @@ class Racer:
 def load_racers(results, date):
 	racers = []
 	for r in results:
+		r = r.replace('''"''', "")
 		line_split = string.split(r, ",")
 		new_racer = Racer()
 		new_racer.rank = line_split[0]
@@ -75,7 +77,7 @@ def load_racers(results, date):
 		new_racer.first_name = line_split[3]
 		new_racer.group = line_split[4]
 		new_racer.time = line_split[6]
-		new_racer.date = date
+		new_racer.date = str(date)
 		racers.append(new_racer)
 	return racers
 
@@ -186,8 +188,9 @@ def get_personal_record(f_name, l_name):
 # Compare recent time to current personal record and print new records
 def check_for_new_records(results):
 	for r in results:
-		if con_to_secs(r.time) <= con_to_secs(get_personal_record(r.first_name, r.last_name)):
-			print "New Personal Record for " + r.first_name + " " + r.last_name + ": " + r.time
+		time = r.time.replace('''"''', "")
+		if con_to_secs(time) <= con_to_secs(get_personal_record(r.first_name, r.last_name)):
+			print "New Personal Record for " + r.first_name + " " + r.last_name + ": " + time
 
 def write_file_from_strings(strings, out_filename):
 	out_file = open(out_filename, "w")
@@ -210,10 +213,11 @@ def convert_to_js():
 		out_strings.append("['" + str(r[0]) + "','" + str(r[1]) + "','" + last_name + "','" + first_name + "','" + r[4] + "','" + r[5] + "','" + r[6] + "'],\n")
 	out_strings[-1] = out_strings[-1][:-2]
 	out_strings.append("\n];")
-	write_file_from_strings(out_strings, "/Users/max/Documents/Home/Fog-City-Run/data/data.js")
+	write_file_from_strings(out_strings, "../data/data.js")
 
 # All Git related tasks
 def git(race_date):
+	os.system("git diff")
 	os.system("git add --all ../data/")
 	os.system("git commit -m 'Added results from  " + race_date + "'")
 	os.system("git fetch origin")
@@ -273,16 +277,15 @@ closest_wednesday = find_closest_wednesday()
 def main():
 	race_date = find_closest_wednesday()
 	raw_results = store_file_as_list("race-results.csv")[1:]
-	print raw_results
-	# racers = load_racers(raw_results, race_date)
-	# add_new_results_to_data(racers)
-	# convert_to_js()
-	# get_racers_list()
-	# get_racer_rescords()
-	# get_racer_count()
-	# #get_racer_history("Max", "Metcalfe")
-	# check_for_new_records(racers)
-	# tweet_winner(racers)
+	racers = load_racers(raw_results, race_date)
+	add_new_results_to_data(racers)
+	convert_to_js()
+	get_racers_list()
+	get_racer_rescords()
+	get_racer_count()
+	#get_racer_history("Max", "Metcalfe")
+	check_for_new_records(racers)
+	#tweet_winner(racers)
 	# git(race_date)
 	# clean_up()
 
