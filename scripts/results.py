@@ -82,7 +82,7 @@ def load_racers(results, date):
 	return racers
 
 def connect_to_results_db():
-	conn = sqlite3.connect("/Users/max/Documents/Home/Fog-City-Run/data/results.db")
+	conn = sqlite3.connect("../data/results.db")
 	cursor = conn.cursor()
 	return cursor,conn
 
@@ -264,7 +264,7 @@ def get_input():
 
 def clean_up():
 	print "Removing input CSV file..."
-	os.remove("/Users/max/Downloads/racesplitter_race.csv")
+	os.remove("race-results.csv")
 	print "Done."
 
 def find_closest_wednesday():
