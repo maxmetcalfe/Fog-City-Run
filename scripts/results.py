@@ -271,7 +271,7 @@ closest_wednesday = find_closest_wednesday()
 
 def main():
 	race_date = find_closest_wednesday()
-	raw_results = store_file_as_list("racesplitter_race.csv")[1:]
+	raw_results = store_file_as_list("race-results.csv")[1:]
 	print raw_results
 	# racers = load_racers(raw_results, race_date)
 	# add_new_results_to_data(racers)
