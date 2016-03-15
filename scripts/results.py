@@ -107,7 +107,7 @@ def get_racers_list():
 	cursor,conn = connect_to_results_db()
 	cursor.execute("SELECT first_name, last_name, count(*) c FROM results GROUP BY first_name, last_name ORDER BY c DESC")
 	data = cursor.fetchall()
-	out_file = open("../data/racers.txt", "w")
+	out_file = open("data/racers.txt", "w")
 	for d in data:
 		out_file.write(str(d[2]) + " " + d[0] + " " + str(d[1]) + "\n")
 	out_file.close()
@@ -116,7 +116,7 @@ def get_racer_rescords():
 	cursor,conn = connect_to_results_db()
 	cursor.execute("SELECT first_name, last_name, min(time) t FROM results GROUP BY first_name, last_name order by t;")
 	data = cursor.fetchall()
-	out_file = open("../data/records.txt", "w")
+	out_file = open("data/records.txt", "w")
 	for d in data:
 		out_file.write(str(d[2]) + " " + d[0] + " " + str(d[1]) + "\n")
 	out_file.close()
@@ -125,7 +125,7 @@ def get_racer_count():
 	cursor,conn = connect_to_results_db()
 	cursor.execute("SELECT date, count(*) c FROM results GROUP BY date ORDER BY date(date)")
 	data = cursor.fetchall()
-	out_file = open("../data/data.tsv", "w")
+	out_file = open("data/data.tsv", "w")
 	out_file.write("race\tracers\n")
 	for d in data:
 		out_file.write(str(d[0]) + "\t" + str(d[1]) + "\n")
@@ -213,7 +213,7 @@ def convert_to_js():
 		out_strings.append("['" + str(r[0]) + "','" + str(r[1]) + "','" + last_name + "','" + first_name + "','" + r[4] + "','" + r[5] + "','" + r[6] + "'],\n")
 	out_strings[-1] = out_strings[-1][:-2]
 	out_strings.append("\n];")
-	write_file_from_strings(out_strings, "../data/data.js")
+	write_file_from_strings(out_strings, "data/data.js")
 
 # All Git related tasks
 def git(race_date):
