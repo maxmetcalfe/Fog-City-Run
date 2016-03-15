@@ -219,7 +219,7 @@ def convert_to_js():
 def git(race_date):
 	os.system("git diff")
 	os.system("git add --all ../data/")
-	os.system("git commit -m 'Added results from  " + race_date + "'")
+	os.system("git commit -m 'Added results from  " + str(race_date) + "'")
 	os.system("git fetch origin")
 	os.system("git rebase origin/master")
 	os.system("git push origin master")
