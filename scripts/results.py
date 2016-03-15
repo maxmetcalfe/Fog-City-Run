@@ -222,7 +222,7 @@ def git(race_date):
 	os.remove("race-results.csv")
 	os.system("git commit -m 'Added results from  " + str(race_date)	 + "'")
 	os.system("git log -3")
-	os.system("git show HEAD"
+	os.system("git show HEAD")
 
 	#os.system("git fetch origin")
 	#os.system("git rebase origin/master")
