@@ -16,7 +16,7 @@ args = parser.parse_args()
 def store_file_as_list(file_name):
 	out_list = []
 	# Finding the results file after download
-	downloads_dir = '/Users/max/Downloads'
+	downloads_dir = '.'
 	os.listdir(downloads_dir)
 	matching_files = []
 	for item in os.listdir('.'):
