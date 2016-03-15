@@ -38,6 +38,7 @@ def store_file_as_list(file_name):
 		out_list.append(line[:-1])
 	for p in out_list[:5]:
 		print p
+    return out_list
 	# response = raw_input("Continue y/n?: ")
 	# if response == "y" or response == "yes":
 	# 	return out_list
