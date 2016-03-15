@@ -7,6 +7,7 @@ import subprocess
 import sqlite3
 import argparse
 import sys
+import datetime
 
 parser = argparse.ArgumentParser()
 parser.add_argument( "-d", "--date", help="race date" )
@@ -261,19 +262,27 @@ def clean_up():
 	os.remove("/Users/max/Downloads/racesplitter_race.csv")
 	print "Done."
 
+def find_closest_wednesday():
+    today = datetime.date.today()
+    wednesday = today + datetime.timedelta( (2-today.weekday()) % 7 )
+    return wednesday
+
+closest_wednesday = find_closest_wednesday()
+
 def main():
-	race_date = get_input()
+	race_date = find_closest_wednesday()
 	raw_results = store_file_as_list("/Users/max/Downloads/racesplitter_race.csv")[1:]
-	racers = load_racers(raw_results, race_date)
-	add_new_results_to_data(racers)
-	convert_to_js()
-	get_racers_list()
-	get_racer_rescords()
-	get_racer_count()
-	#get_racer_history("Max", "Metcalfe")
-	check_for_new_records(racers)
-	tweet_winner(racers)
-	git(race_date)
-	clean_up()
+	print raw_results
+	# racers = load_racers(raw_results, race_date)
+	# add_new_results_to_data(racers)
+	# convert_to_js()
+	# get_racers_list()
+	# get_racer_rescords()
+	# get_racer_count()
+	# #get_racer_history("Max", "Metcalfe")
+	# check_for_new_records(racers)
+	# tweet_winner(racers)
+	# git(race_date)
+	# clean_up()
 
 main()

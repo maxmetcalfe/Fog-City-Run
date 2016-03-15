@@ -1,6 +1,10 @@
 # Taken from: http://stackoverflow.com/questions/7596789/downloading-mms-emails-sent-to-gmail-using-python
 
-import email, getpass, imaplib, os, sys
+import email
+import getpass
+import imaplib
+import os
+import sys
 import argparse
 
 parser = argparse.ArgumentParser()
