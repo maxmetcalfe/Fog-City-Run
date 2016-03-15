@@ -20,7 +20,7 @@ def store_file_as_list(file_name):
 	os.listdir(downloads_dir)
 	matching_files = []
 	for item in os.listdir('.'):
-		if "splitter" in item:
+		if "race-results" in item:
 			matching_files.append(item)
 	if len(matching_files) == 0:
 		print "No results files found."
