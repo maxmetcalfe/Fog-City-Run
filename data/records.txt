@@ -1,3 +1,4 @@
+00:00:05 Gabriela Alcoforado
 00:20:41.0 Jason Reed
 00:20:48.0 Rich Berry
 00:20:58.7 Max Metcalfe
@@ -206,7 +207,6 @@
 00:33:48.2 Calvin Cheng
 00:33:52.0 Brandon Stander
 00:33:52.7 Romtin Saidi
-00:33:59.3 Gabriela Alcoforado
 00:34:02.1 Natasha Buller
 00:34:10.6 Nina Santus
 00:34:17.7 Sheena Caines
