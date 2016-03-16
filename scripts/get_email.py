@@ -28,7 +28,7 @@ items = items[0].split() # getting the mails id
 
 if len(items) == 0:
     print "No result messages found."
-    sys.exit(1)
+    sys.exit(0)
 else: 
     print "Result message found!"
 
