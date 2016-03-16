@@ -48,6 +48,7 @@
 4 Austin Shelpuk
 4 Blake Fillion
 4 Dakota 
+4 Gabriela Alcoforado
 4 John Liu
 4 Jordan Laks
 4 Mathieu Scholler
@@ -60,7 +61,6 @@
 3 Boden Hammett
 3 Cabot Smith
 3 Chief 
-3 Gabriela Alcoforado
 3 George Durgerian
 3 Jamie Leach
 3 Jenni Dubman
