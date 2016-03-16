@@ -287,12 +287,15 @@ closest_wednesday = find_closest_wednesday()
 def csv_from_excel():
     if os.path.isfile('race-results.xlsx'):
         wb = xlrd.open_workbook('race-results.xlsx')
-        print "xlrd: Sheets: " + str(wb.sheet_names()[0])
-        try:
-            sh = wb.sheet_by_name('racesplitter_race')
+        sheet_name = str(wb.sheet_names()[0])
+        print "xlrd: Sheets: " + str(wb.sheet_names())
+        if sheet_name == "race-results";
             sh = wb.sheet_by_name('race-results')
-        except:
-            print "xlrd: No sheets found."
+        elif sheet_name == "racesplitter_race";
+            sh = wb.sheet_by_name('racesplitter_race')
+        else:
+            print "Sheet name not recognized."
+            sys.exit(1)
 
         your_csv_file = open('race-results.csv', 'wb')
         wr = csv.writer(your_csv_file, quoting=csv.QUOTE_ALL)
