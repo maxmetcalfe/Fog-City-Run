@@ -222,6 +222,9 @@ def git(race_date):
 	os.system("git add --all data/")
 	os.remove("race-results.csv")
 	os.system("git commit -m 'Added results from  " + str(race_date)	 + "'")
+	# Keep gh-pages in sync
+	os.system("git push origin master:gh-pages")
+
 	#os.system("git log -3")
 	#os.system("git show HEAD")
 
