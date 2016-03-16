@@ -287,7 +287,7 @@ closest_wednesday = find_closest_wednesday()
 def csv_from_excel():
     if os.path.isfile('race-results.xlsx'):
         wb = xlrd.open_workbook('race-results.xlsx')
-        print "xlrd: Sheets: " + str(wb.sheet_names())
+        print "xlrd: Sheets: " + str(wb.sheet_names()[0])
         try:
             sh = wb.sheet_by_name('racesplitter_race')
             sh = wb.sheet_by_name('race-results')
