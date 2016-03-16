@@ -8,6 +8,8 @@ import sqlite3
 import argparse
 import sys
 import datetime
+import xlrd
+import csv
 
 parser = argparse.ArgumentParser()
 parser.add_argument( "-d", "--date", help="race date" )
@@ -26,11 +28,11 @@ def store_file_as_list(file_name):
 		print "No results files found."
 		# No error for now, to get Jenkins to run smoothly
 		sys.exit(0)
-	elif len(matching_files) > 1:
-		print "Multiple results files found."
-		for f in matching_files:
-			print downloads_dir + "/" + f
-		sys.exit(1)
+	# elif len(matching_files) > 1:
+	# 	print "Multiple results files found."
+	# 	for f in matching_files:
+	# 		print downloads_dir + "/" + f
+	# 	sys.exit(1)
 
 	input_file = open(file_name, "r")
 	print "Loading results..."
@@ -280,8 +282,22 @@ def find_closest_wednesday():
 
 closest_wednesday = find_closest_wednesday()
 
+# Hack: Need to do this until I figure out a better way to edit the CSV on iPhone.
+def csv_from_excel():
+
+    wb = xlrd.open_workbook('race-results.xlsx')
+    sh = wb.sheet_by_name('race-results')
+    your_csv_file = open('race-results.csv', 'wb')
+    wr = csv.writer(your_csv_file, quoting=csv.QUOTE_ALL)
+
+    for rownum in xrange(sh.nrows):
+        wr.writerow(sh.row_values(rownum))
+
+    your_csv_file.close()
+
 def main():
 	race_date = find_closest_wednesday()
+    csv_from_excel()
 	raw_results = store_file_as_list("race-results.csv")[1:]
 	racers = load_racers(raw_results, race_date)
 	add_new_results_to_data(racers)
