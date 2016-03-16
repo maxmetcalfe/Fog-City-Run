@@ -10,6 +10,7 @@ import sys
 import datetime
 import xlrd
 import csv
+import time
 
 parser = argparse.ArgumentParser()
 parser.add_argument( "-d", "--date", help="race date" )
@@ -254,21 +255,21 @@ def get_input():
         print "Invalid Date"
         sys.exit(1)
     else:
-            split_string = string.split(args.date, "-")
-            if len(split_string[0]) == 4:
-                day = split_string[2]
-                month = split_string[1]
-                year = split_string[0]
-            else:
-                day = split_string[1]
-                month = split_string[0]
-                year = split_string[-1]
+        split_string = string.split(args.date, "-")
+        if len(split_string[0]) == 4:
+            day = split_string[2]
+            month = split_string[1]
+            year = split_string[0]
+        else:
+            day = split_string[1]
+            month = split_string[0]
+            year = split_string[-1]
 
-	    if int(day) < 1 or int(day) >= 31 or int(month) < 1 or int(month) > 12 or int(year) < 2015:
-	        print "Invalid Date"
-	        sys.exit(1)
-	    else:
-	        return "-".join([year, month, day])
+        if int(day) < 1 or int(day) >= 31 or int(month) < 1 or int(month) > 12 or int(year) < 2015:
+            print "Invalid Date"
+            sys.exit(1)
+        else:
+            return "-".join([year, month, day])
 
 def clean_up():
     print "Removing input CSV file..."
@@ -282,19 +283,40 @@ def find_closest_wednesday():
 
 closest_wednesday = find_closest_wednesday()
 
-# Hack: Need to do this until I figure out a better way to edit the CSV on iPhone.
+# Hack: Need to convert .xlsx > .csv until I can figure out CSV editing in this workflow.
 def csv_from_excel():
-
-    wb = xlrd.open_workbook('race-results.xlsx')
-    sh = wb.sheet_by_name('race-results')
-    your_csv_file = open('race-results.csv', 'wb')
-    wr = csv.writer(your_csv_file, quoting=csv.QUOTE_ALL)
-    for rownum in xrange(sh.nrows):
-        wr.writerow(sh.row_values(rownum))
-    your_csv_file.close()
+    if os.path.isfile('race-results.xlsx'):
+        wb = xlrd.open_workbook('race-results.xlsx')
+        sh = wb.sheet_by_name('racesplitter_race')
+        your_csv_file = open('race-results.csv', 'wb')
+        wr = csv.writer(your_csv_file, quoting=csv.QUOTE_ALL)
+        for rownum in xrange(sh.nrows):
+            out_line = sh.row_values(rownum)
+            if rownum != 0:
+                time_values = sh.row_values(rownum)[6:9]
+                hours = 0
+                minutes = 0
+                seconds = 0
+                time_list = []
+                for t in time_values:
+                    if type(t) == float:
+                        time_tuple = xlrd.xldate_as_tuple(t, wb.datemode)
+                        if len(str(time_tuple[-3])) == 1:
+                            hours = "0" + str(time_tuple[-3])
+                        if len(str(time_tuple[-2])) == 1:
+                            minutes = "0" + str(time_tuple[-2])
+                        if len(str(time_tuple[-1])) == 1:
+                            seconds = "0" + str(time_tuple[-1])
+                    time_list.append(str(hours) + ":" + str(minutes) + ":" + str(seconds))
+                out_line = sh.row_values(rownum)[:-3] + time_list
+            wr.writerow(out_line)
+        your_csv_file.close()
+    else:
+        print "No Excel file found. Continuing as usual..."
 
 def main():
     race_date = find_closest_wednesday()
+    # Check to see if we got a xlsx file instead.
     csv_from_excel()
     raw_results = store_file_as_list("race-results.csv")[1:]
     racers = load_racers(raw_results, race_date)
