@@ -272,9 +272,12 @@ def get_input():
             return "-".join([year, month, day])
 
 def clean_up():
-    print "Removing input CSV file..."
-    os.remove("race-results.csv")
-    os.remove("race-results.xlsx")
+    print "Removing input CSV/XLSX files..."
+    try:
+        os.remove("race-results.csv")
+        os.remove("race-results.xlsx")
+    except:
+        pass
     print "Done."
 
 def find_closest_wednesday():
