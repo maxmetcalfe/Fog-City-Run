@@ -333,6 +333,7 @@ def csv_from_excel():
 
 def main():
     race_date = find_closest_wednesday()
+    print race_date
     # Check to see if we got a xlsx file instead.
     csv_from_excel()
     raw_results = store_file_as_list("race-results.csv")[1:]
