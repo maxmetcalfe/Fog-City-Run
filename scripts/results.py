@@ -274,6 +274,7 @@ def get_input():
 def clean_up():
     print "Removing input CSV file..."
     os.remove("race-results.csv")
+    os.remove("race-results.xlsx")
     print "Done."
 
 def find_closest_wednesday():
@@ -338,6 +339,6 @@ def main():
     check_for_new_records(racers)
     #tweet_winner(racers)
     git(race_date)
-    #clean_up()
+    clean_up()
 
 main()
