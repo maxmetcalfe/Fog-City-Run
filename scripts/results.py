@@ -299,11 +299,11 @@ def csv_from_excel():
             sys.exit(1)
 
         your_csv_file = open('race-results.csv', 'wb')
-        wr = csv.writer(your_csv_file, quoting=csv.QUOTE_ALL)
+        wr = csv.writer(your_csv_file, quoting=csv.QUOTE_ALL, lineterminator='\n')
         for rownum in xrange(sh.nrows):
             out_line = sh.row_values(rownum)
             if rownum != 0:
-                time_values = sh.row_values(rownum)[6:9]
+                time_values = sh.row_values(rownum)[5:9]
                 hours = 0
                 minutes = 0
                 seconds = 0
@@ -311,6 +311,10 @@ def csv_from_excel():
                 for t in time_values:
                     if type(t) == float:
                         time_tuple = xlrd.xldate_as_tuple(t, wb.datemode)
+                        hours = str(time_tuple[-3])
+                        minutes = str(time_tuple[-2])
+                        seconds = str(time_tuple[-1])
+                        # Hack: Deal with time format. Need to fix this.
                         if len(str(time_tuple[-3])) == 1:
                             hours = "0" + str(time_tuple[-3])
                         if len(str(time_tuple[-2])) == 1:
