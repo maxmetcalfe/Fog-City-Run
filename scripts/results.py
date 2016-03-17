@@ -324,7 +324,7 @@ def csv_from_excel():
                             minutes = "0" + str(time_tuple[-2])
                         if len(str(time_tuple[-1])) == 1:
                             seconds = "0" + str(time_tuple[-1])
-                    time_list.append(str(hours) + ":" + str(minutes) + ":" + str(seconds))
+                    time_list.append(str(hours) + ":" + str(minutes) + ":" + str(seconds) + ".0")
                 out_line = sh.row_values(rownum)[:-3] + time_list
             wr.writerow(out_line)
         your_csv_file.close()
@@ -345,7 +345,7 @@ def main():
     #get_racer_history("Max", "Metcalfe")
     check_for_new_records(racers)
     #tweet_winner(racers)
-    git(race_date)
+    #git(race_date)
     clean_up()
 
 main()
