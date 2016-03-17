@@ -60,7 +60,6 @@
 3 Boden Hammett
 3 Cabot Smith
 3 Chief 
-3 Gabriela Alcoforado
 3 George Durgerian
 3 Jamie Leach
 3 Jenni Dubman
@@ -90,6 +89,7 @@
 2 Eric Edelstein
 2 Felipe Lahti
 2 Fiona Mccusker
+2 Gabriela Alcoforado
 2 Hayley Soderlund
 2 Hillary Harnett
 2 Jeremy Burke
