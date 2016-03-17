@@ -131,7 +131,7 @@
 00:29:18.7 Matt Galvin
 00:29:18.8 Laura Wolfe
 00:29:31.1 Jonathan Cook
-00:29:38 Nithin RJ
+00:29:38.4 Nithin RJ
 00:29:44.8 Nicole LaCroix
 00:29:46.0 George Durgerian
 00:29:47.5 Greg Becker
@@ -183,8 +183,8 @@
 00:32:13.3 Lauren Volkmann
 00:32:14.2 Andy Hindley
 00:32:31.7 Henry Toothman
-00:32:33 Richard Grant
 00:32:33.0 Graham Witcher
+00:32:33.1 Richard Grant
 00:32:33.6 Karina PJ
 00:32:36.4 Kristin Martin
 00:32:40.3 Patrick Czapla
@@ -219,7 +219,6 @@
 00:34:40.0 Olivia Lee
 00:34:41.1 Christian Claessens
 00:34:44.6 Jason Fescamilla
-00:35:02 Mike Dorsi
 00:35:03.1 Katie Dally
 00:35:09.4 Karin Pimentel
 00:35:10.7 Jim Narron
