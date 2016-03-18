@@ -80,7 +80,7 @@ def load_racers(results, date):
         new_racer.last_name = line_split[2]
         new_racer.first_name = line_split[3]
         new_racer.group = line_split[4]
-        new_racer.time = line_split[6]
+        new_racer.time = line_split[5]
         new_racer.date = str(date)
         racers.append(new_racer)
     return racers
