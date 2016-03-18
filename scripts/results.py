@@ -282,10 +282,9 @@ def clean_up():
 
 def find_closest_wednesday():
     today = datetime.date.today()
-    wednesday = today + datetime.timedelta( (2-today.weekday()) % 7 )
+    dates = [today + datetime.timedelta(days=i) for i in range(0 - today.weekday(), 7 - today.weekday())]
+    wednesday = dates[2]
     return wednesday
-
-closest_wednesday = find_closest_wednesday()
 
 # Hack: Need to convert .xlsx > .csv until I can figure out CSV editing in this workflow.
 def csv_from_excel():
@@ -333,8 +332,6 @@ def csv_from_excel():
 
 def main():
     race_date = find_closest_wednesday()
-    print race_date
-    race_date = '2016-03-16'
     # Check to see if we got a xlsx file instead.
     csv_from_excel()
     raw_results = store_file_as_list("race-results.csv")[1:]
