@@ -1,4 +1,4 @@
-00:20:41.0 Jason Reed
+00:20:33.0 Jason Reed
 00:20:48.0 Rich Berry
 00:20:58.7 Max Metcalfe
 00:21:00.0 Chris Fuentes
@@ -9,6 +9,7 @@
 00:22:10.9 Thomas Namara
 00:22:13.8 Crispin Flowerday
 00:22:14.8 Turner Zamore
+00:22:18.0 Mike Garcia
 00:22:29.0 Marcos Calderano
 00:22:34.0 Colin Lough
 00:22:38.4 David Kashyap
@@ -34,10 +35,10 @@
 00:24:10.2 Ollie Sloane
 00:24:14.4 David Moulton
 00:24:15.2 Andrew Kletzing
+00:24:22.0 Fred Leach
 00:24:27.9 Joe Porter
 00:24:39.9 Jeff Jordan
 00:24:40.0 Troy Mathew
-00:24:41.0 Fred Leach
 00:24:46.9 Julia Metcalfe
 00:24:47.3 Brian Gagliardi
 00:24:47.3 Matt Fong
@@ -99,6 +100,7 @@
 00:28:13.5 Allen Singley
 00:28:21.2 Brittany Peterson
 00:28:21.3 Tom Robinson
+00:28:24.0 Christian Claessens
 00:28:24.1 Matt Voss
 00:28:25.4 Sarah Wren
 00:28:26.9 Alicia Alvarez
@@ -148,6 +150,8 @@
 00:30:12.3 Jessie King
 00:30:12.5 Ryan Williams
 00:30:13.8 Veronica Martichonok
+00:30:14.0 Karina PJ
+00:30:15.0 Steve Wynn
 00:30:16.3 Anya Durgerian
 00:30:16.4 Matt Stone
 00:30:17.6 Ellie Clark
@@ -185,7 +189,6 @@
 00:32:31.7 Henry Toothman
 00:32:33.0 Graham Witcher
 00:32:33.1 Richard Grant
-00:32:33.6 Karina PJ
 00:32:36.4 Kristin Martin
 00:32:40.3 Patrick Czapla
 00:32:41.9 Kaitlyn Garcia
@@ -217,7 +220,6 @@
 00:34:27.1 Maylen Rafuls Rosa
 00:34:31.8 Karthik V
 00:34:40.0 Olivia Lee
-00:34:41.1 Christian Claessens
 00:34:44.6 Jason Fescamilla
 00:35:03.1 Katie Dally
 00:35:09.4 Karin Pimentel
@@ -233,6 +235,7 @@
 00:35:33.4 Kim Powell
 00:35:33.7 Paul Resignato
 00:35:42.2 Dan Thomann
+00:35:43.0 Gaby Eliason
 00:35:45.0 Billyray Ashcraft
 00:35:47.9 Geoff Youngs
 00:35:54.9 Heather Green
@@ -274,7 +277,6 @@
 00:39:42.2 Tin  Fan
 00:39:50.3 Jen Sparks
 00:40:19.7 Everett Rosette
-00:40:23.7 Gaby Eliason
 00:40:51.6 Blake Mizerany
 00:40:55.0 Mike Legrand
 00:40:58.5 Katie O'Hair
