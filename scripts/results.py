@@ -343,7 +343,7 @@ def main():
     get_racer_count()
     #get_racer_history("Max", "Metcalfe")
     check_for_new_records(racers)
-    #tweet_winner(racers)
+    tweet_winner(racers)
     git(race_date)
     clean_up()
 
