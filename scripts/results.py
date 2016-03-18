@@ -338,6 +338,9 @@ def main():
     # Check to see if we got a xlsx file instead.
     csv_from_excel()
     raw_results = store_file_as_list("race-results.csv")[1:]
+    print "Raw: "
+    for r in raw_results:
+        print r
     racers = load_racers(raw_results, race_date)
     add_new_results_to_data(racers)
     convert_to_js()
