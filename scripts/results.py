@@ -283,7 +283,7 @@ def check_order(racers):
     i = 1
     racers_orderd = sorted(racers, key=lambda x: x.time)
     for r in racers_orderd:
-        r.rank = i
+        r.rank = str(i)
         i += 1
     return racers_orderd
 
