@@ -276,12 +276,22 @@ def find_closest_wednesday():
     wednesday = dates[2]
     return wednesday
 
+def check_order(racers):
+    """
+    Order racer list by time and modify rank to match this order.
+    """
+    i = 1
+    racers_orderd = sorted(racers, key=lambda x: x.time)
+    for r in racers_orderd:
+        r.rank = i
+        i += 1
+    return racers_orderd
+
 # Hack: Need to convert .xlsx > .csv until I can figure out CSV editing in this workflow.
 def csv_from_excel():
     if os.path.isfile('race-results.xlsx'):
         wb = xlrd.open_workbook('race-results.xlsx')
         sheet_name = str(wb.sheet_names()[0])
-        print "xlrd: Sheets: " + str(wb.sheet_names())
         if sheet_name == "race-results":
             sh = wb.sheet_by_name('race-results')
         elif sheet_name == "racesplitter_race":
@@ -326,6 +336,8 @@ def main():
     csv_from_excel()
     raw_results = store_file_as_list("race-results.csv")[1:]
     racers = load_racers(raw_results, race_date)
+    # Confirm that finish place matches finish time order
+    new_racers = check_order(racers)
     add_new_results_to_data(racers)
     convert_to_js()
     get_racers_list()
