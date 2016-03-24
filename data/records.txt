@@ -62,6 +62,7 @@
 00:26:15.1 Brittney Martinez
 00:26:18.7 Kasper Kinds
 00:26:19.0 Alan David Schwiderski
+00:26:21.4 Mike Turner
 00:26:22.0 Phil Brennan
 00:26:25.0 Michael Midling
 00:26:28.8 Evan Bertolli
@@ -84,7 +85,6 @@
 00:27:40.1 Joe Hanson
 00:27:46.7 Wendy Whelan
 00:27:47.6 Andy Ensor
-00:27:47.6 Mike Turner
 00:27:49.7 Ally Sinclaire
 00:27:50.0 Ciaran Dowler
 00:27:52.5 Hayley Soderlund
@@ -264,6 +264,7 @@
 00:37:6.1 Austin Ngo
 00:38:01.5 Joseph Connelly
 00:38:06.9 Oldrech Stary
+00:38:21.0 Janette Mercede
 00:38:23.3 Otto Badilla
 00:38:24.2 Roxana Espeleta
 00:38:26.8 Jenzie Hallifax
