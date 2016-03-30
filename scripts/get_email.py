@@ -41,13 +41,20 @@ for emailid in items:
     if mail.get_content_maintype() != 'multipart':
         continue
 
-    print "["+mail["From"]+"] :" + mail["Subject"]
-
     # we use walk to create a generator so we can iterate on the parts and forget about the recursive headach
     for part in mail.walk():
         # multipart are just containers, so we skip them
         if part.get_content_maintype() == 'multipart':
             continue
+
+        # Hack: Save corrections from email
+        if isinstance(part.get_payload(), str) and "Result Corrections" in str(part.get_payload()):
+            corrections_path = os.path.join(detach_dir, "corrections.csv")
+            corrections = str(part.get_payload())
+            if not os.path.isfile(corrections_path) :
+                fp = open(corrections_path, 'wb')
+                fp.write(part.get_payload(decode=True))
+                fp.close()
 
         # is this part an attachment ?
         if part.get('Content-Disposition') is None:
@@ -62,7 +69,6 @@ for emailid in items:
             counter += 1
 
         att_path = os.path.join(detach_dir, filename)
-        print att_path
 
         #Check if its already there
         if not os.path.isfile(att_path) :

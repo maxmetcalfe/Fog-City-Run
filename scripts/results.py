@@ -85,6 +85,23 @@ def load_racers(results, date):
         racers.append(new_racer)
     return racers
 
+def load_corrections(racers):
+    input_file = open("corrections.csv", "U")
+    corrections_list = []
+    for line in input_file:
+        if "," in line:
+            line = line[:-1]
+            first_name = string.split(string.split(line, ",")[0], " ")[0]
+            last_name = string.split(string.split(line, ",")[0], " ")[-1]
+            time = string.split(line, ",")[-1]
+            corrections_list.append((first_name, last_name, time))
+
+    # Make corrections
+    for r in racers:
+        for c in corrections_list:
+            if r.first_name == c[0] and r.last_name == c[1]:
+                r.time = c[-1]
+
 def connect_to_results_db():
     conn = sqlite3.connect("data/results.db")
     cursor = conn.cursor()
@@ -336,6 +353,7 @@ def main():
     csv_from_excel()
     raw_results = store_file_as_list("race-results.csv")[1:]
     racers = load_racers(raw_results, race_date)
+    load_corrections(racers)
     # Confirm that finish place matches finish time order
     new_racers = check_order(racers)
     add_new_results_to_data(racers)
