@@ -349,22 +349,23 @@ def csv_from_excel():
         print "No Excel file found. Continuing as usual..."
 
 def main():
-    race_date = find_closest_wednesday()
-    # Check to see if we got a xlsx file instead.
-    csv_from_excel()
-    raw_results = store_file_as_list("race-results.csv")[1:]
-    racers = load_racers(raw_results, race_date)
-    # Confirm that finish place matches finish time order
-    new_racers = check_order(racers)
-    add_new_results_to_data(racers)
-    convert_to_js()
-    get_racers_list()
-    get_racer_rescords()
-    get_racer_count()
-    #get_racer_history("Max", "Metcalfe")
-    check_for_new_records(racers)
-    tweet_winner(racers)
-    git(race_date)
-    clean_up()
+     race_date = find_closest_wednesday()
+     # Check to see if we got a xlsx file instead.
+     csv_from_excel()
+     raw_results = store_file_as_list("race-results.csv")[1:]
+     racers = load_racers(raw_results, race_date)
+     corrected_racers = load_corrections(racers)
+     # Confirm that finish place matches finish time order
+     new_corrected_racers = check_order(corrected_racers)
+     add_new_results_to_data(corrected_racers)
+     convert_to_js()
+     get_corrected_racers_list()
+     get_racer_rescords()
+     get_racer_count()
+     #get_racer_history("Max", "Metcalfe")
+     check_for_new_records(corrected_racers)
+     tweet_winner(corrected_racers)
+     git(race_date)
+     clean_up()
 
 main()
