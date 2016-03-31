@@ -27,6 +27,7 @@
 00:23:36.5 Derek Geno
 00:23:40.2 Steve Snyder
 00:23:40.4 Andrew Stanley-Jones
+00:23:48.0 Matt Fong
 00:23:50.0 Ian Buckley
 00:23:50.5 Matt Palmer
 00:23:51.3 Jeremy Burke
@@ -41,19 +42,20 @@
 00:24:40.0 Troy Mathew
 00:24:46.9 Julia Metcalfe
 00:24:47.3 Brian Gagliardi
-00:24:47.3 Matt Fong
 00:24:49.0 James Hutchinson
 00:25:08.7 Jose Garcia
 00:25:09.8 Kevin Handeland
 00:25:11.5 Jason Walker
 00:25:14.4 Josh Morris
 00:25:18.1 Cameron Butler
+00:25:19.4 Brian Herndon
 00:25:25.6 Blake Fillion
 00:25:27.8 PJ Benner
 00:25:32.9 Adam Karson
 00:25:35.5 Seth Rogers
 00:25:38.6 Douglas Costa
 00:25:39.6 Dozer 
+00:25:47.1 Mike Turner
 00:25:56.4 Nick Schrock
 00:26:01.1 Derek Hamilton
 00:26:01.8 Mike Gulli
@@ -62,7 +64,6 @@
 00:26:15.1 Brittney Martinez
 00:26:18.7 Kasper Kinds
 00:26:19.0 Alan David Schwiderski
-00:26:21.4 Mike Turner
 00:26:22.0 Phil Brennan
 00:26:25.0 Michael Midling
 00:26:28.8 Evan Bertolli
@@ -155,6 +156,7 @@
 00:30:16.3 Anya Durgerian
 00:30:16.4 Matt Stone
 00:30:17.6 Ellie Clark
+00:30:22.7 Anna Stimmel
 00:30:24.6 Norby Oberweis
 00:30:25.4 Chief 
 00:30:25.7 Robin Pisor
@@ -221,6 +223,8 @@
 00:34:31.8 Karthik V
 00:34:40.0 Olivia Lee
 00:34:44.6 Jason Fescamilla
+00:35:00.4 Amy Sharp
+00:35:01.4 Spencer Sharp
 00:35:03.1 Katie Dally
 00:35:09.4 Karin Pimentel
 00:35:10.7 Jim Narron
@@ -325,7 +329,6 @@
 00:52:56.3 Brittany Goyette
 00:52:59.0 Nick King
 00:53:35.2 Johann Steinbrecher
-00:54:32.5 Brian Herndon
 00:55:23.9 Bart Hughes
 00:55:44.1 Lena Ng
 00:55:8.9 Sandy Hughes

@@ -1,10 +1,10 @@
-148 Max Metcalfe
+149 Max Metcalfe
 128 Julia Metcalfe
-93 Dale Rose
-66 Andrew Kletzing
+94 Dale Rose
+67 Andrew Kletzing
 47 Kaitlyn Garcia
-40 Steve Snyder
-37 Crispin Flowerday
+41 Steve Snyder
+38 Crispin Flowerday
 32 Jeff Jordan
 32 Matthieu Scholler
 32 Michael Dorsi
@@ -14,15 +14,15 @@
 29 Henri Proutt
 28 Nick Schrock
 27 Jack Collins
-26 Jason Reed
+27 Jason Reed
 26 John Zubkousky
 24 Randy Conner
 23 PJ Benner
 22 Kara O'Connor
 18 Alec Drew
 18 Josh Morris
-16 Fred Leach
-14 Andrew Stanley-Jones
+17 Fred Leach
+15 Andrew Stanley-Jones
 12 Heather Green
 12 Kristin Martin
 12 Mick Jordan
@@ -41,19 +41,20 @@
 6 Courtney Porter
 6 Madison Kotack
 6 Matt Voss
+6 Mike Turner
 5 Adam Karson
 5 Hannah Vizza
-5 Mike Turner
+5 Matt Fong
 5 Nick Enthoven
 5 Wendy Whelan
 4 Alicia Rodriguez
 4 Austin Shelpuk
 4 Blake Fillion
+4 Christian Claessens
 4 Dakota 
 4 John Liu
 4 Jordan Laks
 4 Mathieu Scholler
-4 Matt Fong
 4 Matthew Stepka
 4 Ollie Sloane
 4 Troy Mathew
@@ -61,7 +62,6 @@
 3 Boden Hammett
 3 Cabot Smith
 3 Chief 
-3 Christian Claessens
 3 George Durgerian
 3 Hillary Harnett
 3 Jamie Leach
@@ -81,6 +81,7 @@
 2 Amelia Barisone
 2 Ben Ford
 2 Ben Ross
+2 Brian Herndon
 2 Britta Mason
 2 Cedric Hulin
 2 Daniel Beale
@@ -123,11 +124,13 @@
 1 Allison Martinez
 1 Ally Sinclaire
 1 Amy Bialek
+1 Amy Sharp
 1 Anderson Emerole
 1 Andrew Chang
 1 Andy Ensor
 1 Andy Hindley
 1 Anna Kaiser
+1 Anna Stimmel
 1 Anna Walters
 1 Anya Everett
 1 Ashley Merolla
@@ -142,7 +145,6 @@
 1 Blake Mizerany
 1 Brandon Stander
 1 Brandy Wince
-1 Brian Herndon
 1 Brian Newman
 1 Brittany Goyette
 1 Brittany Peterson
@@ -323,6 +325,7 @@
 1 Shaoyi Cheng
 1 Sheena Caines
 1 Sou Mookien
+1 Spencer Sharp
 1 Stefanie Braatz
 1 Steve Wynn
 1 Sue McAllister
