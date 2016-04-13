@@ -93,7 +93,7 @@ def load_corrections(racers):
             line = line[:-1]
             first_name = string.split(string.split(line, ",")[0], " ")[0]
             last_name = string.split(string.split(line, ",")[0], " ")[-1]
-            time = string.split(line, ",")[-1]
+            time = string.split(line, ",")[-1].replace(" ","")
             corrections_list.append((first_name, last_name, time))
 
     # Make corrections
