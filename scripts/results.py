@@ -304,11 +304,16 @@ def check_order(racers):
     """
     Order racer list by time and modify rank to match this order.
     """
-    i = 1
-    racers_orderd = sorted(racers, key=lambda x: x.time)
+    racers_orderd = sorted(racers, key=lambda x: (x.group, x.time))
+    a = 1
+    b = 1
     for r in racers_orderd:
-        r.rank = str(i)
-        i += 1
+        if r.group == "ALL":
+            r.rank = str(a)
+            a += 1
+        else:
+            r.rank = str(b)
+            b += 1
     return racers_orderd
 
 # Hack: Need to convert .xlsx > .csv until I can figure out CSV editing in this workflow.
