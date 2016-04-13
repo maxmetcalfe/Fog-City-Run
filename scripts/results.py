@@ -99,8 +99,14 @@ def load_corrections(racers):
     # Make corrections
     for r in racers:
         for c in corrections_list:
-            if r.first_name == c[0] and r.last_name == c[1]:
+            if r.first_name == c[0] and c[1] in r.last_name:
                 r.time = c[-1]
+                corrections_list.remove(c)
+
+    if len(corrections_list) > 0:
+        print "A correction exists without an initial result."
+        sys.exit(0)
+
     return racers
 
 def connect_to_results_db():
