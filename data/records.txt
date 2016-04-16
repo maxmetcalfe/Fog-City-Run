@@ -42,6 +42,7 @@
 00:24:40.0 Troy Mathew
 00:24:46.9 Julia Metcalfe
 00:24:47.3 Brian Gagliardi
+00:24:48.9 Jeremy Wheeler
 00:24:49.0 James Hutchinson
 00:25:08.7 Jose Garcia
 00:25:09.8 Kevin Handeland
@@ -97,11 +98,11 @@
 00:28:04.4 Ben Ford
 00:28:05.0 Felipe Lahti
 00:28:05.2 Kara O'Connor
+00:28:06.5 Christian Claessens
 00:28:08.5 Danny Rodriguez
 00:28:13.5 Allen Singley
 00:28:21.2 Brittany Peterson
 00:28:21.3 Tom Robinson
-00:28:24.0 Christian Claessens
 00:28:24.1 Matt Voss
 00:28:25.4 Sarah Wren
 00:28:26.9 Alicia Alvarez
@@ -255,6 +256,7 @@
 00:36:26.6 Raffa Maranon
 00:36:32.9 Sou Mookien
 00:36:38.1 Chris Hammett
+00:36:48.5 Brande Flaitz
 00:36:57.2 Caitlin Ellison
 00:36:8.2 Courtney Machi
 00:36:8.5 Craig Fratrik
@@ -262,6 +264,7 @@
 00:37:03.5 Summer Hirtzel
 00:37:12.2 Caycee Cullen
 00:37:27.5 Ben Holman
+00:37:31.0 Lauren Davis
 00:37:34.4 Sam Louie
 00:37:37.4 Victor Rojas
 00:37:44.1 Edward Umana
@@ -330,6 +333,8 @@
 00:52:56.3 Brittany Goyette
 00:52:59.0 Nick King
 00:53:35.2 Johann Steinbrecher
+00:54:02.1 Andrew Cosgrove
+00:54:55.2 Melissa Houck
 00:55:23.9 Bart Hughes
 00:55:44.1 Lena Ng
 00:55:8.9 Sandy Hughes
