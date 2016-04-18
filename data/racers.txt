@@ -1,40 +1,40 @@
-149 Max Metcalfe
-128 Julia Metcalfe
-94 Dale Rose
-67 Andrew Kletzing
+151 Max Metcalfe
+130 Julia Metcalfe
+95 Dale Rose
+69 Andrew Kletzing
 47 Kaitlyn Garcia
-41 Steve Snyder
-38 Crispin Flowerday
+42 Steve Snyder
+40 Crispin Flowerday
+33 Michael Dorsi
 32 Jeff Jordan
+32 Joe Porter
 32 Matthieu Scholler
-32 Michael Dorsi
 31 James Christopherson
-31 Joe Porter
 31 Rafael Maranon
 29 Henri Proutt
+29 Jason Reed
 28 Nick Schrock
 27 Jack Collins
-27 Jason Reed
 26 John Zubkousky
 24 Randy Conner
+23 Kara O'Connor
 23 PJ Benner
-22 Kara O'Connor
+19 Fred Leach
 18 Alec Drew
 18 Josh Morris
-17 Fred Leach
-15 Andrew Stanley-Jones
+17 Andrew Stanley-Jones
 12 Heather Green
 12 Kristin Martin
 12 Mick Jordan
+12 Philip Gadd
 12 Seth Rogers
 11 Brian Gagliardi
 11 Derek Geno
-11 Philip Gadd
 9 Chris Fuentes
 8 Anya Durgerian
 8 Fiona McCusker
+8 Joanna Gadd
 7 Jason Fscamilla
-7 Joanna Gadd
 7 Joel Rizzo
 7 Kate Reed
 7 Tom Robinson
@@ -43,6 +43,7 @@
 6 Matt Voss
 6 Mike Turner
 5 Adam Karson
+5 Christian Claessens
 5 Hannah Vizza
 5 Matt Fong
 5 Nick Enthoven
@@ -50,7 +51,6 @@
 4 Alicia Rodriguez
 4 Austin Shelpuk
 4 Blake Fillion
-4 Christian Claessens
 4 Dakota 
 4 John Liu
 4 Jordan Laks
@@ -60,6 +60,7 @@
 4 Troy Mathew
 3 Bob Metcalfe
 3 Boden Hammett
+3 Brian Herndon
 3 Cabot Smith
 3 Chief 
 3 George Durgerian
@@ -81,7 +82,6 @@
 2 Amelia Barisone
 2 Ben Ford
 2 Ben Ross
-2 Brian Herndon
 2 Britta Mason
 2 Cedric Hulin
 2 Daniel Beale
@@ -105,6 +105,7 @@
 2 Marc Fuller
 2 Mark Davenport
 2 Martha  Tinker
+2 Meghan Davidson
 2 Michele Stone
 2 Naveen Rojanala
 2 Paul Schiefer
@@ -127,6 +128,7 @@
 1 Amy Sharp
 1 Anderson Emerole
 1 Andrew Chang
+1 Andrew Cosgrove
 1 Andy Ensor
 1 Andy Hindley
 1 Anna Kaiser
@@ -143,6 +145,7 @@
 1 Bill Reimer
 1 Billyray Ashcraft
 1 Blake Mizerany
+1 Brande Flaitz
 1 Brandon Stander
 1 Brandy Wince
 1 Brian Newman
@@ -222,6 +225,7 @@
 1 Jennifer Kehn
 1 Jenzie Hallifax
 1 Jeremy Schneider
+1 Jeremy Wheeler
 1 Jesse Turcotte
 1 Jessie King
 1 Jim Narron
@@ -249,12 +253,14 @@
 1 Ken Burke
 1 Kevin Meagher
 1 Kevin Verberkmoes
+1 Kim Del Rosario
 1 Kim Powell
 1 Krystine Gauthier
 1 Kyle Mchargue
 1 Lance Mishleau
 1 Larry Corio
 1 Lauren Biscombe
+1 Lauren Davis
 1 Lauren Salberg
 1 Lauren Stevens
 1 Lauren Volkmann
@@ -262,6 +268,7 @@
 1 Linda Bruner
 1 Lisa Hunt
 1 Liz Robinson
+1 Lu Myat
 1 Luis Bianchin
 1 Lupe Martinez
 1 Maninder Sohal
@@ -277,6 +284,7 @@
 1 Matt Galvin
 1 Matt Stone
 1 Maylen Rafuls Rosa
+1 Melissa Houck
 1 Michael Midling
 1 Michael  Butler
 1 Michelle O'Keefe
@@ -285,6 +293,7 @@
 1 Mike Gulli
 1 Mike Legrand
 1 Mike Warner
+1 Myat Thet
 1 Natasha Buller
 1 Nathan Lynch
 1 Nic Gonzales
@@ -305,6 +314,7 @@
 1 Rachel Johnson
 1 Rachel Marcus
 1 Raffa Maranon
+1 Regina Garcia
 1 Renee Meier
 1 Rich Berry
 1 Richard Grant
