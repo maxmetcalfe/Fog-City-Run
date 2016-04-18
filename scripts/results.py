@@ -370,6 +370,7 @@ def main():
      new_corrected_racers = check_order(corrected_racers)
      add_new_results_to_data(corrected_racers)
      convert_to_js()
+     get_racers_list()
      get_racer_rescords()
      get_racer_count()
      #get_racer_history("Max", "Metcalfe")
