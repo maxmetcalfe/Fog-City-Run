@@ -38,12 +38,10 @@
 00:24:15.2 Andrew Kletzing
 00:24:22.0 Fred Leach
 00:24:27.9 Joe Porter
-00:24:32.8 Andrew  Stanley-Jones
 00:24:39.9 Jeff Jordan
 00:24:40.0 Troy Mathew
 00:24:46.9 Julia Metcalfe
 00:24:47.3 Brian Gagliardi
-00:24:47.8 Steve  Snyder
 00:24:48.9 Jeremy Wheeler
 00:24:49.0 James Hutchinson
 00:25:08.7 Jose Garcia

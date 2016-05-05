@@ -3,7 +3,7 @@
 97 Dale Rose
 72 Andrew Kletzing
 47 Kaitlyn Garcia
-44 Steve Snyder
+45 Steve Snyder
 42 Crispin Flowerday
 33 Michael Dorsi
 32 Jason Reed
@@ -20,7 +20,7 @@
 23 Kara O'Connor
 23 PJ Benner
 21 Fred Leach
-19 Andrew Stanley-Jones
+20 Andrew Stanley-Jones
 18 Alec Drew
 18 Josh Morris
 12 Heather Green
@@ -130,7 +130,6 @@
 1 Anderson Emerole
 1 Andrew Chang
 1 Andrew Cosgrove
-1 Andrew  Stanley-Jones
 1 Andy Ensor
 1 Andy Hindley
 1 Anna Kaiser
@@ -344,7 +343,6 @@
 1 Spencer Sharp
 1 Stefanie Braatz
 1 Steve Wynn
-1 Steve  Snyder
 1 Steven Mickenzie
 1 Sue McAllister
 1 Summer Hirtzel
