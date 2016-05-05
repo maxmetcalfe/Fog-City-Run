@@ -23,7 +23,7 @@ m.login(user,pwd)
 m.select("[Gmail]/All Mail") # here you a can choose a mail box like INBOX instead
 #use m.list() to get all the mailboxes
 
-resp, items = m.search(None, 'UNSEEN', 'FROM', '"Max Metcalfe"') # you could filter using the IMAP rules here (check http://www.example-code.com/csharp/imap-search-critera.asp)
+resp, items = m.search(None, 'UNSEEN') # you could filter using the IMAP rules here (check http://www.example-code.com/csharp/imap-search-critera.asp)
 items = items[0].split() # getting the mails id
 
 if len(items) == 0:
