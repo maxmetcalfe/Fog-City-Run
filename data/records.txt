@@ -38,10 +38,12 @@
 00:24:15.2 Andrew Kletzing
 00:24:22.0 Fred Leach
 00:24:27.9 Joe Porter
+00:24:32.8 Andrew  Stanley-Jones
 00:24:39.9 Jeff Jordan
 00:24:40.0 Troy Mathew
 00:24:46.9 Julia Metcalfe
 00:24:47.3 Brian Gagliardi
+00:24:47.8 Steve  Snyder
 00:24:48.9 Jeremy Wheeler
 00:24:49.0 James Hutchinson
 00:25:08.7 Jose Garcia
@@ -62,6 +64,7 @@
 00:26:01.8 Mike Gulli
 00:26:07.9 Lauren Stevens
 00:26:11.9 Martin Goodall
+00:26:14.4 Chris Chapman
 00:26:15.1 Brittney Martinez
 00:26:18.7 Kasper Kinds
 00:26:19.0 Alan David Schwiderski
@@ -254,6 +257,7 @@
 00:36:07.0 Meghan Davidson
 00:36:20.0 Jose Cea
 00:36:20.4 Ada Maranon
+00:36:22.4 Jason Chan
 00:36:22.7 Hannah Vizza
 00:36:26.6 Raffa Maranon
 00:36:32.9 Sou Mookien
