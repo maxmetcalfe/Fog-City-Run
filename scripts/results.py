@@ -77,8 +77,8 @@ def load_racers(results, date):
         new_racer = Racer()
         new_racer.rank = line_split[0]
         new_racer.bib = line_split[1]
-        new_racer.last_name = line_split[2]
-        new_racer.first_name = line_split[3]
+        new_racer.last_name = line_split[2].replace(" ", "")
+        new_racer.first_name = line_split[3].replace(" ", "")
         new_racer.group = line_split[4]
         new_racer.time = line_split[5]
         new_racer.date = str(date)
