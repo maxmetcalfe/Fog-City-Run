@@ -55,7 +55,7 @@
 00:25:32.9 Adam Karson
 00:25:35.5 Seth Rogers
 00:25:38.6 Douglas Costa
-00:25:39.6 Dozer 
+00:25:39.6 Dozer NA
 00:25:47.1 Mike Turner
 00:25:56.4 Nick Schrock
 00:26:01.1 Derek Hamilton
@@ -73,7 +73,7 @@
 00:26:45.6 Cameron Honour
 00:26:50.6 John Zubkousky
 00:26:51.4 Kevin Verberkmoes
-00:26:53.5 Dakota 
+00:26:53.5 Dakota NA
 00:26:56.1 Marco Pakkanen
 00:27:01.7 Madison Kotack
 00:27:04.9 Henri Proutt
@@ -107,7 +107,7 @@
 00:28:24.1 Matt Voss
 00:28:25.4 Sarah Wren
 00:28:26.9 Alicia Alvarez
-00:28:28.4 Locki 
+00:28:28.4 Locki NA
 00:28:28.5 Amelia Barisone
 00:28:35.0 Renee Meier
 00:28:35.1 Bill Reimer
@@ -161,7 +161,7 @@
 00:30:17.6 Ellie Clark
 00:30:22.7 Anna Stimmel
 00:30:24.6 Norby Oberweis
-00:30:25.4 Chief 
+00:30:25.4 Chief NA
 00:30:25.7 Robin Pisor
 00:30:28.0 Matthew Stepka
 00:30:29.4 Johnny Wren
@@ -204,7 +204,7 @@
 00:32:6.9 Michael  Butler
 00:33:00.1 Tom Westbrook
 00:33:06.6 Philip Gadd
-00:33:07.0 Abby 
+00:33:07.0 Abby NA
 00:33:11.3 Luis Bianchin
 00:33:15.1 Chris Dardar
 00:33:21.1 John Solberg
@@ -316,7 +316,7 @@
 00:43:02.3 Ken Burke
 00:43:29.7 James Bomotti
 00:43:35.8 Paris Goodswan 
-00:43:35.9 Toby 
+00:43:35.9 Toby NA
 00:44:17.4 Rachel Kamen
 00:44:22.2 Vicente Villasana
 00:45:07.0 Alicia Vandenberg

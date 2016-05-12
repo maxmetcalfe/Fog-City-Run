@@ -51,7 +51,7 @@
 4 Alicia Rodriguez
 4 Austin Shelpuk
 4 Blake Fillion
-4 Dakota 
+4 Dakota NA
 4 John Liu
 4 Jordan Laks
 4 Mathieu Scholler
@@ -63,7 +63,7 @@
 3 Boden Hammett
 3 Brian Herndon
 3 Cabot Smith
-3 Chief 
+3 Chief NA
 3 George Durgerian
 3 Hillary Harnett
 3 Jamie Leach
@@ -104,7 +104,7 @@
 2 Katie O'Hair
 2 Kevin Handeland
 2 Kevin Mutyaba
-2 Locki 
+2 Locki NA
 2 Marc Fuller
 2 Mark Davenport
 2 Martha  Tinker
@@ -117,7 +117,7 @@
 2 Sheila Pourbayat
 2 Tin  Fan
 2 Tyler Baeder
-1 Abby 
+1 Abby NA
 1 Aditya Godbole
 1 Alan David Schwiderski
 1 Alena Mizerany
@@ -195,7 +195,7 @@
 1 Dillon  Pratt
 1 Dimple Rana
 1 Douglas Costa
-1 Dozer 
+1 Dozer NA
 1 Drew Burgess
 1 Drew Wenzel
 1 Edward Umana
@@ -349,7 +349,7 @@
 1 Susanne Hedelund
 1 Teun Sweere
 1 Thomas Namara
-1 Toby 
+1 Toby NA
 1 Tom Barnes
 1 Tom Westbrook
 1 Trish Farr
