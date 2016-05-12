@@ -32,9 +32,9 @@
 11 Derek Geno
 10 Joel Rizzo
 9 Chris Fuentes
+9 Joanna Gadd
 8 Anya Durgerian
 8 Fiona McCusker
-8 Joanna Gadd
 7 Jason Fscamilla
 7 Kate Reed
 7 Tom Robinson
@@ -107,7 +107,7 @@
 2 Locki NA
 2 Marc Fuller
 2 Mark Davenport
-2 Martha  Tinker
+2 Martha Tinker
 2 Meghan Davidson
 2 Michele Stone
 2 Naveen Rojanala
@@ -115,7 +115,7 @@
 2 Russ Metteer
 2 Ryan Williams
 2 Sheila Pourbayat
-2 Tin  Fan
+2 Tin Fan
 2 Tyler Baeder
 1 Abby NA
 1 Aditya Godbole
@@ -192,7 +192,7 @@
 1 Darcy Russell
 1 David George Johnson
 1 Derek Hamilton
-1 Dillon  Pratt
+1 Dillon Pratt
 1 Dimple Rana
 1 Douglas Costa
 1 Dozer NA
@@ -232,7 +232,6 @@
 1 Jesse Turcotte
 1 Jessie King
 1 Jim Narron
-1 Joanna  Gadd
 1 Joaquin Candela
 1 Joe Hanson
 1 Johann Steinbrecher
@@ -250,7 +249,7 @@
 1 Jr Mintz
 1 Karin Pimentel
 1 Kasper Kinds
-1 Kate  Stearns
+1 Kate Stearns
 1 Kathy Jordan
 1 Kelly Inglis
 1 Ken Burke
@@ -288,8 +287,8 @@
 1 Matt Stone
 1 Maylen Rafuls Rosa
 1 Melissa Houck
+1 Michael Butler
 1 Michael Midling
-1 Michael  Butler
 1 Michelle O'Keefe
 1 Mike Connors
 1 Mike Garcia

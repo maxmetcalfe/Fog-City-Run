@@ -118,7 +118,7 @@
 00:28:53.6 Jamie Leach
 00:28:55.2 Courtney Porter
 00:28:55.4 Henrik Hedelund
-00:28:57.2 Martha  Tinker
+00:28:57.2 Martha Tinker
 00:28:57.9 Mario Kostelac
 00:28:58.7 Sara Arvanaghi
 00:29:00.0 Marijana Bojic
@@ -201,7 +201,7 @@
 00:32:46.8 Allie Morton
 00:32:48.7 Ross Crain
 00:32:51.5 Robert Minkowsky
-00:32:6.9 Michael  Butler
+00:32:6.9 Michael Butler
 00:33:00.1 Tom Westbrook
 00:33:06.6 Philip Gadd
 00:33:07.0 Abby NA
@@ -282,12 +282,12 @@
 00:38:26.8 Jenzie Hallifax
 00:38:39.4 John Stearns
 00:38:39.6 Amy Bialek
-00:38:41.2 Kate  Stearns
+00:38:41.2 Kate Stearns
 00:39:07.3 Maria Lastovka
 00:39:21.8 Jonathan Doyle
 00:39:33.6 John Herbert
 00:39:33.6 Susanne Hedelund
-00:39:42.2 Tin  Fan
+00:39:42.2 Tin Fan
 00:39:50.3 Jen Sparks
 00:39:55.2 Phoebe Kirk
 00:40:19.7 Everett Rosette
@@ -326,12 +326,11 @@
 00:45:17.3 Lance Mishleau
 00:46:20.7 Sue McAllister
 00:46:47.3 Austin Pratt
-00:46:49.2 Dillon  Pratt
+00:46:49.2 Dillon Pratt
 00:47:47.0 Andrew Chang
 00:47:51.0 Coleen Willey
 00:47:52.4 Shamrock Power
 00:47:8.0 Tom Barnes
-00:48:04.4 Joanna  Gadd
 00:48:10.2 Anderson Emerole
 00:50:12.7 Bryan Kletzing
 00:50:53.4 Darcy Russell
