@@ -60,9 +60,9 @@
 00:25:56.4 Nick Schrock
 00:26:01.1 Derek Hamilton
 00:26:01.8 Mike Gulli
+00:26:02.6 Chris Chapman
 00:26:07.9 Lauren Stevens
 00:26:11.9 Martin Goodall
-00:26:14.4 Chris Chapman
 00:26:15.1 Brittney Martinez
 00:26:18.7 Kasper Kinds
 00:26:19.0 Alan David Schwiderski
@@ -226,6 +226,7 @@
 00:34:27.1 Maylen Rafuls Rosa
 00:34:31.8 Karthik V
 00:34:40.0 Olivia Lee
+00:34:42.8 Jason Chan
 00:34:44.6 Jason Fescamilla
 00:35:00.4 Amy Sharp
 00:35:01.4 Spencer Sharp
@@ -255,7 +256,6 @@
 00:36:07.0 Meghan Davidson
 00:36:20.0 Jose Cea
 00:36:20.4 Ada Maranon
-00:36:22.4 Jason Chan
 00:36:22.7 Hannah Vizza
 00:36:26.6 Raffa Maranon
 00:36:32.9 Sou Mookien
