@@ -24,9 +24,11 @@
 00:23:21.6 Kevin Meagher
 00:23:26.5 Jordan Fidler
 00:23:34.0 Steve Snyder
+00:23:36.0 Fred Leach
 00:23:36.4 Cedric Hulin
 00:23:36.5 Derek Geno
 00:23:40.4 Andrew Stanley-Jones
+00:23:43.0 Blake Fillion
 00:23:48.0 Matt Fong
 00:23:50.0 Ian Buckley
 00:23:50.5 Matt Palmer
@@ -36,7 +38,6 @@
 00:24:10.2 Ollie Sloane
 00:24:14.4 David Moulton
 00:24:15.2 Andrew Kletzing
-00:24:22.0 Fred Leach
 00:24:27.9 Joe Porter
 00:24:39.9 Jeff Jordan
 00:24:40.0 Troy Mathew
@@ -50,7 +51,6 @@
 00:25:14.4 Josh Morris
 00:25:18.1 Cameron Butler
 00:25:19.4 Brian Herndon
-00:25:25.6 Blake Fillion
 00:25:27.8 PJ Benner
 00:25:32.9 Adam Karson
 00:25:35.5 Seth Rogers
@@ -241,6 +241,7 @@
 00:35:25.4 Erin Champion
 00:35:26.7 Veronica Sette
 00:35:27.5 Nic Gonzales
+00:35:30.5 Andrew Nichols
 00:35:33.4 Kim Powell
 00:35:33.7 Paul Resignato
 00:35:42.2 Dan Thomann
