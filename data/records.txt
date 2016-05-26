@@ -1,3 +1,4 @@
+00:19:00.0 Chikara Omine
 00:20:24.0 Jason Reed
 00:20:48.0 Rich Berry
 00:20:58.7 Max Metcalfe
@@ -149,6 +150,7 @@
 00:29:59.6 Linda Bruner
 00:30:02.2 Michael Dorsi
 00:30:06.3 Scott Pollock
+00:30:07.4 Anna Stimmel
 00:30:09.5 Tyler Baeder
 00:30:11.7 Haley Tobin
 00:30:12.3 Jessie King
@@ -159,7 +161,6 @@
 00:30:16.3 Anya Durgerian
 00:30:16.4 Matt Stone
 00:30:17.6 Ellie Clark
-00:30:22.7 Anna Stimmel
 00:30:24.6 Norby Oberweis
 00:30:25.4 Chief NA
 00:30:25.7 Robin Pisor
@@ -209,6 +210,7 @@
 00:33:15.1 Chris Dardar
 00:33:21.1 John Solberg
 00:33:22.9 Ariane Marcus
+00:33:36.2 Dom Fiore
 00:33:36.6 Boden Hammett
 00:33:44.7 Jordan Sherwin
 00:33:45.4 Nathan Lynch
@@ -296,6 +298,7 @@
 00:40:55.0 Mike Legrand
 00:40:58.5 Katie O'Hair
 00:41:03.5 Alena Mizerany
+00:41:12.4 Mario Gonzalez
 00:41:15.1 Kathy Jordan
 00:41:52.8 Santiago Pablo
 00:42:07.2 Joanna Gadd
