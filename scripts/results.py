@@ -176,16 +176,9 @@ def con_to_secs(time):
     return int(hours) * 3600 + int(minutes) * 60 + float(seconds)
 
 def con_from_secs(time):
-    hours = time / 3600
-    minutes = (time % 3600) / 60
-    seconds = (time % 3600) % 60
-    if len(str(hours)) == 1:
-        hours = "0" + str(hours)
-    if len(str(minutes)) == 1:
-        minutes = "0" + str(minute)
-    if len(str(seconds)) == 1:
-        seconds = "0" + str(seconds)
-    return str(hours) + ":" + str(minutes) + ":" + str(seconds)
+    m, s = divmod(time, 60)
+    h, m = divmod(m, 60)
+    return "%d:%02d:%02d" % (h, m, s)
 
 def find_bucket(time):
     buckets = range(0,5000,25)
@@ -300,6 +293,28 @@ def find_closest_wednesday():
     wednesday = dates[2]
     return wednesday
 
+def find_avg_time():
+    cursor,conn = connect_to_results_db()
+    query = 'SELECT date, time FROM results'
+    cursor.execute(query)
+    data = cursor.fetchall()
+    date_dict = {}
+    for d in data:
+        if d[0] not in date_dict.keys():
+            date_dict[d[0]] = d[1]
+        else:
+            date_dict[d[0]] = date_dict[d[0]] + " " + d[1]
+
+    for a in date_dict.keys():
+        date_info = date_dict[a].split(" ")
+        times = []
+        for time in date_info:
+            if time != "DNF":
+                new_time = con_to_secs(time)
+                times.append(new_time)
+        print a, con_from_secs(float(sum(times))/len(times))
+
+
 def check_order(racers):
     """
     Order racer list by time and modify rank to match this order.
@@ -373,6 +388,7 @@ def main():
      get_racers_list()
      get_racer_rescords()
      get_racer_count()
+     find_avg_time()
      #get_racer_history("Max", "Metcalfe")
      check_for_new_records(new_corrected_racers)
      tweet_winner(corrected_racers)
