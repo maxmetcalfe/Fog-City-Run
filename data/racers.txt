@@ -1,11 +1,11 @@
-158 Max Metcalfe
-135 Julia Metcalfe
+159 Max Metcalfe
+136 Julia Metcalfe
 98 Dale Rose
-76 Andrew Kletzing
+77 Andrew Kletzing
 47 Kaitlyn Garcia
+46 Crispin Flowerday
 46 Steve Snyder
-45 Crispin Flowerday
-37 Jason Reed
+38 Jason Reed
 33 Michael Dorsi
 33 Rafael Maranon
 32 Jeff Jordan
@@ -16,7 +16,7 @@
 28 Nick Schrock
 27 Jack Collins
 27 John Zubkousky
-25 Andrew Stanley-Jones
+26 Andrew Stanley-Jones
 24 Randy Conner
 23 Fred Leach
 23 Kara O'Connor
@@ -277,6 +277,7 @@
 1 Lisa Hunt
 1 Liz Robinson
 1 Lu Myat
+1 Luciano Medina
 1 Luis Bianchin
 1 Lupe Martinez
 1 Maninder Sohal
@@ -288,6 +289,7 @@
 1 Mario Gonzalez
 1 Mario Kostelac
 1 Marlene Serename
+1 Marrie Brumelot
 1 Martin Goodall
 1 Matt Bruner
 1 Matt Galvin
