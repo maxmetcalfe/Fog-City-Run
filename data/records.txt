@@ -356,6 +356,7 @@
 00:56:51.0 Kim Del Rosario
 00:57:50.6 Allison Hall
 00:59:20.6 Bob Metcalfe
+01:00:59.8 Lisa Phillips
 01:01:28.7 Giorgia Buselli
 01:01:33.4 Ilaria Meliconi
 01:05:28.1 Regina Garcia
