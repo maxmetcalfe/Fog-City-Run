@@ -5,10 +5,11 @@
 00:21:00.0 Chris Fuentes
 00:21:01.0 Dani Holgado
 00:21:30.3 Jack Collins
+00:21:44.0 Mike Garcia
 00:21:51.0 Phil Wright
-00:21:56.0 Mike Garcia
 00:22:01.4 Eric Edelstein
 00:22:10.9 Thomas Namara
+00:22:11.0 Charles Quan
 00:22:13.8 Crispin Flowerday
 00:22:14.8 Turner Zamore
 00:22:29.0 Marcos Calderano
@@ -42,6 +43,7 @@
 00:24:14.4 David Moulton
 00:24:15.2 Andrew Kletzing
 00:24:27.9 Joe Porter
+00:24:34.9 Helge Kohler
 00:24:39.9 Jeff Jordan
 00:24:40.0 Troy Mathew
 00:24:46.9 Julia Metcalfe
@@ -213,6 +215,7 @@
 00:33:15.1 Chris Dardar
 00:33:21.1 John Solberg
 00:33:22.9 Ariane Marcus
+00:33:24.0 Jason Chan
 00:33:36.2 Dom Fiore
 00:33:36.6 Boden Hammett
 00:33:44.7 Jordan Sherwin
@@ -229,7 +232,6 @@
 00:34:23.6 Jason Fscamilla
 00:34:24.8 Winnie Anderson
 00:34:27.1 Maylen Rafuls Rosa
-00:34:31.2 Jason Chan
 00:34:31.8 Karthik V
 00:34:40.0 Olivia Lee
 00:34:44.6 Jason Fescamilla
