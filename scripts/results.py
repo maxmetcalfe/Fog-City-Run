@@ -11,6 +11,8 @@ import datetime
 import xlrd
 import csv
 import time
+import requests
+import json
 
 parser = argparse.ArgumentParser()
 parser.add_argument( "-d", "--date", help="race date" )
@@ -376,8 +378,32 @@ def csv_from_excel():
     else:
         print "No Excel file found. Continuing as usual..."
 
+# Send results to Fog-City-Run-2.0 via POST
+def post_results(date):
+    csv_file = open('race-results.csv','rb')
+    out_json = []
+    fieldnames = ("rank","bib","last_name","first_name","group","time","date")
+    headers = {'Content-type': 'application/json'}
+    # Skip headers
+    csv_file.next()
+    reader = csv.DictReader(csv_file, fieldnames)
+    for row in reader:
+        row["date"] = date
+        out_json.append(row)
+    payload = json.dumps(out_json)
+    try:
+        r = requests.post("https://fogcityrun.herokuapp.com/results/import", data=payload, headers=headers)
+        print "POST Response: " + str(r.status_code)
+        if r.status_code != requests.codes.ok:
+            sys.exit(1)
+    except:
+        print "We ran into an error when posting the results to Fog-City-Run-2.0"
+
+
 def main():
     race_date = find_closest_wednesday()
+    post_results(race_date)
+
     if not args.local:
         # Check to see if we got a xlsx file instead.
         csv_from_excel()
