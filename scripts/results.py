@@ -388,8 +388,9 @@ def post_results(date):
     csv_file.next()
     reader = csv.DictReader(csv_file, fieldnames)
     for row in reader:
-        row["date"] = date
+        row["date"] = str(date)
         out_json.append(row)
+    print out_json
     payload = json.dumps(out_json)
     try:
         r = requests.post("https://fogcityrun.herokuapp.com/results/import", data=payload, headers=headers)
