@@ -33,6 +33,7 @@
 00:23:36.5 Derek Geno
 00:23:40.4 Andrew Stanley-Jones
 00:23:43.0 Blake Fillion
+00:23:45.0 Matthew Weiss
 00:23:48.0 Matt Fong
 00:23:50.0 Ian Buckley
 00:23:50.5 Matt Palmer
@@ -42,6 +43,7 @@
 00:24:10.2 Ollie Sloane
 00:24:14.4 David Moulton
 00:24:15.2 Andrew Kletzing
+00:24:25.2 Emma Jornlin
 00:24:27.9 Joe Porter
 00:24:34.9 Helge Kohler
 00:24:39.9 Jeff Jordan
@@ -303,6 +305,7 @@
 00:40:51.6 Blake Mizerany
 00:40:55.0 Mike Legrand
 00:40:58.5 Katie O'Hair
+00:41:03.2 Avani Deshpande
 00:41:03.5 Alena Mizerany
 00:41:12.4 Mario Gonzalez
 00:41:15.1 Kathy Jordan
