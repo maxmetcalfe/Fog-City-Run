@@ -379,18 +379,12 @@ def csv_from_excel():
         print "No Excel file found. Continuing as usual..."
 
 # Send results to Fog-City-Run-2.0 via POST
-def post_results(date):
-    csv_file = open('race-results.csv','rb')
+def post_results(racers):
     out_json = []
-    fieldnames = ("rank","bib","last_name","first_name","group","time","date")
     headers = {'Content-type': 'application/json'}
-    # Skip headers
-    csv_file.next()
-    reader = csv.DictReader(csv_file, fieldnames)
-    for row in reader:
-        row["date"] = str(date)
-        out_json.append(row)
-    print out_json
+    for racer in racers:
+        racer_json = { "rank" : racer.rank, "bib" : racer.bib, "first_name" : racer.first_name, "last_name" : racer.last_name, "group" : racer.group, "time" : racer.time, "date" : racer.date }
+        out_json.append(racer_json)
     payload = json.dumps(out_json)
     try:
         r = requests.post("https://fogcityrun.herokuapp.com/results/import", data=payload, headers=headers)
@@ -400,10 +394,8 @@ def post_results(date):
     except:
         print "We ran into an error when posting the results to Fog-City-Run-2.0"
 
-
 def main():
     race_date = find_closest_wednesday()
-    post_results(race_date)
 
     if not args.local:
         # Check to see if we got a xlsx file instead.
@@ -413,7 +405,8 @@ def main():
         corrected_racers = load_corrections(racers)
         # Confirm that finish place matches finish time order
         new_corrected_racers = check_order(corrected_racers)
-        add_new_results_to_data(corrected_racers)
+        add_new_results_to_data(new_corrected_racers)
+        post_results(new_corrected_racers)
 
     convert_to_js()
     get_racers_list()
@@ -423,7 +416,6 @@ def main():
 
     # Do Git and Twitter if not local run
     if not args.local:
-        #get_racer_history("Max", "Metcalfe")
         check_for_new_records(new_corrected_racers)
         tweet_winner(corrected_racers)
         git(race_date)
