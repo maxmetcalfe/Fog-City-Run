@@ -31,8 +31,9 @@
 00:23:36.0 Fred Leach
 00:23:36.4 Cedric Hulin
 00:23:36.5 Derek Geno
+00:23:38.0 Matthew Bradbury
 00:23:40.4 Andrew Stanley-Jones
-00:23:43.0 Blake Fillion
+00:23:41.0 Blake Fillion
 00:23:45.0 Matthew Weiss
 00:23:48.0 Matt Fong
 00:23:50.0 Ian Buckley
@@ -134,6 +135,7 @@
 00:29:04.0 Ben Ross
 00:29:07.0 Drew Burgess
 00:29:07.1 Adam Bower
+00:29:08.1 Anna Paulsson
 00:29:10.3 Britta Mason
 00:29:10.8 John Liu
 00:29:13.5 Marc Hampson
@@ -332,6 +334,7 @@
 00:43:35.9 Toby NA
 00:44:17.4 Rachel Kamen
 00:44:22.2 Vicente Villasana
+00:44:52.1 James Shelton
 00:45:07.0 Alicia Vandenberg
 00:45:07.9 Stefanie Braatz
 00:45:10.7 Kyle Mchargue
