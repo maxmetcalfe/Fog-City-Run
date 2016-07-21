@@ -1,18 +1,18 @@
-163 Max Metcalfe
-139 Julia Metcalfe
-101 Dale Rose
-78 Andrew Kletzing
-50 Crispin Flowerday
-48 Steve Snyder
+164 Max Metcalfe
+140 Julia Metcalfe
+102 Dale Rose
+79 Andrew Kletzing
+51 Crispin Flowerday
+49 Steve Snyder
 47 Kaitlyn Garcia
-41 Jason Reed
+42 Jason Reed
 33 Michael Dorsi
 33 Rafael Maranon
 32 Jeff Jordan
 32 Joe Porter
 32 Matthieu Scholler
+31 Andrew Stanley-Jones
 31 James Christopherson
-30 Andrew Stanley-Jones
 30 Henri Proutt
 28 Nick Schrock
 27 Jack Collins
@@ -49,15 +49,16 @@
 5 Anna Stimmel
 5 Christian Claessens
 5 Hannah Vizza
+5 Jason Chan
 5 Nick Enthoven
 4 Alicia Rodriguez
 4 Austin Shelpuk
 4 Dakota NA
-4 Jason Chan
 4 John Liu
 4 Jordan Laks
 4 Mathieu Scholler
 4 Matthew Stepka
+4 Mike Garcia
 4 Ollie Sloane
 4 Troy Mathew
 3 Bob Metcalfe
@@ -75,7 +76,6 @@
 3 Laura Albidress
 3 Laura Wolfe
 3 Matt Palmer
-3 Mike Garcia
 3 Patrick Czapla
 2 Ada Maranon
 2 Adam Bower
@@ -105,6 +105,7 @@
 2 Katie O'Hair
 2 Kevin Handeland
 2 Kevin Mutyaba
+2 Lauren Volkmann
 2 Locki NA
 2 Marc Fuller
 2 Mark Davenport
@@ -124,6 +125,7 @@
 1 Alan David Schwiderski
 1 Alena Mizerany
 1 Alex Stephan
+1 Alfons Cina
 1 Alicia Vandenberg
 1 Allen Singley
 1 Allison Hall
@@ -149,6 +151,7 @@
 1 Bart Hughes
 1 Becky Hindley
 1 Ben Holman
+1 Benjamin Roberts
 1 Beth Popolizio
 1 Bill Reimer
 1 Billyray Ashcraft
@@ -250,6 +253,7 @@
 1 John Solberg
 1 John Stearns
 1 Johnny Wren
+1 Jonas Cina
 1 Jonathan Cook
 1 Jonathan Doyle
 1 Joni Dobrov
@@ -277,7 +281,7 @@
 1 Lauren Davis
 1 Lauren Salberg
 1 Lauren Stevens
-1 Lauren Volkmann
+1 Lauren Winklepleck
 1 Lena Ng
 1 Linda Bruner
 1 Lisa Hunt
@@ -305,6 +309,7 @@
 1 Matthew Weiss
 1 Maylen Rafuls Rosa
 1 Melissa Houck
+1 Melody Xu
 1 Michael Butler
 1 Michael Midling
 1 Michelle O'Keefe
@@ -314,6 +319,7 @@
 1 Myat Thet
 1 Natasha Buller
 1 Nathan Lynch
+1 Neil Raffan
 1 Nic Gonzales
 1 Nick King
 1 Nicole LaCroix
