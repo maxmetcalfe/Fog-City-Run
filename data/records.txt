@@ -82,6 +82,8 @@
 00:26:28.8 Evan Bertolli
 00:26:43.9 Jeremy Schneider
 00:26:45.6 Cameron Honour
+00:26:46.9 Malek Fournier
+00:26:48.1 Hugues Fournier
 00:26:50.6 John Zubkousky
 00:26:51.4 Kevin Verberkmoes
 00:26:53.5 Dakota NA
@@ -286,6 +288,7 @@
 00:37:03.5 Summer Hirtzel
 00:37:12.2 Caycee Cullen
 00:37:27.5 Ben Holman
+00:37:28.9 Cassie Rowland
 00:37:31.0 Lauren Davis
 00:37:34.4 Sam Louie
 00:37:37.4 Victor Rojas
@@ -303,7 +306,6 @@
 00:38:41.2 Kate Stearns
 00:39:07.3 Maria Lastovka
 00:39:21.8 Jonathan Doyle
-00:39:26.1 Cassie Rowland
 00:39:33.6 John Herbert
 00:39:33.6 Susanne Hedelund
 00:39:42.2 Tin Fan
