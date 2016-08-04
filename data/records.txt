@@ -1,5 +1,5 @@
 00:19:00.0 Chikara Omine
-00:20:18.0 Jason Reed
+00:20:22.0 Jason Reed
 00:20:48.0 Rich Berry
 00:20:58.7 Max Metcalfe
 00:21:00.0 Chris Fuentes
@@ -28,7 +28,6 @@
 00:23:10.3 Joaquin Candela
 00:23:18.0 Mathieu Scholler
 00:23:21.6 Kevin Meagher
-00:23:24.0 Mike Welsh
 00:23:26.5 Jordan Fidler
 00:23:34.0 Steve Snyder
 00:23:36.0 Fred Leach
@@ -129,7 +128,6 @@
 00:28:35.8 Brian Newman
 00:28:36.6 Fiona Mccusker
 00:28:39.9 Paul Schiefer
-00:28:51.1 Molly O'Connor
 00:28:52.9 Cameron Thompson
 00:28:53.6 Jamie Leach
 00:28:55.2 Courtney Porter
@@ -298,7 +296,6 @@
 00:37:46.1 Marlene Serename
 00:37:6.1 Austin Ngo
 00:38:01.5 Joseph Connelly
-00:38:06.5 Kabir Bhartur
 00:38:06.9 Oldrech Stary
 00:38:21.0 Janette Mercede
 00:38:23.3 Otto Badilla
