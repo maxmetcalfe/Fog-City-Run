@@ -1,12 +1,12 @@
-167 Max Metcalfe
-143 Julia Metcalfe
-105 Dale Rose
-82 Andrew Kletzing
-54 Crispin Flowerday
+166 Max Metcalfe
+142 Julia Metcalfe
+104 Dale Rose
+81 Andrew Kletzing
+53 Crispin Flowerday
 50 Steve Snyder
 47 Kaitlyn Garcia
-44 Jason Reed
-34 Andrew Stanley-Jones
+43 Jason Reed
+33 Andrew Stanley-Jones
 33 Michael Dorsi
 33 Rafael Maranon
 32 Jeff Jordan
@@ -23,7 +23,7 @@
 23 PJ Benner
 18 Alec Drew
 18 Josh Morris
-14 Joel Rizzo
+13 Joel Rizzo
 13 Philip Gadd
 12 Heather Green
 12 Kristin Martin
@@ -56,7 +56,6 @@
 4 Dakota NA
 4 John Liu
 4 Jordan Laks
-4 Lauren Volkmann
 4 Mathieu Scholler
 4 Matthew Stepka
 4 Mike Garcia
@@ -76,6 +75,7 @@
 3 Katie Dally
 3 Laura Albidress
 3 Laura Wolfe
+3 Lauren Volkmann
 3 Matt Palmer
 3 Patrick Czapla
 2 Ada Maranon
@@ -103,7 +103,6 @@
 2 Hayley Soderlund
 2 Jeremy Burke
 2 John Herbert
-2 Kabir Bhartur
 2 Karthik V
 2 Katie O'Hair
 2 Kevin Handeland
@@ -115,8 +114,6 @@
 2 Meghan Davidson
 2 Michele Stone
 2 Mike Gulli
-2 Mike Welsh
-2 Molly O'Connor
 2 Naveen Rojanala
 2 Paul Schiefer
 2 Russ Metteer
@@ -267,6 +264,7 @@
 1 Jose Garcia
 1 Joseph Connelly
 1 Jr Mintz
+1 Kabir Bhartur
 1 Karin Pimentel
 1 Kasper Kinds
 1 Kate Stearns
@@ -321,6 +319,8 @@
 1 Mike Connors
 1 Mike Legrand
 1 Mike Warner
+1 Mike Welsh
+1 Molly O'Connor
 1 Myat Thet
 1 Natasha Buller
 1 Nathan Lynch
