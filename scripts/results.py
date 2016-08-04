@@ -387,7 +387,7 @@ def post_results(racers):
     out_json = []
     headers = {'Content-type': 'application/json'}
     for racer in racers:
-        racer_json = { "rank" : racer.rank, "bib" : racer.bib, "first_name" : racer.first_name, "last_name" : racer.last_name, "group" : racer.group, "time" : racer.time, "date" : racer.date }
+        racer_json = { "rank" : racer.rank, "bib" : racer.bib, "first_name" : racer.first_name, "last_name" : racer.last_name, "group_name" : racer.group, "time" : racer.time, "date" : racer.date }
         out_json.append(racer_json)
     payload = json.dumps(out_json)
     try:
