@@ -1,5 +1,6 @@
 00:19:00.0 Chikara Omine
-00:20:18.0 Jason Reed
+00:20:14.0 Jason Reed
+00:20:33.0 Crispin Flowerday
 00:20:48.0 Rich Berry
 00:20:58.7 Max Metcalfe
 00:21:00.0 Chris Fuentes
@@ -10,7 +11,6 @@
 00:22:01.4 Eric Edelstein
 00:22:10.9 Thomas Namara
 00:22:11.0 Charles Quan
-00:22:13.8 Crispin Flowerday
 00:22:14.8 Turner Zamore
 00:22:29.0 Marcos Calderano
 00:22:34.0 Colin Lough
@@ -76,6 +76,7 @@
 00:26:07.9 Lauren Stevens
 00:26:11.9 Martin Goodall
 00:26:15.1 Brittney Martinez
+00:26:16.8 Erika Reed
 00:26:18.7 Kasper Kinds
 00:26:19.0 Alan David Schwiderski
 00:26:22.0 Phil Brennan
@@ -289,6 +290,7 @@
 00:37:03.2 Kelly Inglis
 00:37:03.5 Summer Hirtzel
 00:37:12.2 Caycee Cullen
+00:37:12.7 Jeorgina Martinez
 00:37:27.5 Ben Holman
 00:37:28.9 Cassie Rowland
 00:37:31.0 Lauren Davis
@@ -345,6 +347,8 @@
 00:43:35.9 Toby NA
 00:44:17.4 Rachel Kamen
 00:44:22.2 Vicente Villasana
+00:44:24.4 Jeff Carrothers
+00:44:28.6 Amy Distefano
 00:44:52.1 James Shelton
 00:45:07.0 Alicia Vandenberg
 00:45:07.9 Stefanie Braatz
