@@ -184,6 +184,7 @@
 00:30:28.0 Matthew Stepka
 00:30:29.4 Johnny Wren
 00:30:29.4 Kevin Mutyaba
+00:30:31.1 Joel Rizzo
 00:30:35.3 Seth Rodgers
 00:30:35.6 Lisa Hunt
 00:30:36.3 Kate Reed
@@ -191,11 +192,11 @@
 00:30:37.5 Daniel Beale
 00:30:37.7 Carl Hunt
 00:30:41.8 Carly Bishop
-00:30:43.0 Joel Rizzo
 00:30:43.0 Mick Jordan
 00:31:14.2 Jennifer Kehn
 00:31:17.8 Lauren Winklepleck
 00:31:21.4 Alicia Rodriguez
+00:31:27.2 Dan Atherton
 00:31:27.3 Robert O Donnell
 00:31:29.5 Hillary Harnett
 00:31:30.3 Cabot Smith
@@ -224,7 +225,7 @@
 00:32:51.5 Robert Minkowsky
 00:32:6.9 Michael Butler
 00:33:00.1 Tom Westbrook
-00:33:06.6 Philip Gadd
+00:33:04.3 Philip Gadd
 00:33:07.0 Abby NA
 00:33:11.3 Luis Bianchin
 00:33:15.1 Chris Dardar
@@ -237,6 +238,7 @@
 00:33:48.2 Calvin Cheng
 00:33:52.0 Brandon Stander
 00:33:52.7 Romtin Saidi
+00:33:53.7 Jeorgina Martinez
 00:33:59.3 Gabriela Alcoforado
 00:34:02.1 Natasha Buller
 00:34:10.6 Nina Santus
@@ -284,6 +286,7 @@
 00:36:26.6 Raffa Maranon
 00:36:32.9 Sou Mookien
 00:36:38.1 Chris Hammett
+00:36:44.3 Dan Calligan
 00:36:48.5 Brande Flaitz
 00:36:57.2 Caitlin Ellison
 00:36:8.2 Courtney Machi
@@ -291,7 +294,6 @@
 00:37:03.2 Kelly Inglis
 00:37:03.5 Summer Hirtzel
 00:37:12.2 Caycee Cullen
-00:37:12.7 Jeorgina Martinez
 00:37:27.5 Ben Holman
 00:37:28.9 Cassie Rowland
 00:37:31.0 Lauren Davis
