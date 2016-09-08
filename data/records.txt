@@ -97,6 +97,7 @@
 00:27:15.4 Sean Matlis
 00:27:22.8 Mark Davenport
 00:27:25.0 Alfons Cina
+00:27:26.7 Dan Griffin
 00:27:28.4 Jr Mintz
 00:27:29.3 Jesse Turcotte
 00:27:33.5 Damian Knight
@@ -167,6 +168,7 @@
 00:29:59.6 Linda Bruner
 00:30:02.2 Michael Dorsi
 00:30:06.3 Scott Pollock
+00:30:07.1 Ciaran Gavin
 00:30:07.4 Anna Stimmel
 00:30:09.5 Tyler Baeder
 00:30:11.7 Haley Tobin
