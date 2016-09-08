@@ -1,12 +1,12 @@
 169 Max Metcalfe
 145 Julia Metcalfe
-107 Dale Rose
+108 Dale Rose
 83 Andrew Kletzing
-55 Crispin Flowerday
+56 Crispin Flowerday
 52 Steve Snyder
+47 Jason Reed
 47 Kaitlyn Garcia
-46 Jason Reed
-36 Andrew Stanley-Jones
+37 Andrew Stanley-Jones
 33 Joe Porter
 33 Michael Dorsi
 33 Rafael Maranon
@@ -31,7 +31,7 @@
 12 Seth Rogers
 11 Brian Gagliardi
 11 Derek Geno
-10 Joanna Gadd
+11 Joanna Gadd
 10 Matt Fong
 9 Chris Fuentes
 8 Anya Durgerian
@@ -188,6 +188,7 @@
 1 Christine Moreira
 1 Christoph Tassan
 1 Ciaran Dowler
+1 Ciaran Gavin
 1 Coleen Willey
 1 Colin Kipping-Ruane
 1 Colin Lough
@@ -198,6 +199,7 @@
 1 Damian Phelps
 1 Dan Atherton
 1 Dan Calligan
+1 Dan Griffin
 1 Dan Gross
 1 Dan Roberts
 1 Dan Thomann
