@@ -1,5 +1,6 @@
 00:19:00.0 Chikara Omine
 00:20:14.0 Jason Reed
+00:20:15.0 Pedro Gomes
 00:20:33.0 Crispin Flowerday
 00:20:48.0 Rich Berry
 00:20:58.7 Max Metcalfe
